@@ -69,13 +69,148 @@ Para un mueble base de 580 x 900 x 780, con 2 puertas con 1 tablilla y respaldo 
 
 <div data-with-frame="true"><figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure></div>
 
-<mark style="color:$primary;">**COSTADO IZQUIERDO**</mark>: ESPV <mark style="color:$primary;">**X**</mark> PROF <mark style="color:$primary;">**X**</mark> ALTO = <mark style="color:$warning;">18 X 580 X 780 MADERA</mark>
+***
 
-<mark style="color:$primary;">**COSTADO DERECHO**</mark>: ESPC <mark style="color:$primary;">**X**</mark> PROF <mark style="color:$primary;">**X**</mark> ALTO = <mark style="color:$warning;">15 X 580 X 780 BLANCO</mark>
+<mark style="color:$primary;">**COSTADO IZQUIERDO**</mark>:&#x20;
 
-<mark style="color:$primary;">**BASE**</mark>: ESPC <mark style="color:$primary;">**X**</mark> PROF-ESPC-CART <mark style="color:$primary;">**X**</mark> ANCHO-ESPV-ESPC =  <mark style="color:$warning;">15 X 562 X 867 BLANCO</mark>
+FÓRMULA: ESPV <mark style="color:$primary;">**X**</mark> PROF <mark style="color:$primary;">**X**</mark> ALTO&#x20;
 
-<mark style="color:$primary;">**CADENA POST**</mark>: ESPC <mark style="color:$primary;">**X**</mark> 100 <mark style="color:$primary;">**X**</mark> ANCHO-ESPV-ESPC = <mark style="color:$warning;">15 X 100 X 867</mark>
+<mark style="color:$warning;">RESULTADO: 18 X 580 X 780 MADERA</mark>
 
+CANTO SUPERIOR = CVISTO
 
+CANTO INFERIOR = CVISTO
 
+CANTO IZQUIERDO = CVISTO
+
+CANTO DERECHO = CVISTO
+
+***
+
+<mark style="color:$primary;">**COSTADO DERECHO**</mark>:&#x20;
+
+FÓRMULA: ESPC <mark style="color:$primary;">**X**</mark> PROF <mark style="color:$primary;">**X**</mark> ALTO&#x20;
+
+<mark style="color:$warning;">RESULTADO: 15 X 580 X 780 BLANCO</mark>
+
+CANTO SUPERIOR = CVISTO
+
+CANTO INFERIOR = CCAJON
+
+CANTO IZQUIERDO = CCAJON
+
+CANTO DERECHO = CCAJON
+
+***
+
+<mark style="color:$primary;">**BASE**</mark>:
+
+FÓRMULA: ESPC <mark style="color:$primary;">**X**</mark> PROF-ESPC-CART <mark style="color:$primary;">**X**</mark> ANCHO-ESPV-ESPC&#x20;
+
+<mark style="color:$warning;">RESULTADO: 15 X 562 X 867 BLANCO</mark>
+
+CANTO SUPERIOR = CVISTO
+
+CANTO INFERIOR = CCAJON
+
+CANTO IZQUIERDO = CCAJON
+
+CANTO DERECHO = CCAJON
+
+***
+
+<mark style="color:$primary;">**CADENA POST**</mark>:&#x20;
+
+FÓRMULA: ESPC <mark style="color:$primary;">**X**</mark> 100 <mark style="color:$primary;">**X**</mark> ANCHO-ESPV-ESPC&#x20;
+
+<mark style="color:$warning;">RESULTADO: 15 X 100 X 867 BLANCO</mark>
+
+CANTO SUPERIOR = CCAJON
+
+CANTO INFERIOR = CCAJON
+
+CANTO IZQUIERDO = CCAJON
+
+CANTO DERECHO = CCAJON
+
+***
+
+<mark style="color:$primary;">**CADENA FRONT**</mark>:&#x20;
+
+FÓRMULA: ESPC <mark style="color:$primary;">**X**</mark> 100 <mark style="color:$primary;">**X**</mark> ANCHO-ESPV-ESPC&#x20;
+
+<mark style="color:$warning;">RESULTADO: 15 X 100 X 867 BLANCO</mark>
+
+CANTO SUPERIOR = CVISTO
+
+CANTO INFERIOR = CCAJON
+
+CANTO IZQUIERDO = CCAJON
+
+CANTO DERECHO = CCAJON
+
+***
+
+<mark style="color:$primary;">**TABLILLA MOVIBLE**</mark>:&#x20;
+
+FÓRMULA: ESPC <mark style="color:$primary;">**X**</mark> PROF-ESPC-RESP-ESPC <mark style="color:$primary;">**X**</mark> ANCHO-ESPC-ESPV-PIN-PIN&#x20;
+
+<mark style="color:$warning;">RESULTADO: 15 X 547 X 865 BLANCO</mark>
+
+CANTO SUPERIOR = CCAJON
+
+CANTO INFERIOR = CCAJON
+
+CANTO IZQUIERDO = CCAJONCCAJON
+
+CANTO DERECHO = CVISTO
+
+***
+
+<mark style="color:$primary;">**RESPALDO CART**</mark>:&#x20;
+
+FÓRMULA: RESP <mark style="color:$primary;">**X**</mark> ANCHO-ESPC-ESPV+RAN+RAN <mark style="color:$primary;">**X**</mark> ALTO-LSR&#x20;
+
+<mark style="color:$warning;">RESULTADO: 3 X 881 X 778 CARTON</mark>
+
+CANTO SUPERIOR = N/A
+
+CANTO INFERIOR = N/A
+
+CANTO IZQUIERDO = N/A
+
+CANTO DERECHO = N/A
+
+***
+
+<mark style="color:$primary;">**PUERTA IZQ**</mark>:&#x20;
+
+FÓRMULA: ESPV <mark style="color:$primary;">**X**</mark> (ANCHO-LIZ-LDE-LCE)/2 <mark style="color:$primary;">**X**</mark> ALTO-LSU-LIN&#x20;
+
+<mark style="color:$warning;">RESULTADO: 18 X 448 X 776</mark>
+
+CANTO SUPERIOR = CVISTO
+
+CANTO INFERIOR = CVISTO
+
+CANTO IZQUIERDO = CVISTO
+
+CANTO DERECHO = CVISTO
+
+***
+
+<mark style="color:$primary;">**PUERTA DER**</mark>:&#x20;
+
+**FÓRMULA:** ESPV <mark style="color:$primary;">**X**</mark> (ANCHO-LIZ-LDE-LCE)/2 <mark style="color:$primary;">**X**</mark> ALTO-LSU-LIN&#x20;
+
+<mark style="color:$warning;">**RESULTADO:**</mark> <mark style="color:$warning;"></mark><mark style="color:$warning;">18 X 448 X 776</mark>
+
+CANTO SUPERIOR = CVISTO
+
+CANTO INFERIOR = CVISTO
+
+CANTO IZQUIERDO = CVISTO
+
+CANTO DERECHO = CVISTO
+
+***
