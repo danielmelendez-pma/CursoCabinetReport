@@ -2,7 +2,7 @@
 
 Este módulo de Cabinet Report le ofrece 3 secciones de Herrajes para poder organizar mejor sus reportes al departamento de Almacén:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column width="33.33333333333333%" %}
@@ -38,7 +38,7 @@ _<mark style="color:$primary;">Son los herrajes que se utilizan para el armado d
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-[<mark style="color:$primary;">**Ferretería de Instalación**</mark>](ferreteria-de-instalacion.md)
+[<mark style="color:$primary;">**Ferretería de Instalación**</mark>](/broken/pages/qs3tnPhMpNx08IUa7lkp)
 
 Acá se agrupa todos los herrajes que entren bajo esta categoría.
 

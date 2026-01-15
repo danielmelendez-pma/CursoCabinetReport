@@ -31,3 +31,17 @@ También puede filtrar la lista de Ferretería cambiando las selecciones de PÚB
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure></div>
 
 Desde aquí puedes Agregar el la Ferretería seleccionada a tu catálogo privado, eliminarla y si estás accediendo desde el Creador de Módulos o Catálogo de Módulos, puede Actualizar el herraje al módulo seleccionado.
+
+{% columns %}
+{% column %}
+Para seleccionar la ferretería creada en la base de datos, puede hacer clic en la imagen de la categoría y se filtrará la lista según la categoría clickeada.
+
+Ejemplo, si clickea Rieles, en el  filtro le aparecerán solo la lista de Rieles agregados:
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6).png" alt="" width="211"><figcaption></figcaption></figure></div>
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+{% endcolumns %}
