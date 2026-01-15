@@ -1,12 +1,12 @@
-# Curso de Cabinet Report
+# Manual de Cabinet Report
 
 <figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
-## 🎓 Curso de Cabinet Report
+## 🎓 Manual de Cabinet Report
 
-Bienvenido al **Curso de Cabinet Report**, el espacio donde aprenderás a utilizar la plataforma de forma **práctica, guiada y aplicada a la realidad del taller y la fábrica**.
+Bienvenido al **Manual de Cabinet Report**, el espacio donde aprenderás a utilizar la plataforma de forma **práctica, guiada y aplicada a la realidad del taller y la fábrica**.
 
 Este curso ha sido diseñado para acompañarte paso a paso en el uso de Cabinet Report, desde los conceptos básicos hasta los procesos más avanzados de **producción, optimización, control de materiales y costos**, permitiéndote **trabajar más rápido, con menos errores y con mayor control sobre tus proyectos**.
 
