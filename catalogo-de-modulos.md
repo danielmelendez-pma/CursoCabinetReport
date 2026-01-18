@@ -141,3 +141,42 @@ Mensaje de éxito si todo salió bien y el mueble se ha agregado a su archivo de
 En este punto puede revisar la carpeta que ha creado y verificar que se ha agregado los archivos de muebles y sus archivos de herrajes:
 
 <div data-with-frame="true"><figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+
+***
+
+## <mark style="color:$primary;">**Este proceso lo repites por cada mueble que necesitas agregar desde el Catálogo de Módulos.**</mark>
+
+***
+
+**Otros elementos de la ventana de Catálogo de Módulos:**
+
+{% columns %}
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure></div>
+
+Si ha seleccionado un mueble y desea agregar mas de una unidad del mismo, puede multiplicar sus cantidades desde aquí. También lo puede hacer manualmente.
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure></div>
+
+Para imprimir el muele seleccionado, se genera un documento de excel tipo ficha del mueble con su imagen y lista de piezas y herrajes.
+{% endcolumn %}
+{% endcolumns %}
+
+***
+
+{% columns %}
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure></div>
+
+Si le ha creado un código al mueble, puede buscar directamente por su código.
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure></div>
+
+Desde aquí también puede ampliar la Descripción o crearla si aún no la tenía.
+{% endcolumn %}
+{% endcolumns %}
+
