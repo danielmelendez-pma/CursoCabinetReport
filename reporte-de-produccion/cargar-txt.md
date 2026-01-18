@@ -57,3 +57,5 @@ Importantes:
 Una vez estos pasos, le pedirá que seleccione el <mark style="color:$primary;">**Archivo TXT**</mark>:
 
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+
+Hacer clic en abrir y se le abrirá el <mark style="color:$primary;">**Reporte de Producción**</mark>
