@@ -1,6 +1,6 @@
 # Creación de Tableros
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 En la sección de **Stock de Tableros** puedes encontrar una variedad de tableros ya creados en el catálogo público para uso en sus proyectos, con sus medidas, marca e imagen.
 
@@ -10,7 +10,7 @@ En la sección de **Stock de Tableros** puedes encontrar una variedad de tablero
 
 También puedes crear tus propios tableros para uso privado y lo haces desde la siguiente sección:
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:$primary;">**TIPO:**</mark> Aquí seleccione si el tablero que va a crear es de tipo AGL (Aglomerado), MDF, CART (Cartón), Etc.
 
@@ -52,7 +52,7 @@ Fabricante: Aquí colocar la marca o fabricante del tablero que está creando.
 
 También tiene la opción de agregar una imagen para identificar el color del tablero:
 
-<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:$primary;">**Agregar Imagen:**</mark> Al hacer clic aquí puede seleccionar la imagen del tablero para agregarla.
 
@@ -66,11 +66,11 @@ También tiene la opción de agregar una imagen para identificar el color del ta
 
 Desde esta parte puede visualizar la lista de tableros que están agregados en la base de datos, tanto los tableros públicos como los privados de su empresa.
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Puede realizar búsquedas escribiendo en el campo de <mark style="color:$primary;">**Filtrar Aglomerados**</mark>, para mostrar la lista de solos los tableros que coinciden con la frase buscada.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Si quiere trabajar con sólo los tableros privados, puede en la parte de abajo desmarcar la opción de Público.
 
@@ -98,6 +98,6 @@ Al seleccionar un tablero de la lista, puede eliminarlo si así lo desea, presio
 {% endcolumn %}
 {% endcolumns %}
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Puedes hacer clic en esta opción si quieres duplicar un tablero del catálogo público a su catálogo privado.

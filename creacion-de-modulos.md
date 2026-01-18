@@ -78,7 +78,7 @@ Crear o seleccionar el Catálogo:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -102,7 +102,7 @@ Crear o seleccionar la Categoría:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -114,7 +114,7 @@ Crear o seleccionar la Subcategorías:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -126,7 +126,7 @@ Crear el Nombre o Descripción del Mueble:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -209,13 +209,13 @@ En la parte de abajo se pre-visualiza la medida de la pieza que se está creando
 
 Una vez creadas todas las piezas que necesita tu mueble, llegó el momento de crearle una descripción que detalle cómo se compone tu mueble textualmente y haciendo esto a la vez estás validando que ninguna pieza te falte o te sobre:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Al terminar de detallar textualmente el mueble que estás creando, puedes agregarle una imagen que lo represente, este punto no es necesario pero si importante para que los demás usuario de tu catálogo dentro de tu empresa puedan con solo ver la imagen, saber que es el mueble que necesitan y así reducir tiempo en la búsqueda del mueble:
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -233,7 +233,7 @@ Por último, ya puedes hacer clic en <mark style="color:$primary;">**CREAR**</ma
 {% endcolumn %}
 
 {% column %}
-<div align="center" data-with-frame="true"><figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center" data-with-frame="true"><figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si el mueble ya estaba creado y solo estas modificando alguna pieza, con el mismo botón puedes ACTUALIZAR una vez terminada la modificación.
 {% endcolumn %}
@@ -241,7 +241,7 @@ Si el mueble ya estaba creado y solo estas modificando alguna pieza, con el mism
 
 Después de creado el mueble, puedes luego añadirle Herrajes:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -249,13 +249,13 @@ Otros elementos que contienen este formulario de Creador de Módulos son:
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Para cambiar un módulo de un catálogo a otro, en caso tal que lo hayas creado en el catálogo equivocado o simplemente estás estructurando los catálogos.
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Para descargar el catálogo a un archivo excel y puedas hacer auditoría de los muebles creados
 {% endcolumn %}
@@ -265,7 +265,7 @@ Para descargar el catálogo a un archivo excel y puedas hacer auditoría de los 
 
 {% columns %}
 {% column width="50%" %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Para que un usuario Técnico de tu empresa pueda revisar los muebles creados por el mismo o por otros usuarios y validar que todo esté en orden entonces asignar la etiqueta de <mark style="color:$primary;">**VERIFICADO**</mark> al mueble creado.
 {% endcolumn %}
