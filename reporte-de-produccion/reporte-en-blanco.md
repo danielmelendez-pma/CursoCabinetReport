@@ -1,6 +1,6 @@
 # Reporte en Blanco
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Para crear un archivo TXT de producción a partir de cero, puede hacerlo desde esta sección de <mark style="color:$primary;">**Reporte Manual**</mark>.
 
@@ -18,7 +18,7 @@ También puede abrir un Archivo TXT Existente.
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -28,7 +28,7 @@ Si intenta crear un TXT Nuevo sin colocar el Nombre de Cliente y Ambiente no pue
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -36,7 +36,7 @@ Si intenta crear un TXT Nuevo sin colocar el Nombre de Cliente y Ambiente no pue
 
 Seleccione todos los Parámetros:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -46,7 +46,7 @@ Si va a agregar piezas sueltas a la lista, active esa opción
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -56,7 +56,7 @@ Si va a agregar piezas de un módulo completo, active esa opción y coloque las 
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -64,17 +64,17 @@ Si va a agregar piezas de un módulo completo, active esa opción y coloque las 
 
 <mark style="color:$primary;">**Agregue las piezas, Opción 1**</mark>, manualmente directamente en el listado de piezas:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$primary;">**Agregue las piezas, Opción 2**</mark>, colocando el listado de piezas de la base de datos alado y agregando las piezas desde ahí:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
 Luego de creadas todas las pieza al módulo que esta armndo:
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column %}
@@ -82,7 +82,7 @@ Puede hacer clic en
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -92,7 +92,7 @@ Si a este punto aun no ha creado el archivo o seleccionado uno existente, Cabine
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 

@@ -10,7 +10,7 @@ Crear la carpeta donde se guardará el archivo de muebles ingresando los valores
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -18,7 +18,7 @@ Crear la carpeta donde se guardará el archivo de muebles ingresando los valores
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -34,11 +34,11 @@ Seleccionar el Catálogo, Categoría y SubCategoría.
 {% column %}
 Se filtrará la lista de muebles previamente creados que corresponde a la selección.
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -48,7 +48,7 @@ Una vez filtrado, puedes seleccionar un mueble tanto de la lista izquierda como 
 
 ***
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Agregar o cambiar las medidas que se va a aplicar a este mueble.
 
@@ -60,13 +60,13 @@ Mientras va seleccionado los tableros, automáticamente se van agregando los esp
 
 Metras va seleccionando los tableros, automáticamente se generará el nombre del canto que se aplicará tanto para lo interno como para lo visto:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si gusta, puede cambiar este valor, importante que siempre indique el espesor del canto ejemplo: 0.45MM, 1MM, 1.8MM, 2MM, etc.
 
 ***
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Revisar y modificar si es necesario los parámetros seleccionados, incluyendo el riel aunque no se vaya a utilizar uno.
 
@@ -78,19 +78,19 @@ Hacer click al botón de Aplicar Parámetros
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
 Si todos los campos estan correctos y los valores están seleccionados...Automáticamente la lista de piezas se calculará según las medidas de muebles ingresadas.
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
 Revisar o agregar los herrajes creados al mueble seleccionado:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -100,7 +100,7 @@ Revisar y si alguna pieza no coincide con la medida esperada, puede hacer click 
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si modifica una fórmula solo se aplica a este mueble pero no se cambia en la Base de Datos.
 {% endcolumn %}
@@ -114,11 +114,11 @@ Una vez todo listo, puede agregar el mueble a su archivo de Producción:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Al agregar el mueble, sale este mensaje, si el mueble aún no ha sido verificado por un técnico dentro de su empresa, le va a informar esta advertencia para que sepa que debe revisar el resultado, hacer clic en <mark style="color:$primary;">**Sí**</mark> para continuar.
 
@@ -126,11 +126,11 @@ Al agregar el mueble, sale este mensaje, si el mueble aún no ha sido verificado
 
 Lo siguiente es colocarle un nombre al mueble que está agregando, este nombre debe ser correspondiente a las especificaciones del mueble o el diseño:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -140,7 +140,7 @@ Mensaje de éxito si todo salió bien y el mueble se ha agregado a su archivo de
 
 En este punto puede revisar la carpeta que ha creado y verificar que se ha agregado los archivos de muebles y sus archivos de herrajes:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
