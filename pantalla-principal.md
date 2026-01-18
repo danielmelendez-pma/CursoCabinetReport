@@ -2,7 +2,7 @@
 
 Esta es la ventana principal que le aparecerá luego de haber iniciado sesión:
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="1" %}
@@ -10,7 +10,7 @@ Es el panel de Ventanas, donde se mostrarán la mayoría de Ventanas no flotante
 
 En esta ventana se mostrarán inicialmente temáticas de fechas especiales como Días Patrios, Navidad, Año Nuevo, Etc, en ocasiones también mostrará mensajes y frases con la intención de ambientar el estado de ánimo del usuario.
 
-<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="2" %}
@@ -18,7 +18,7 @@ Es el panel de Menús con las opciones principales de funciones de Cabinet Repor
 
 Según cada versión, esta sección puede cambiar añadiendo, eliminando o reubicando funcionalidades.
 
-<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="3" %}

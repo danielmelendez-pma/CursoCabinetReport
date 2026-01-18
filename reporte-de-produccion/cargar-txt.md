@@ -6,7 +6,7 @@ Para abrir archivos TXT generados por Cabinet Report, Catálogo de Módulos o ar
 
 <mark style="color:$primary;">No puede abrir archivos TXT que no tenga el formato de compatibilidad con Cabinet Report.</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -44,7 +44,7 @@ Importante que los <mark style="color:$primary;">**Archivos TXT**</mark> deben c
 
 Al hacer clic, primero debe seleccionar las opciones de <mark style="color:$primary;">**Parámetros de producción**</mark>:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
 
 Importantes:
 
@@ -56,6 +56,6 @@ Importantes:
 
 Una vez estos pasos, le pedirá que seleccione el <mark style="color:$primary;">**Archivo TXT**</mark>:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Hacer clic en abrir y se le abrirá el <mark style="color:$primary;">**Reporte de Producción**</mark>
