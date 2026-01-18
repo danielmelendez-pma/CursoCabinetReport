@@ -2,13 +2,13 @@
 
 Al hacer clic en Reporte de Producción se desplegará un menú con estas opciones:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
 {% columns %}
 {% column width="41.66666666666667%" %}
-<figure><img src=".gitbook/assets/image (50).png" alt="" width="155"><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (50).png" alt="" width="155"><figcaption><p><a href="cargar-csv.md"><mark style="color:$primary;">Ver Cómo</mark></a></p></figcaption></figure></div>
 {% endcolumn %}
 
 {% column width="58.33333333333333%" %}
@@ -32,7 +32,7 @@ Para abrir archivos TXT generados por Cabinet Report, Catálogo de Módulos o ar
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (51).png" alt="" width="155"><figcaption><p><a href="cargar-txt.md"><mark style="color:$primary;">Ver Cómo</mark></a></p></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -40,7 +40,7 @@ Para abrir archivos TXT generados por Cabinet Report, Catálogo de Módulos o ar
 
 {% columns %}
 {% column %}
-<figure><img src=".gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (52).png" alt="" width="156"><figcaption><p><a href="rp-a-txt.md"><mark style="color:$primary;">Ver Cómo</mark></a></p></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -66,7 +66,7 @@ En esta sección puede crear un archivo de producción con piezas libremente, si
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (53).png" alt="" width="156"><figcaption><p><a href="reporte-en-blanco.md"><mark style="color:$primary;">Ver Cómo</mark></a></p></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
