@@ -1,6 +1,6 @@
 # Reporte en Blanco
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Para crear un archivo TXT de producción a partir de cero, puede hacerlo desde esta sección de <mark style="color:$primary;">**Reporte Manual**</mark>.
 

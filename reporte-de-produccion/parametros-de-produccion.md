@@ -2,13 +2,13 @@
 
 Cada vez que va a abrir un archivo CSV o TXT, debe seleccionar las opciones de <mark style="color:$primary;">**Parámetros de Producción**</mark>, según las condiciones de los materiales y lo que va a fabricar:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -32,7 +32,7 @@ Active o desactive las automatizaciones de este listado según su necesidad.
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -66,7 +66,7 @@ FRENTE GAVETA de 18X300X600 Cabinet Report la agrega a 18X300X600 sabiendo que p
 
 ## <mark style="color:$primary;">**Funcionalidad para Generar Packing List**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
 Puede activar esta opción y Cabinet Report le agrega un archivo Packing List a su producción, listo para ser utilizado por su transportista y receptor de la producción en obra.
 
@@ -76,7 +76,7 @@ Tambien si ya tiene la producción generada y quiere agregarle el Packing List d
 {% endcolumn %}
 
 {% column width="41.666666666666664%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -86,7 +86,7 @@ Tambien si ya tiene la producción generada y quiere agregarle el Packing List d
 
 Antes de importar el TXT o CSV, debe seleccionar si es un RP Nuevo o va a Modificar un RP Existente:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
 
 RP Nuevo: Es una producción nueva que está generando.
 

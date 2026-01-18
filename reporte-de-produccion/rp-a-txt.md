@@ -50,7 +50,7 @@ Importante que los <mark style="color:$primary;">**Archivos RP**</mark> son arch
 
 <mark style="color:$primary;">**Accesorios:**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$primary;">**Ferretería de Montaje:**</mark>
 

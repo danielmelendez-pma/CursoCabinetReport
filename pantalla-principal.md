@@ -24,7 +24,7 @@ Según cada versión, esta sección puede cambiar añadiendo, eliminando o reubi
 {% tab title="3" %}
 Se trata de la barra superior Izquierda donde pueden aparecer nuevas funcionalidades añadidas que no tienen que ver con utilidad técnica sino funciones de métricas, tareas, teclado en pantalla para dispositivos tablets. etc.
 
-<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Estos iconos pueden cambiar según cada versión
 {% endtab %}

@@ -84,7 +84,7 @@ Hacer click al botón de Aplicar Parámetros
 
 Si todos los campos estan correctos y los valores están seleccionados...Automáticamente la lista de piezas se calculará según las medidas de muebles ingresadas.
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
