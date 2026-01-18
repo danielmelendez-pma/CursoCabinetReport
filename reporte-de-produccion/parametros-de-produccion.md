@@ -87,3 +87,22 @@ Tambien si ya tiene la producción generada y quiere agregarle el Packing List d
 Antes de importar el TXT o CSV, debe seleccionar si es un RP Nuevo o va a Modificar un RP Existente:
 
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+
+RP Nuevo: Es una producción nueva que está generando.
+
+RP Anterior: Es que va a aplicar un cambio a un RP que había sido generado previamente, para eso debe colocar el  número del RP y con esto Cabinet Report entiende que está haciendo cambios a una producción anterior.
+
+<mark style="color:$primary;">Esto es importante ya que si no se usa de manera correcta, no puede llevar un control adecuado sobre las producciones.</mark>
+
+***
+
+{% columns %}
+{% column %}
+Una vez cumlido con lo anterior, estal listo para el siguiente paso y puede abrir su archivo
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+{% endcolumns %}
+
