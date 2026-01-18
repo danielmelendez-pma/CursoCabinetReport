@@ -199,6 +199,10 @@ Si vas a crear una pieza empieza por:
 
 En la parte de abajo se pre-visualiza la medida de la pieza que se está creando
 
+<mark style="color:$primary;">Asignar que lados can canteados y con que típo de canto:</mark>
+
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+
 <mark style="color:$primary;">Haces clic en (+) y se crea la pieza</mark>
 {% endcolumn %}
 {% endcolumns %}
@@ -239,6 +243,8 @@ Después de creado el mueble, puedes luego añadirle Herrajes:
 
 <div data-with-frame="true"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
+***
+
 Otros elementos que contienen este formulario de Creador de Módulos son:
 
 {% columns %}
@@ -254,6 +260,8 @@ Para cambiar un módulo de un catálogo a otro, en caso tal que lo hayas creado 
 Para descargar el catálogo a un archivo excel y puedas hacer auditoría de los muebles creados
 {% endcolumn %}
 {% endcolumns %}
+
+***
 
 {% columns %}
 {% column %}
