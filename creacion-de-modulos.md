@@ -74,11 +74,11 @@ También puede utilizar las piezas ya creadas en la base de datos pública de Ca
 
 {% columns %}
 {% column %}
-Crear Catálogo:
+Crear o seleccionar el Catálogo:
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -98,11 +98,11 @@ Un Catálogo es como una carpeta donde guardará los muebles por un tipo.
 
 {% columns %}
 {% column %}
-Crear Categoría:
+Crear o seleccionar la Categoría:
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -110,11 +110,11 @@ Por ejemplo dentro del catálogo de AÉREOS H730, puede dividirlos por AEREOS AB
 
 {% columns %}
 {% column %}
-Crear Subcategorías:
+Crear o seleccionar la Subcategorías:
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -126,7 +126,7 @@ Crear el Nombre o Descripción del Mueble:
 {% endcolumn %}
 
 {% column %}
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -135,3 +135,70 @@ Crear el Nombre o Descripción del Mueble:
 <mark style="color:$primary;">**BASE VISTO IZQ 2 PUERTAS C/SOBRE 20 RESP/CART  TIR:**</mark> Mueble base con costado visto izquierdo, con 2 puertas para sobre de 20mm, respaldo de cartón y tirador tipo assa.
 
 <mark style="color:$primary;">**AÉREO TODO VISTO 2/PU 2/TAB RESP/CART TIR:**</mark> Mueble aereo con ambos costados vistos o con toda su estructura en el mismo color madera, con 2 puertas, 2 tablillas, respaldo de cartón y tirador tipo assa.
+
+{% columns %}
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+
+{% column %}
+Ingresar las variables de medidas y espesores
+{% endcolumn %}
+{% endcolumns %}
+
+Para que las piezas puedan visualizar un medida y poder validar la fórmula creada es importante y necesario ingresar esta información.&#x20;
+
+Las variables de fórmulas en la aplicación están en color y mayúscula para que pueda ser identificadas visualmente más rápido y clara.
+
+{% columns %}
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+
+{% column %}
+Revisar estas variables para estar seguros que son las que vamos a aplicar al catálogo y debe funcionar para todos los muebles del mismo catálogo.
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+Aunque no se estén creando módulos gaveteros, es importante seleccionar el riel.
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+{% endcolumns %}
+
+Ya llegó el momento de seleccionar piezas del listado de piezas o crear nuevas piezas.
+
+{% columns %}
+{% column %}
+Si se va a utilizar el listado de piezas existentes, simplemente se debe seleccionar del listado y para encontrar la pieza más rápido, puedes escribir parte de su nombre en el filtro de búsqueda y el listado mostrará solo las piezas que coincidan con lo escrito.
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column width="50%" %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure></div>
+
+<figure><img src=".gitbook/assets/IcoAgregar.png" alt="" width="256"><figcaption></figcaption></figure>
+{% endcolumn %}
+
+{% column width="50%" %}
+Si vas a crear una pieza empieza por:
+
+1. Escribir el nombre
+2. Seleccionar la variable espesor o escribirla
+3. Escribir la fórmula de ancho o  también seleccionando cada variable
+4. Escribir la fórmula de largo o  también seleccionando cada variable
+
+En la parte de abajo se pre-visualiza la medida de la pieza que se está creando
+
+<mark style="color:$primary;">Haces clic en (+) y se crea la pieza</mark>
+{% endcolumn %}
+{% endcolumns %}
