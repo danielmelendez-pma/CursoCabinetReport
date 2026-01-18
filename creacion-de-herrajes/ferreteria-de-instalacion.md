@@ -2,11 +2,11 @@
 
 > ## <mark style="color:$primary;">Sección de Ferretería de Instalación</mark>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -16,7 +16,7 @@ Para crear una Ferretería ingrese el nombre, la categoría y el tipo, luego pre
 
 Después de creada la Ferretería, aquí puede agregarle otras propiedades según el herraje creado, sólo si es información necesaria, incluyendo el precio para uso en el módulo de costos:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% columns %}
 {% column %}
@@ -38,10 +38,10 @@ Para seleccionar la ferretería creada en la base de datos, puede hacer clic en 
 
 Ejemplo, si clickea Tornillos, en el  filtro le aparecerán solo la lista de tornillos agregados:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="171"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="" width="171"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column width="50%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
