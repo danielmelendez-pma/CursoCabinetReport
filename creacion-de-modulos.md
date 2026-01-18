@@ -78,7 +78,7 @@ Crear o seleccionar el Catálogo:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -102,7 +102,7 @@ Crear o seleccionar la Categoría:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -114,7 +114,7 @@ Crear o seleccionar la Subcategorías:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -126,7 +126,7 @@ Crear el Nombre o Descripción del Mueble:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -200,5 +200,37 @@ Si vas a crear una pieza empieza por:
 En la parte de abajo se pre-visualiza la medida de la pieza que se está creando
 
 <mark style="color:$primary;">Haces clic en (+) y se crea la pieza</mark>
+{% endcolumn %}
+{% endcolumns %}
+
+Una vez creadas todas las piezas que necesita tu mueble, llegó el momento de crearle una descripción que detalle cómo se compone tu mueble textualmente y haciendo esto a la vez estás validando que ninguna pieza te falte o te sobre:
+
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+Al terminar de detallar textualmente el mueble que estás creando, puedes agregarle una imagen que lo represente, este punto no es necesario pero si importante para que los demás usuario de tu catálogo dentro de tu empresa puedan con solo ver la imagen, saber que es el mueble que necesitan y así reducir tiempo en la búsqueda del mueble:
+
+{% columns %}
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+
+{% column %}
+Como ya te expliqué más arriba, en esta sección se agrega o elimina una imagen para el mueble actual:
+
+<mark style="color:$primary;">**SUBIR:**</mark> después de seleccionada la imagen, puede hacer clic en subir.
+
+<mark style="color:$primary;">**ELIMINAR:**</mark> si la imagen que subiste no es, puedes eliminarla.
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column %}
+Por último, ya puedes hacer clic en <mark style="color:$primary;">**CREAR**</mark> para agregar el mueble a la base de datos de tu empresa
+{% endcolumn %}
+
+{% column %}
+<div align="center" data-with-frame="true"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+
+Si el mueble ya estaba creado y solo estas modificando alguna pieza, con el mismo botón puedes ACTUALIZAR una vez terminada la modificación.
 {% endcolumn %}
 {% endcolumns %}

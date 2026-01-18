@@ -66,11 +66,11 @@ También tiene la opción de agregar una imagen para identificar el color del ta
 
 Desde esta parte puede visualizar la lista de tableros que están agregados en la base de datos, tanto los tableros públicos como los privados de su empresa.
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Puede realizar búsquedas escribiendo en el campo de <mark style="color:$primary;">**Filtrar Aglomerados**</mark>, para mostrar la lista de solos los tableros que coinciden con la frase buscada.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Si quiere trabajar con sólo los tableros privados, puede en la parte de abajo desmarcar la opción de Público.
 
@@ -98,6 +98,6 @@ Al seleccionar un tablero de la lista, puede eliminarlo si así lo desea, presio
 {% endcolumn %}
 {% endcolumns %}
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Puedes hacer clic en esta opción si quieres duplicar un tablero del catálogo público a su catálogo privado.
