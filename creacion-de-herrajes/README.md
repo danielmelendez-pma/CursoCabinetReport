@@ -2,7 +2,7 @@
 
 Este módulo de Cabinet Report le ofrece 3 secciones de Herrajes para poder organizar mejor sus reportes al departamento de Almacén:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column width="33.33333333333333%" %}

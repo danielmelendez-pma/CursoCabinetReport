@@ -6,13 +6,13 @@ Para abrir archivos CSV generados por software de Diseños como Promob u otros.
 
 <mark style="color:$primary;">No funciona para otros archivos.</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
 
 Si su empresa cuenta con el Software de diseños Promob, esta funcionalidad le va a ayudar a convertir los archivos CSV generados y poder abrirlos dentro de Cabinet Report y a partir de aguí generar los Reportes de Producción...
 
 ***
 
-Importante que lo <mark style="color:$primary;">A</mark><mark style="color:$primary;">**rchivos CSV**</mark> deben contener el siguiente formato de Columnas:
+Importante que los <mark style="color:$primary;">A</mark><mark style="color:$primary;">**rchivos CSV**</mark> deben contener el siguiente formato de Columnas:
 
 <mark style="color:$primary;">CLIENTE;</mark>
 
@@ -46,7 +46,7 @@ Importante que lo <mark style="color:$primary;">A</mark><mark style="color:$prim
 
 Al hacer clic, primero debe seleccionar las opciones de <mark style="color:$primary;">**Parámetros de producción**</mark>:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
 
 Importantes:
 
@@ -58,5 +58,5 @@ Importantes:
 
 Una vez estos pasos, le pedirá que seleccione el <mark style="color:$primary;">**Archivo CSV**</mark>:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
