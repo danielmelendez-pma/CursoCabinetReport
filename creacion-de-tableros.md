@@ -52,7 +52,7 @@ Fabricante: Aquí colocar la marca o fabricante del tablero que está creando.
 
 También tiene la opción de agregar una imagen para identificar el color del tablero:
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:$primary;">**Agregar Imagen:**</mark> Al hacer clic aquí puede seleccionar la imagen del tablero para agregarla.
 

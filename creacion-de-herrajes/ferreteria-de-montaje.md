@@ -38,7 +38,7 @@ Para seleccionar la ferretería creada en la base de datos, puede hacer clic en 
 
 Ejemplo, si clickea Rieles, en el  filtro le aparecerán solo la lista de Rieles agregados:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6).png" alt="" width="211"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1).png" alt="" width="211"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}

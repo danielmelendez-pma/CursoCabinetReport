@@ -38,7 +38,7 @@ Para seleccionar la ferretería creada en la base de datos, puede hacer clic en 
 
 Ejemplo, si clickea Tornillos, en el  filtro le aparecerán solo la lista de tornillos agregados:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt="" width="171"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1).png" alt="" width="171"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column width="50%" %}
