@@ -70,7 +70,7 @@ Desde esta parte puede visualizar la lista de tableros que están agregados en l
 
 Puede realizar búsquedas escribiendo en el campo de <mark style="color:$primary;">**Filtrar Aglomerados**</mark>, para mostrar la lista de solos los tableros que coinciden con la frase buscada.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Si quiere trabajar con sólo los tableros privados, puede en la parte de abajo desmarcar la opción de Público.
 

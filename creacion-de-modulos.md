@@ -102,7 +102,7 @@ Crear o seleccionar la Categoría:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -241,7 +241,7 @@ Si el mueble ya estaba creado y solo estas modificando alguna pieza, con el mism
 
 Después de creado el mueble, puedes luego añadirle Herrajes:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -249,7 +249,7 @@ Otros elementos que contienen este formulario de Creador de Módulos son:
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Para cambiar un módulo de un catálogo a otro, en caso tal que lo hayas creado en el catálogo equivocado o simplemente estás estructurando los catálogos.
 {% endcolumn %}
