@@ -2,7 +2,7 @@
 
 > ## <mark style="color:$primary;">Sección de Ferretería de Montaje</mark>
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column %}
@@ -38,10 +38,10 @@ Para seleccionar la ferretería creada en la base de datos, puede hacer clic en 
 
 Ejemplo, si clickea Rieles, en el  filtro le aparecerán solo la lista de Rieles agregados:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="" width="211"><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt="" width="211"><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}

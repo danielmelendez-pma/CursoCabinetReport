@@ -14,7 +14,7 @@ Para utilizar Cabinet Report necesita:
 
 {% columns %}
 {% column width="50%" valign="middle" %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column width="50%" valign="middle" %}
