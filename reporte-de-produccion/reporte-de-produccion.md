@@ -199,6 +199,102 @@ Y te devuelve el resultado:
 
 ***
 
+## <mark style="color:$primary;">**Multiplicar o Dividir Producción**</mark>
+
+Si necesita multiplicar la producción que actualmente tiene por 1 casa y va a fabricar 5 casas, no necesita sacar la calculadora y cambiar manualmente pieza por pieza, Cabinet Report hace el trabajo por ti, haciendo clic en:
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure></div>
+
+{% columns %}
+{% column width="41.66666666666667%" %}
+Colocando solo la cantidad y hacer un clic en Multiplicar o también Dividir
+{% endcolumn %}
+
+{% column width="58.33333333333333%" %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+{% endcolumns %}
+
+***
+
+## <mark style="color:$primary;">**Fichas de Tableros**</mark>
+
+{% columns %}
+{% column %}
+Si no esta seguro de cómo son las vetas de uno de los tableros de la producción, o quiere ver si tiene o no vetas o su tamaño, con el botón de <mark style="color:$primary;">**Ver Ficha del Aglomerado**</mark> puede visualizarlo
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure></div>
+
+La imagen se muestra siempre que la haya agregado al crear el tablero.
+{% endcolumn %}
+{% endcolumns %}
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure></div>
+
+***
+
+Mover piezas de Módulos a Piezas Sueltas
+
+{% columns %}
+{% column width="50%" %}
+Si quiere que varias piezas de un módulo se fabriquen como piezas sueltas independientes, solo debe seleccionar el grupo de piezas.
+{% endcolumn %}
+
+{% column width="50%" %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure></div>
+
+Después de seleccionadas haga clic en <mark style="color:$primary;">**Mover Piezas**</mark>.
+{% endcolumn %}
+{% endcolumns %}
+
+Las piezas seleccionadas se muestran en la siguiente ventana:
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure></div>
+
+Luego de revisadas las piezas, haga clic en Mover
+
+{% columns %}
+{% column %}
+Y si todo sale bien, Cabinet Report le avisa que las piezas ya se encuentran en la lista de piezas sueltas.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+Piezas movidas a piezas sueltas:
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure></div>
+
+***
+
+Mover piezas de Piezas Sueltas a Módulo
+
+Si hay un grupo de piezas en la lista de piezas sueltas pero en realidad pertenecen a un módulo o forman un módulo, puede moverlas seleccionandolas y haciendo clic en <mark style="color:$primary;">**Mover Piezas.**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure></div>
+
+Se muestra la lista de piezas, después de hacer clic en Mover te muestra la lista de muebles para seleccionar a cuál módulo la quieres mover o colocar el nombre del módulo nuevo que quieres crear con esas piezas:
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure></div>
+
+{% columns %}
+{% column %}
+Y si todo sale bien, Cabinet Report te avisa que el proceso se completó
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+{% endcolumns %}
+
+***
+
 ## <mark style="color:$primary;">**Revisiones automáticas y filtros de errores**</mark>
 
 {% columns %}
@@ -240,6 +336,18 @@ Detecta error si quieres enchapar unas piezas pero no escribiste bien la frase E
 
 {% column width="33.33333333333334%" %}
 Si vas a enchapar 2 piezas y solo colocas a fabricar 1, te detecta y te informa que deben ser 2 piezas para poder enchaparla.
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column width="41.66666666666667%" %}
+Si su producción contiene cantos de 2mm y no activó la automatización de Reducción automática en piezas, Cabinet Report lo detecta y pregunta si lo desea activar o mantener desactivado.
+{% endcolumn %}
+
+{% column width="58.33333333333333%" %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure></div>
+
+
 {% endcolumn %}
 {% endcolumns %}
 
