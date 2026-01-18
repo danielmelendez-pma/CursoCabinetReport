@@ -1,6 +1,6 @@
 # Reporte de Producción
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Y llegó el momento de conocer el Corazón de Cabinet Report, el <mark style="color:$primary;">**Reporte de Producción**</mark>, el lugar donde el usuario pasará más tiempo revisando y organizando su producción, dándole forma y validando antes de generar los reportes.
 
@@ -12,7 +12,7 @@ Y llegó el momento de conocer el Corazón de Cabinet Report, el <mark style="co
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -22,13 +22,13 @@ Aquí aparecerá el logo de su empres si lo desea, para que se sienta más famil
 
 Al hacer clic encima te sale la opción de cambiar la imagen y poder seleccionar tu logo.&#x20;
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
 ## <mark style="color:$primary;">**Datos del Cliente:**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 En esta sección debe colocar los datos de:
 
@@ -39,7 +39,7 @@ En esta sección debe colocar los datos de:
 
 {% columns %}
 {% column width="41.66666666666667%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Puede cambiar estos datos del cliente desde aquí
 {% endcolumn %}
@@ -47,7 +47,7 @@ Puede cambiar estos datos del cliente desde aquí
 {% column width="58.33333333333333%" %}
 Por los nuevos datos que desee colocar&#x20;
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -57,7 +57,7 @@ Por los nuevos datos que desee colocar&#x20;
 
 Lugar donde se muestra toda la lista de piezas:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% columns %}
 {% column %}
@@ -65,13 +65,13 @@ Puede cambiar la lista entre Módulos y Pieza sueltas
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
 Puede agregar nuevas piezas al módulo seleccionado o a la lista de Piezas Sueltas desde la sección inferior:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Sólo coloque los valores y las agrega con el botón <mark style="color:$primary;">**(+).**</mark>
 
@@ -79,7 +79,7 @@ Sólo coloque los valores y las agrega con el botón <mark style="color:$primary
 
 ## <mark style="color:$primary;">**Conteo de Piezas y Número RP**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Cabinet Report de manera automática te hace un conteo de piezas:
 
@@ -97,7 +97,7 @@ Esta información e importante para que puedas llevar un control visual de los c
 
 {% columns %}
 {% column width="50%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si quieres agrupar las piezas que tienen mismo nombre, medidas y canteos en una sola fila.
 
@@ -292,6 +292,68 @@ Y si todo sale bien, Cabinet Report te avisa que el proceso se completó
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
+
+***
+
+## <mark style="color:$primary;">**Gestión de Perfilería**</mark>
+
+Desde Reporte de Producción puedes agregar la perfilería ZÓCALOS, TUBOS, GOLA, para que todo vaya dentro del reporte
+
+<mark style="color:$primary;">**Zócalos:**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+<mark style="color:$primary;">**Tubos:**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+
+<mark style="color:$primary;">**Golas:**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+
+<mark style="color:$primary;">En cada uno puedes agregar</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**seleccionando**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">el perfil de la lista y haciendo clic en</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**Ingresar (+)**</mark><mark style="color:$primary;">, colocas la medida y</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**Aceptar**</mark><mark style="color:$primary;">.</mark>
+
+***
+
+## <mark style="color:$primary;">**Gestión de Herrajes**</mark>
+
+Gestiona los Accesorios, Ferretería de Montaje, Ferretería de Instalación para la producción que estás trabajando
+
+<mark style="color:$primary;">**Accesorios:**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+
+<mark style="color:$primary;">**Ferretería de Montaje:**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+
+<mark style="color:$primary;">**Ferretería de Instalación:**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+
+***
+
+Control de Optimización de Tableros y Cantos
+
+{% columns %}
+{% column %}
+Antes de generar los reportes RP, puedes saber cuánto se está consumiendo en laminas de aglomerado y metrajes de canto haciendo clic en este botón
+{% endcolumn %}
+
+{% column %}
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+
+Y de manera automática mostrarte las cantidades
+{% endcolumn %}
+{% endcolumns %}
+
+Te muestra la lista de tableros actuales, te pregunta que algoritmo y parametros de optimizacion utilizarás:
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+
+<mark style="color:$primary;">**Optimizacion:**</mark>
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
