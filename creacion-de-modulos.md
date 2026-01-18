@@ -264,13 +264,17 @@ Para descargar el catálogo a un archivo excel y puedas hacer auditoría de los 
 ***
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 <div data-with-frame="true"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
 Para que un usuario Técnico de tu empresa pueda revisar los muebles creados por el mismo o por otros usuarios y validar que todo esté en orden entonces asignar la etiqueta de <mark style="color:$primary;">**VERIFICADO**</mark> al mueble creado.
 {% endcolumn %}
 
-{% column %}
+{% column width="50%" %}
+<p align="center"><mark style="color:$primary;"><strong>Mueble Verificado</strong></mark></p>
 
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure></div>
+
+En la esquina derecha inferior aparece el símbolo de Verificación.
 {% endcolumn %}
 {% endcolumns %}
