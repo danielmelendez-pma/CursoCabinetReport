@@ -10,7 +10,7 @@ Y lo suministra el proveedor del Software Cabinet Report
 
 El campo de Licencia de Usuario debe ser ingresado justo al lado de la etiqueta **(Licencia Usuario:)** en la Ventana de Licencias dentro del Software:
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Una ves ingresado el La Licencia del Usuario, hacer click en el Botón **(Cambiar)** y si el valor es correcto, el campo Rojo cambia a Color Verde.
 

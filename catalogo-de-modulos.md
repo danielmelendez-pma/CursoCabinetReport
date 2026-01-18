@@ -10,7 +10,7 @@ Crear la carpeta donde se guardará el archivo de muebles ingresando los valores
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -18,7 +18,7 @@ Crear la carpeta donde se guardará el archivo de muebles ingresando los valores
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -38,7 +38,7 @@ Se filtrará la lista de muebles previamente creados que corresponde a la selecc
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -110,7 +110,7 @@ Si modifica una fórmula solo se aplica a este mueble pero no se cambia en la Ba
 
 {% columns %}
 {% column %}
-Una vez todo listo, puede agregar el mueble a la lista de Producción:
+Una vez todo listo, puede agregar el mueble a su archivo de Producción:
 {% endcolumn %}
 
 {% column %}
@@ -118,6 +118,26 @@ Una vez todo listo, puede agregar el mueble a la lista de Producción:
 {% endcolumn %}
 {% endcolumns %}
 
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
 
 Al agregar el mueble, sale este mensaje, si el mueble aún no ha sido verificado por un técnico dentro de su empresa, le va a informar esta advertencia para que sepa que debe revisar el resultado, hacer clic en <mark style="color:$primary;">**Sí**</mark> para continuar.
+
+***
+
+Lo siguiente es colocarle un nombre al mueble que está agregando, este nombre debe ser correspondiente a las especificaciones del mueble o el diseño:
+
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+{% columns %}
+{% column %}
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+{% endcolumn %}
+
+{% column %}
+Mensaje de éxito si todo salió bien y el mueble se ha agregado a su archivo de producción.
+{% endcolumn %}
+{% endcolumns %}
+
+En este punto puede revisar la carpeta que ha creado y verificar que se ha agregado los archivos de muebles y sus archivos de herrajes:
+
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
