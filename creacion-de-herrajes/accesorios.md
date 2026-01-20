@@ -24,10 +24,10 @@ También puede filtrar la lista de Accesorio cambiando las selecciones de PÚBLI
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Desde aquí puedes Agregar el Accesorio seleccionado a tu catálogo privado, eliminarlo y si estás accediendo desde el Creador de Módulos o Catálogo de Módulos, puede Actualizar el herraje al módulo seleccionado.

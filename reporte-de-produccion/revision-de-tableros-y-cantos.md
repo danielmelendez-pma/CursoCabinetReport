@@ -2,7 +2,7 @@
 
 Luego de abrir un archivo TXT o CSV, se activa la ventana de <mark style="color:$primary;">**Revisión de Tableros y Cantos**</mark>
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 En esta ventana usted le indica a Cabinet Report si los Tableros y Cantos que esta cargando son los que realmente va a utilizar, de lo contrario, en esta ventana puede cambiarlos.
 

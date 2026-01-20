@@ -1,6 +1,6 @@
 # Catálogo de Módulos
 
-<figure><img src=".gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Te describo las partes de la ventana de <mark style="color:$primary;">**Catálogo de Módulos**</mark> y te explico como funciona cada una paso a paso:
 
@@ -84,13 +84,13 @@ Hacer click al botón de Aplicar Parámetros
 
 Si todos los campos estan correctos y los valores están seleccionados...Automáticamente la lista de piezas se calculará según las medidas de muebles ingresadas.
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
 Revisar o agregar los herrajes creados al mueble seleccionado:
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -100,7 +100,7 @@ Revisar y si alguna pieza no coincide con la medida esperada, puede hacer click 
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si modifica una fórmula solo se aplica a este mueble pero no se cambia en la Base de Datos.
 {% endcolumn %}
@@ -114,11 +114,11 @@ Una vez todo listo, puede agregar el mueble a su archivo de Producción:
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Al agregar el mueble, sale este mensaje, si el mueble aún no ha sido verificado por un técnico dentro de su empresa, le va a informar esta advertencia para que sepa que debe revisar el resultado, hacer clic en <mark style="color:$primary;">**Sí**</mark> para continuar.
 

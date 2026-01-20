@@ -24,7 +24,7 @@ Según cada versión, esta sección puede cambiar añadiendo, eliminando o reubi
 {% tab title="3" %}
 Se trata de la barra superior Izquierda donde pueden aparecer nuevas funcionalidades añadidas que no tienen que ver con utilidad técnica sino funciones de métricas, tareas, teclado en pantalla para dispositivos tablets. etc.
 
-<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Estos iconos pueden cambiar según cada versión
 {% endtab %}
@@ -38,7 +38,7 @@ Maximizar
 
 Cerrar
 
-<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Adicional también encontrará el acceso a la Ventana de Acerca De, donde encontrará información relacionada al Software, Documentación, Redes Sociales, Etc.
 {% endtab %}
@@ -46,7 +46,7 @@ Adicional también encontrará el acceso a la Ventana de Acerca De, donde encont
 {% tab title="5" %}
 Se trata de la barra inferior donde se muestra información de usuarios y licencias:
 
-<figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En esta barra verá:
 

@@ -6,7 +6,7 @@ Para abrir archivos CSV generados por software de Diseños como Promob u otros.
 
 <mark style="color:$primary;">No funciona para otros archivos.</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si su empresa cuenta con el Software de diseños Promob, esta funcionalidad le va a ayudar a convertir los archivos CSV generados y poder abrirlos dentro de Cabinet Report y a partir de aguí generar los Reportes de Producción...
 

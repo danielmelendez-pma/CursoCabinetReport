@@ -1,6 +1,6 @@
 # Creación de Tableros
 
-<figure><img src=".gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En la sección de **Stock de Tableros** puedes encontrar una variedad de tableros ya creados en el catálogo público para uso en sus proyectos, con sus medidas, marca e imagen.
 
@@ -10,7 +10,7 @@ En la sección de **Stock de Tableros** puedes encontrar una variedad de tablero
 
 También puedes crear tus propios tableros para uso privado y lo haces desde la siguiente sección:
 
-<figure><img src=".gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:$primary;">**TIPO:**</mark> Aquí seleccione si el tablero que va a crear es de tipo AGL (Aglomerado), MDF, CART (Cartón), Etc.
 
@@ -32,7 +32,7 @@ Luego de ingresar los valores de medidas y nombre del tablero, debe colocar los 
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src=".gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

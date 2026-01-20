@@ -50,15 +50,15 @@ Importante que los <mark style="color:$primary;">**Archivos RP**</mark> son arch
 
 <mark style="color:$primary;">**Accesorios:**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$primary;">**Ferretería de Montaje:**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$primary;">**Ferretería de Instalación:**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## <mark style="color:$primary;">**Si el archivo de Excel RP no cumple con este formato, no se generará correctamente el archivo TXT al ser convertido...**</mark>
 
@@ -68,7 +68,7 @@ Importante que los <mark style="color:$primary;">**Archivos RP**</mark> son arch
 
 Seleccionar el archivo de Excel RP:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Cabinet Report analizará el archivo y si esta correcto, mostrará en pantalla lo que contiene:
 

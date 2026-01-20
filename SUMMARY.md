@@ -24,6 +24,7 @@
   * [Parámetros de Producción](reporte-de-produccion/parametros-de-produccion.md)
   * [Revisión de Tableros y Cantos](reporte-de-produccion/revision-de-tableros-y-cantos.md)
   * [Reporte de Producción](reporte-de-produccion/reporte-de-produccion.md)
+  * [Archivos de Reportes Generados](reporte-de-produccion/archivos-de-reportes-generados.md)
 * [Reporte de Compras](reporte-de-compras.md)
 * [Orden de Producción](orden-de-produccion.md)
 * [Explorador de Proyectos](explorador-de-proyectos.md)
