@@ -46,7 +46,7 @@ Importante que los <mark style="color:$primary;">A</mark><mark style="color:$pri
 
 Al hacer clic, primero debe seleccionar las opciones de <mark style="color:$primary;">**Parámetros de producción**</mark>:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
 
 Importantes:
 
@@ -58,6 +58,6 @@ Importantes:
 
 Una vez estos pasos, le pedirá que seleccione el <mark style="color:$primary;">**Archivo CSV**</mark>:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Hacer clic en abrir y se le abrirá el <mark style="color:$primary;">**Reporte de Producción**</mark>
