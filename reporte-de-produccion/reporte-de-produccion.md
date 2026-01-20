@@ -12,7 +12,7 @@ Y llegó el momento de conocer el Corazón de Cabinet Report, el <mark style="co
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -22,13 +22,13 @@ Aquí aparecerá el logo de su empres si lo desea, para que se sienta más famil
 
 Al hacer clic encima te sale la opción de cambiar la imagen y poder seleccionar tu logo.&#x20;
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
 ## <mark style="color:$primary;">**Datos del Cliente:**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 En esta sección debe colocar los datos de:
 
@@ -39,7 +39,7 @@ En esta sección debe colocar los datos de:
 
 {% columns %}
 {% column width="41.66666666666667%" %}
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Puede cambiar estos datos del cliente desde aquí
 {% endcolumn %}
@@ -47,7 +47,7 @@ Puede cambiar estos datos del cliente desde aquí
 {% column width="58.33333333333333%" %}
 Por los nuevos datos que desee colocar&#x20;
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -305,11 +305,11 @@ Desde Reporte de Producción puedes agregar la perfilería ZÓCALOS, TUBOS, GOLA
 
 <kbd><mark style="color:$primary;">**Tubos:**<mark style="color:$primary;"></kbd>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <kbd><mark style="color:$primary;">**Golas:**<mark style="color:$primary;"></kbd>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$primary;">En cada uno puedes agregar</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**seleccionando**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">el perfil de la lista y haciendo clic en</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**Ingresar (+)**</mark><mark style="color:$primary;">, colocas la medida y</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**Aceptar**</mark><mark style="color:$primary;">.</mark>
 
@@ -321,11 +321,11 @@ Gestiona los Accesorios, Ferretería de Montaje, Ferretería de Instalación par
 
 <kbd><mark style="color:$primary;">**Accesorios:**<mark style="color:$primary;"></kbd>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <kbd><mark style="color:$primary;">**Ferretería de Montaje:**<mark style="color:$primary;"></kbd>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <kbd><mark style="color:$primary;">**Ferretería de Instalación:**<mark style="color:$primary;"></kbd>
 
@@ -525,7 +525,7 @@ Si llegado a este punto, y activa <mark style="color:$primary;">**Optimizar Prod
 
 Luego de que todos los procesos previos estén correctos y completos, Cabinet Report empieza a revisar que no exista piezas duplicadas o alguna faltante en los archivos generados y si todo está correcto, te muestra el siguiente mensaje:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
 
 <kbd><mark style="color:$primary;">**Parámetros de optimización**<mark style="color:$primary;"></kbd>
 
@@ -537,13 +537,13 @@ Si hay tableros sin vetas, se activa el giro de piezas, si desea puede desactiva
 
 Por último coloca el grosor de resane que desea que se tome en cuenta al calcular los tableros.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si todo está listo, haga clic en <mark style="color:$primary;">**Optimizar**</mark>.
 
 <kbd><mark style="color:$primary;">**Seleccione el Optimizador de Su Seccionadora**<mark style="color:$primary;"></kbd>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 En este punto, se seleccionan todos los archivos que se van a generar para su producción.
 
@@ -559,6 +559,6 @@ Al finalizar el proceso le sale el mensaje de éxito.
 {% endcolumn %}
 
 {% column width="66.66666666666667%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
