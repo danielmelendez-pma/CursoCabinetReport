@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## <mark style="color:red;">**Esta funcionalidad está en desarrollo y pronto estará lista para que la pueda utilizar**</mark>
+<mark style="color:red;">**`Esta funcionalidad está en desarrollo y pronto estará lista para que la pueda utilizar`**</mark>
 
 El documento de Orden de Producción es el control de sus procesos de producción en la fábrica y campo.
 
