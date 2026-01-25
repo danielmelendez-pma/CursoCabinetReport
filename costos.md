@@ -36,16 +36,18 @@ Inicia por el menú <mark style="color:$primary;">**Opciones**</mark> el cual ti
 
 <mark style="color:$primary;">**Campos de Materia Prima Publica y Privada:**</mark>
 
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 * <mark style="color:$primary;">**Pública:**</mark> al activar este CheckBox, debe filtrar los ComboBox del DataGridView de Materia Prima con solo los Herrajes y Aglomerados que están identificados (Publica) en el campo "Visibilidad" de la tabla de Aglomerados y (Publica) en el campo "Acceso" de la tabla de Herrajes en la base de datos
-* <mark style="color:$primary;">**Privada:**</mark> al activar este CheckBox, debe filtrar los ComboBox del DataGridView de Materia Prima con solo los Herrajes y Aglomerados que están identificados (Privada) en el campo "Visibilidad" de la tabla de Aglomerados y (Privada) en el campo "Acceso" de la tabla de Herrajes en la base de datos, pero solo donde el campo "Cliente" de ambas tablas sea igual al cliente indicado en el campo de Cliente de la ventana principal de Cabinet Report (FrmPrincipalCR).
+* <mark style="color:$primary;">**Privada:**</mark> al activar este CheckBox, debe filtrar los ComboBox del DataGridView de Materia Prima con solo los Herrajes y Aglomerados que están identificados (Privada) en el campo "Visibilidad" de la tabla de Aglomerados y (Privada) en el campo "Acceso" de la tabla de Herrajes en la base de datos, pero solo donde el campo "Cliente" de ambas tablas sea igual al cliente indicado en el campo de Cliente de la ventana principal de Cabinet Report (FrmPrincipalCR). Si la opcion privada esta activa, en primera instancia debe cargar los valores de "Costo" y "PrecioProveedor" para el cliente activo en caso de que exista para este cliente.
 
 Siempre debe estar una selección activa, pueden estar ambas activas pero nunca ambas desactivas, y no debe afectar la lista de materia prima establecida actualmente
 
 <mark style="color:$primary;">**Listado de Materia Prima:**</mark>
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-Despues de cargado un archivo de Reporte de Compras debe activar el algoritmo de revisar Descripconies en las tablas de la base de datos.
+Después de cargado un archivo de Reporte de Compras debe activar el algoritmo de revisar Descripciones en las tablas de la base de datos.
 
 Pero tambien puede ser llenado manualmente por el usuario:
 

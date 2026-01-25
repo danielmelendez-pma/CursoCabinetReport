@@ -1,6 +1,6 @@
 # Orden de Producción
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:red;">**`Esta funcionalidad está en desarrollo y pronto estará lista para que la pueda utilizar`**</mark>
 

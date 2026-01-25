@@ -18,7 +18,7 @@ Crear la carpeta donde se guardará el archivo de muebles ingresando los valores
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -130,7 +130,7 @@ Lo siguiente es colocarle un nombre al mueble que está agregando, este nombre d
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
