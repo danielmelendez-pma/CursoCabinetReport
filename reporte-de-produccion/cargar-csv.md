@@ -46,7 +46,7 @@ Importante que los <mark style="color:$primary;">A</mark><mark style="color:$pri
 
 Al hacer clic, primero debe seleccionar las opciones de <mark style="color:$primary;">**Parámetros de producción**</mark>:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
 
 Importantes:
 

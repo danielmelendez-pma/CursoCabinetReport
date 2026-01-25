@@ -18,7 +18,7 @@ También puede abrir un Archivo TXT Existente.
 {% endcolumn %}
 
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 {% endcolumns %}
 

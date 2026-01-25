@@ -16,7 +16,7 @@ Importante que los <mark style="color:$primary;">**Archivos RP**</mark> son arch
 
 <mark style="color:$primary;">**Encabezado:**</mark>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <mark style="color:$primary;">**Sección de Módulos:**</mark>
 
@@ -72,7 +72,7 @@ Seleccionar el archivo de Excel RP:
 
 Cabinet Report analizará el archivo y si esta correcto, mostrará en pantalla lo que contiene:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% columns %}
 {% column %}

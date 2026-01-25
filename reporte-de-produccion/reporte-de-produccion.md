@@ -12,7 +12,7 @@ Y llegó el momento de conocer el Corazón de Cabinet Report, el <mark style="co
 
 {% columns %}
 {% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endcolumn %}
 
 {% column %}
@@ -305,7 +305,7 @@ Desde Reporte de Producción puedes agregar la perfilería ZÓCALOS, TUBOS, GOLA
 
 <kbd><mark style="color:$primary;">**Tubos:**<mark style="color:$primary;"></kbd>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <kbd><mark style="color:$primary;">**Golas:**<mark style="color:$primary;"></kbd>
 
@@ -537,7 +537,7 @@ Si hay tableros sin vetas, se activa el giro de piezas, si desea puede desactiva
 
 Por último coloca el grosor de resane que desea que se tome en cuenta al calcular los tableros.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Si todo está listo, haga clic en <mark style="color:$primary;">**Optimizar**</mark>.
 

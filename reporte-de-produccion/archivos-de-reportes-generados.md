@@ -44,7 +44,7 @@ Archivo donde se guardan los Golas que se crearon para esta producción.
 
 Copa de la producción donde se guardan la lista de piezas, para poder continuar trabajando más adelante.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 <kbd><mark style="color:$primary;">**Archivos del Optimizador de la Seccionadora:**<mark style="color:$primary;"></kbd>
 
