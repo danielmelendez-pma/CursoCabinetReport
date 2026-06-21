@@ -6,6 +6,7 @@
   * [Licencia de Cliente](licencia-de-cliente.md)
   * [Licencia de Usuario](licencia-de-usuario.md)
   * [Inicio de Sesión](inicio-de-sesion.md)
+* [Instalar Actualizaciones](instalar-actualizaciones.md)
 * [Pantalla Principal](pantalla-principal.md)
 * [Creación de Tableros](creacion-de-tableros.md)
 * [Creación de Herrajes](creacion-de-herrajes/README.md)
