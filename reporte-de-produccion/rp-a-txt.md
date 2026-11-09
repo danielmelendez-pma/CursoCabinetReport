@@ -1,103 +1,110 @@
 # RP a TXT
 
-## <mark style="color:$primary;">**RP a TXT**</mark>
+**Curso de Cabinet Report · Conversión de archivos de producción**
+
+Utiliza esta opción cuando necesites recuperar los datos de un Excel RP después de editarlo, siempre que mantengas su estructura original. Sigue las capturas en orden antes de cargar el TXT resultante.
+
+**Consulta también:** [Cargar TXT](cargar-txt.md) · [Parámetros de producción](parametros-de-produccion.md) · [Reporte de Producción detallado](reporte-de-produccion.md).
 
 Para convertir los Excel RP previamente generados por Cabinet Report, al archivo TXT de producción.
 
 Esto en caso de que el usuario haya modificado manualmente el archivo de Excel RP
 
-<mark style="color:$primary;">No funciona si el usuario cambia el formato y no sigue el mismo patrón a modificar el RP.</mark>
+No funciona si el usuario cambia el formato y no sigue el mismo patrón a modificar el RP.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+---
+## Estructura requerida del archivo Excel RP
 
-Importante que los <mark style="color:$primary;">**Archivos RP**</mark> son archivos de <mark style="color:$primary;">**Excel**</mark> y deben contener el siguiente formato:
+El archivo debe conservar el formato del reporte Excel RP, con las siguientes secciones:
 
-<mark style="color:$primary;">**Encabezado:**</mark>
+### Encabezado
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Sección de Módulos:**</mark>
+### Sección de Módulos
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Sección de Piezas Sueltas:**</mark>
+### Sección de Piezas Sueltas
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Sección de Observaciones:**</mark>
+### Sección de Observaciones
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Sección de Materiales:**</mark>
+### Sección de Materiales
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Sección de Herrajes y Accesorios:**</mark>
+### Sección de Herrajes y Accesorios
 
-<mark style="color:$primary;">**Zócalos de PVC:**</mark>
+#### Zócalos de PVC
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Golas:**</mark>
+#### Golas
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Tubos:**</mark>
+#### Tubos
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Accesorios:**</mark>
+#### Accesorios
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Ferretería de Montaje:**</mark>
+#### Ferretería de Montaje
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Ferretería de Instalación:**</mark>
+#### Ferretería de Instalación
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-## <mark style="color:$primary;">**Si el archivo de Excel RP no cumple con este formato, no se generará correctamente el archivo TXT al ser convertido...**</mark>
+{% hint style="warning" %}
+**Compatibilidad:** si el Excel RP no conserva la estructura indicada, el archivo TXT puede generarse incorrectamente.
+{% endhint %}
+---
+## Procedimiento de conversión
 
-***
-
-<mark style="color:$primary;">**Procedimiento:**</mark>
+### 1. Selecciona el Excel RP
 
 Seleccionar el archivo de Excel RP:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Cabinet Report analizará el archivo y si esta correcto, mostrará en pantalla lo que contiene:
+### 2. Comprueba el contenido
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+Cabinet Report analizará el archivo y, si es correcto, mostrará en pantalla lo que contiene:
 
-{% columns %}
-{% column %}
-Hacer clic en <mark style="color:$primary;">**Generar TXT de Producción**</mark>
-{% endcolumn %}
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+### 3. Genera el archivo TXT
 
-Indicar la Ruta donde desea guardar el TXT de Producción:
+Hacer clic en **Generar TXT de Producción**
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+### 4. Selecciona dónde guardarlo
+
+Indicar la ruta donde desea guardar el TXT de Producción:
+
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+### 5. Verifica y abre el resultado
 
 Cabinet Report le informa que se ha generado y ya lo puede abrir, le muestra los datos del archivo y le pregunta si lo desea abrir, entonces le pide seleccione si es un RP nuevo o es para modificar un RP Anterior:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column %}
-Hacer clic en abrir y se le abrirá el <mark style="color:$primary;">**Reporte de Producción**</mark>
-{% endcolumn %}
+Hacer clic en abrir y se le abrirá el **Reporte de Producción**
 
-{% column %}
 <figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+
+---
+
+[← Cargar TXT](cargar-txt.md) · [Reporte en blanco →](reporte-en-blanco.md) · [Índice del Reporte de Producción](README.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)

@@ -1,61 +1,77 @@
 # Cargar TXT
 
-## <mark style="color:$primary;">**Cargar TXT**</mark>
+**Curso de Cabinet Report · Importación TXT**
+
+Esta lección explica cómo preparar e importar un archivo TXT compatible para abrir su contenido en el Reporte de Producción. Conserva el orden de campos documentado y revisa los parámetros antes de iniciar.
+
+{% hint style="info" %}
+**Compatibilidad:** verifica el formato del archivo de origen y las opciones disponibles en tu versión de Cabinet Report. Un archivo con la extensión correcta no garantiza que sus datos puedan importarse.
+{% endhint %}
 
 Para abrir archivos TXT generados por Cabinet Report, Catálogo de Módulos o archivos TXT generados por otros software compatible.
 
-<mark style="color:$primary;">No puede abrir archivos TXT que no tenga el formato de compatibilidad con Cabinet Report.</mark>
+No puede abrir archivos TXT que no tenga el formato de compatibilidad con Cabinet Report.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+---
+## Formato de columnas requerido
 
-Importante que los <mark style="color:$primary;">**Archivos TXT**</mark> deben contener el siguiente formato de Columnas:
+La lección original documenta los campos en este orden:
 
-<mark style="color:$primary;">CLIENTE;</mark>
+CLIENTE;
 
-<mark style="color:$primary;">AMBIENTE;</mark>
+AMBIENTE;
 
-<mark style="color:$primary;">MODULO;</mark>
+MODULO;
 
-<mark style="color:$primary;">CANT;</mark>
+CANT;
 
-<mark style="color:$primary;">PIEZA;</mark>
+PIEZA;
 
-<mark style="color:$primary;">ESPESOR;</mark>
+ESPESOR;
 
-<mark style="color:$primary;">ANCHO;</mark>
+ANCHO;
 
-<mark style="color:$primary;">LARGO;</mark>
+LARGO;
 
-<mark style="color:$primary;">MATERIAL;</mark>
+MATERIAL;
 
-<mark style="color:$primary;">VETA;</mark>
+VETA;
 
-<mark style="color:$primary;">CANTO SUPERIOR;</mark>
+CANTO SUPERIOR;
 
-<mark style="color:$primary;">CANTO INFERIOR;</mark>
+CANTO INFERIOR;
 
-<mark style="color:$primary;">CANTO DERECHO;</mark>
+CANTO DERECHO;
 
-<mark style="color:$primary;">CANTO IZQUIERDO</mark>
+CANTO IZQUIERDO
 
-***
+---
+## 1. Configura los parámetros de producción
 
-Al hacer clic, primero debe seleccionar las opciones de <mark style="color:$primary;">**Parámetros de producción**</mark>:
+Al hacer clic, primero debe seleccionar las opciones de **Parámetros de producción**:
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md"><mark style="color:$primary;">Ver Explicación</mark></a></p></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md">Ver Explicación</a></p></figcaption></figure>
 
-Importantes:
+### Antes de importar, verifica lo siguiente
 
 1. Seleccionar los tipos de vetas que contienen los materiales de la producción.
 2. Seleccionar las automatizaciones que necesita.
 3. Activar Packing List si lo necesita.
 4. Si va a generar un RP nuevo, Seleccionar Generar Nuevo RP, sino, Seleccionar Modificar RP Anterior.
-5. Hacer clic en <mark style="color:$primary;">**Importar TXT**</mark>.
+5. Hacer clic en **Importar TXT**.
 
-Una vez estos pasos, le pedirá que seleccione el <mark style="color:$primary;">**Archivo TXT**</mark>:
+## 2. Selecciona el archivo TXT
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+Después de configurar los parámetros, selecciona el **archivo TXT**:
 
-Hacer clic en abrir y se le abrirá el <mark style="color:$primary;">**Reporte de Producción**</mark>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+## 3. Abre el Reporte de Producción
+
+Hacer clic en abrir y se mostrará el **Reporte de Producción**.
+
+---
+
+[← Cargar CSV](cargar-csv.md) · [RP a TXT →](rp-a-txt.md) · [Parámetros de producción](parametros-de-produccion.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
