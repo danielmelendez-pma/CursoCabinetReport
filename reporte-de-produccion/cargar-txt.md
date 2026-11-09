@@ -74,6 +74,63 @@ Haz clic en **Abrir** para acceder al **Reporte de Producción**.
 
 Compara cliente, ambiente, módulos, cantidades de piezas, medidas, materiales, vetas y cantos con el archivo TXT original. Si no coinciden, detén la generación y revisa el archivo. Luego continúa con la [revisión de tableros y cantos](revision-de-tableros-y-cantos.md) y la [guía detallada del reporte](reporte-de-produccion.md).
 
+
+---
+
+## 5. Ejercicio de recuperación controlada: del TXT al RP
+
+Este ejercicio sirve para **verificar una recuperación**, no para crear un formato TXT nuevo ni para demostrar que la importación restaure todos los registros de la producción. Utiliza una copia de un **TXT de producción que Cabinet Report haya generado previamente** y conserva el original intacto.
+
+### Prepara una referencia antes de abrirlo
+
+1. Identifica el **cliente, ambiente, archivo original y número de RP**, si corresponde. Localiza también el Excel RP anterior y los archivos auxiliares disponibles en la carpeta del proyecto.
+2. **Duplica el TXT de origen** en una carpeta de comprobación. No renombres ni sustituyas el original que respalda la producción.
+3. Abre la copia únicamente para **consultar**, sin cambiar separadores, columnas, identificadores ni codificación. Registra por separado los módulos, tipos de pieza, cantidades, dimensiones, materiales, vetas y cantos que esperas recuperar.
+4. Consulta [Parámetros de Producción](parametros-de-produccion.md). Anota las vetas y automatizaciones activadas: redondeo, traducción técnica, inversión de medidas y carga automática de complementarios pueden influir en la comparación.
+5. Para una prueba independiente, elige **Generar Nuevo RP**. Utiliza **Modificar RP Anterior** solamente cuando la intención sea actualizar una producción real, después de confirmar su número, cliente y ambiente. No uses esta última opción como ensayo sobre el único registro disponible.
+
+{% hint style="warning" %}
+**Formato de origen:** la lista de campos históricos de esta página es una guía de lectura, **no una plantilla universal para fabricar TXT a mano**. Otras descripciones del RP incluyen identificadores y nombres abreviados. No agregues, suprimas ni reordenes columnas por deducción: conserva el TXT exportado por una versión compatible y comprueba su importación antes de utilizarlo.
+{% endhint %}
+
+### Ejemplo reproducible para comprobar cantidades
+
+Supón que tu proyecto original incluye **dos módulos iguales**, cada uno con dos costados, una base y una tapa. Esta es una **hoja de control teórica**, no un archivo TXT listo para importar:
+
+| Pieza | Unidades por módulo | Módulos previstos | Total esperado |
+| --- | ---: | ---: | ---: |
+| Costado | 2 | 2 | **4** |
+| Base | 1 | 2 | **2** |
+| Tapa | 1 | 2 | **2** |
+| **Total de piezas** | **4** | **2** | **8** |
+
+Después de abrir el TXT, cuenta las **unidades efectivas** por tipo de pieza. Que el programa muestre filas separadas o cantidades agrupadas no cambia el objetivo: contrastar **4 costados, 2 bases y 2 tapas** con el proyecto original. No supongas que el campo de cantidad equivale siempre al número de módulos; revisa la representación que ofrece tu archivo.
+
+### Concilia los datos recuperados
+
+| Control | Qué comparar | Resultado que debe quedar documentado |
+| --- | --- | --- |
+| Identidad | Cliente, ambiente, número de RP cuando aplique | Mismo trabajo, sin confusión con otra producción |
+| Integridad | Módulos, piezas sueltas, tipos de pieza y cantidades efectivas | Sin piezas omitidas ni unidades duplicadas |
+| Geometría | Espesor, ancho, largo y orientación por pieza | Coincidencia con el origen o diferencia explicada |
+| Materiales | Descripción del tablero, veta y canto por lado | Sin sustituciones implícitas ni pérdida de lados |
+| Complementarios | Accesorios, ferretería, golas, tubos y zócalos que correspondan | Presencia comprobada en sus registros, **no inferida del TXT de piezas** |
+| Entrega | Excel RP y demás salidas generadas a partir de la recuperación | Verificación independiente antes de enviarlas a fabricación |
+
+La [guía de archivos generados](archivos-de-reportes-generados.md) diferencia el TXT de piezas, los TXT auxiliares, el Excel RP y los registros técnicos. **Importar el TXT de producción no prueba por sí solo la recuperación de herrajes, parámetros, metadatos XML ni decisiones de Auditoría RP.** Verifica cada componente por separado.
+
+### Si el resultado no coincide
+
+1. **Detén la generación u optimización** y conserva la copia importada y el origen sin cambios.
+2. Comprueba si seleccionaste el **RP correcto**, un archivo compatible y las automatizaciones adecuadas. Distingue cambios esperables por configuración de pérdidas de datos.
+3. Si faltan piezas, materiales o complementarios, revisa los archivos de procedencia y vuelve a probar con una **copia limpia**, sin sobrescribir el RP original.
+4. Si la recuperación parte de un Excel RP editado, sigue primero [RP a TXT](rp-a-txt.md) y valida el archivo convertido antes de importarlo.
+5. Registra el archivo utilizado, los valores esperados y las diferencias detectadas. Reanuda el flujo únicamente cuando la comprobación técnica sea satisfactoria.
+
+{% hint style="info" %}
+**Criterio de salida:** el TXT se considera **comprobado para este proyecto** cuando identidad, cantidades, dimensiones, materiales y cantos concuerdan con la fuente autorizada y los complementarios necesarios se han verificado aparte. Es una prueba documental de control, **no una certificación automática de compatibilidad ni de preparación para fabricar**.
+{% endhint %}
+
 ---
 
 [← Cargar CSV](cargar-csv.md) · [RP a TXT →](rp-a-txt.md) · [Parámetros de producción](parametros-de-produccion.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
