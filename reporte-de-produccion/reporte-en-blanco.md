@@ -107,6 +107,54 @@ Comprueba que el archivo TXT se haya creado o actualizado correctamente y que in
 | **Datos técnicos** | Espesor, ancho, largo, material, veta y cantos por lado. |
 | **Resultado** | El TXT actualizado se localiza y pertenece a la producción preparada. |
 
+## Ensayo reproducible: comprobar un reporte creado manualmente
+
+Este ejercicio verifica la **captura, incorporación y lectura posterior** de piezas en un TXT creado desde Reporte Manual. Los valores son **didácticos**: no proceden de una fórmula del software ni representan un diseño autorizado para cortar.
+
+### 1. Preparar una producción de prueba
+
+1. Trabaja con un **cliente y ambiente de ensayo claramente identificados**, distintos de cualquier orden real. Selecciona **Crear Nuevo**; no abras ni modifiques el único TXT de una producción en curso.
+2. En los parámetros de producción, anota las opciones que puedan cambiar nombres, orientación, medidas o cantidades. Para comparar contra los datos originales, registra cualquier automatización que permanezca activa en tu versión.
+3. Elige la ruta **piezas sueltas** y localiza en tu catálogo un tablero y un canto válidos. Anota sus referencias y el espesor. Si el material no existe o no coincide con el previsto, no lo sustituyas silenciosamente.
+4. Prepara esta hoja de control **antes** de introducir datos. La referencia del catálogo utilizada será la misma en las dos piezas, pero los lados de canto previstos serán diferentes.
+
+### 2. Introducir datos y calcular el total esperado
+
+| Pieza didáctica | Cantidad | Espesor | Ancho | Largo | Canto de prueba |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Pieza A | 2 | 18 mm | 300 mm | 400 mm | Canto seleccionado en el borde superior |
+| Pieza B | 1 | 18 mm | 300 mm | 400 mm | Canto seleccionado en el borde inferior |
+| **Total previsto** | **3 unidades** | | | | **2 referencias de pieza** |
+
+Para que el ejercicio sea comparable, utiliza en ambas piezas el **mismo material real seleccionado del catálogo** y registra la veta de acuerdo con su ficha. Deja sin canto los otros bordes **solo en este ensayo**, no como regla para un mueble real. La orientación que convierte un borde en frontal depende de la pieza: no supongas que «superior» significa «frontal».
+
+**Control clave:** dos piezas con las mismas tres dimensiones no son necesariamente intercambiables. El nombre, la cantidad y el **lado del canto** son datos independientes. El total esperado es de **tres unidades**, aunque el listado muestre dos referencias o agrupe filas de otra forma.
+
+### 3. Incorporar y comprobar el TXT
+
+1. Introduce cada referencia **una sola vez** con la cantidad indicada. Antes de incorporar, revisa material, veta y los cuatro lados de canto de cada pieza.
+2. Ejecuta la acción documentada para **incorporar piezas al TXT** y confirma el resultado. Anota el nombre y la ubicación del archivo creado; no des por comprobado el contenido únicamente por el mensaje de éxito.
+3. Conserva una **copia sin modificar** del TXT generado y una copia de la hoja de control. No agregues, quites ni reordenes columnas manualmente: el esquema puede variar según la versión.
+4. Cuando necesites comprobar su lectura, utiliza una **copia del TXT** y sigue [Cargar TXT](cargar-txt.md) con una producción de prueba. No selecciones **Modificar RP Anterior** sobre una producción real para ejecutar este ensayo.
+5. Contrasta lo recuperado en la [ventana del Reporte de Producción](reporte-de-produccion.md) con la hoja inicial, **antes** de generar u optimizar cualquier salida.
+
+| Control | Resultado esperado | Si no coincide |
+| --- | --- | --- |
+| Identificación | Cliente y ambiente del ensayo, no los de una producción real | Detén la prueba y localiza el archivo correcto |
+| Cantidades | Pieza A: 2; pieza B: 1; **total: 3 unidades** | Distingue cantidad de filas, piezas y módulos; revisa duplicaciones |
+| Medidas | En cada pieza, **18 × 300 × 400 mm**, salvo transformación expresamente documentada | Revisa parámetros y dimensiones del origen, sin corregir a ciegas |
+| Material y veta | Misma referencia elegida y orientación prevista para ambas piezas | Verifica la asociación con el catálogo |
+| Cantos | Pieza A: borde superior; pieza B: borde inferior; los demás sin canto en el ensayo | Verifica pieza y borde por separado; no intercambies las referencias |
+| Persistencia | La copia del TXT se localiza y permite contrastar los datos cargados | Conserva la evidencia y revisa compatibilidad y guardado |
+
+### 4. Registrar el resultado y decidir
+
+Registra **fecha, versión de Cabinet Report, cliente y ambiente de prueba, ruta de la copia TXT, parámetros activos, valores esperados, valores observados y responsable**. Clasifica el resultado como **CONFORME** cuando los controles coincidan o las diferencias estén justificadas y verificadas; en otro caso, **NO CONFORME** y detén su reutilización.
+
+{% hint style="warning" %}
+**Límite de la prueba:** este ensayo comprueba el flujo de piezas de un TXT manual, **no** certifica una fórmula, el armado de un módulo ni la recuperación de accesorios, ferretería, metadatos o decisiones de Auditoría RP. Si trabajas con un módulo completo, prepara **otro ensayo independiente** con su ficha dimensional y cantidades reales; no infieras esos valores de estas piezas sueltas. Un TXT comprobado tampoco equivale a autorización para fabricar.
+{% endhint %}
+
 Continúa con la [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) y la [ventana del Reporte de Producción](reporte-de-produccion.md) para comprobar el despiece antes de generar archivos.
 
 <figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
