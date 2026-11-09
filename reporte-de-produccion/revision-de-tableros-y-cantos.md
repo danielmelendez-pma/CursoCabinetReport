@@ -54,6 +54,48 @@ Una vez verificados los materiales, los totales y los archivos complementarios, 
 
 Consulta también la [referencia oficial del Reporte de Producción](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion) y el [Stock de tableros](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/stock-de-tableros) para distinguir el catálogo técnico del consumo real.
 
+
+## 4. Ensayo reproducible: conciliar materiales antes de cortar
+
+Este ensayo verifica una **transferencia de información**, no el consumo de planchas: una referencia de tablero y canto elegida durante la revisión debe corresponder con las piezas que se observan después en el RP. Realízalo en un **cliente y ambiente de prueba**, nunca sobre un pedido liberado para fabricación.
+
+### Preparar dos piezas que pueden confundirse
+
+Crea una **copia de un TXT compatible** para el ensayo (puedes consultar [Cargar TXT](cargar-txt.md) y [Reporte en Blanco](reporte-en-blanco.md)). Registra dos piezas con el mismo ancho y largo, pero con material y canto diferentes. La tabla es un **ejemplo didáctico**, no un catálogo real ni una regla de cálculo:
+
+| Referencia de ensayo | Cantidad y dimensiones de origen | Tablero previsto | Canto previsto |
+| --- | --- | --- | --- |
+| A · COSTADO PRUEBA | 1 pieza · 600 × 400 mm | Roble gris, **15 mm** | **Superior:** Roble gris, **0,45 mm**; demás bordes sin canto |
+| B · FRENTE PRUEBA | 1 pieza · 600 × 400 mm | Roble gris, **18 mm** | **Derecho:** Roble gris, **2 mm**; demás bordes sin canto |
+
+Antes de importar, registra también la **veta** indicada en el TXT y la identidad exacta de las referencias disponibles en el catálogo (fabricante, código o ficha, si existen). Sustituye los nombres didácticos si no hay materiales equivalentes registrados; **no inventes asociaciones** ni alteres una producción real para completar la prueba. Conserva una copia intacta del TXT de entrada y una lista de resultados esperados.
+
+### Ejecutar y comprobar el traspaso al RP
+
+1. Abre el TXT de prueba mediante **Cargar TXT** y confirma que corresponde al cliente y ambiente de ensayo.
+2. En **Revisión de Tableros y Cantos**, compara cada tablero detectado con su ficha: **material, espesor de 15 o 18 mm, color, tipo y referencia**, sin aceptar una coincidencia solo por «Roble gris».
+3. Comprueba por separado los **dos cantos de distinto espesor**. Confirma que la elección de tipo **CANTO**, nombre y espesor respeta las referencias previstas; no intercambies 0,45 mm y 2 mm.
+4. Revisa los totales mostrados. Si el programa identifica menos referencias de las que esperabas, investiga si combinó nombres o si faltan registros; **el número mostrado no acredita por sí mismo las piezas ni el consumo**.
+5. No actives **Cargar todos automáticamente** para completar el ensayo salvo que hayas verificado los complementarios del mismo cliente y ambiente. Continúa con los archivos que correspondan, o sin complementarios si el flujo de prueba lo permite.
+6. En el [Reporte de Producción](reporte-de-produccion.md), localiza **A y B** y contrasta con la copia de origen: cantidad **1 + 1**, dimensiones **600 × 400 mm**, espesor de cada pieza, material, veta y **borde exacto** con su respectivo canto.
+7. Registra cualquier diferencia y vuelve al origen o al catálogo para corregirla mediante los controles disponibles. **No generes, optimices ni envíes el trabajo a corte** mientras exista una discrepancia sin resolver.
+
+### Resultado esperado y evidencia
+
+| Control | Resultado esperado | Evidencia que debes anotar |
+| --- | --- | --- |
+| Identidad | Cliente, ambiente y piezas A/B corresponden a la copia de ensayo. | Nombre de archivo, cliente, ambiente y fecha |
+| Tableros | A conserva **15 mm** y B **18 mm**, con las referencias correctas. | Material de origen frente a material observado en RP |
+| Cantos | A tiene canto **superior de 0,45 mm** y B **derecho de 2 mm**; no aparecen cantos adicionales. | Borde y espesor por pieza antes y después |
+| Geometría y cantidades | Ambas piezas siguen con **600 × 400 mm** y cantidad **1** cada una. | Dos filas de origen y filas verificadas en RP |
+| Veta y complementarios | No cambia la veta prevista ni se incorporan complementos ajenos al ensayo. | Veta de cada pieza y archivos adicionales seleccionados |
+
+Califica el ensayo como **CONFORME** solo si todas las comparaciones coinciden; **NO CONFORME** si hay una diferencia sin resolver; o **NO EJECUTADO** si faltan referencias, permisos o un TXT de prueba compatible. Anota el resultado observado, la acción correctiva y la persona que verificó. No modifiques el TXT de evidencia para que coincida artificialmente con el RP.
+
+{% hint style="warning" %}
+**Límite del ensayo:** demuestra una comprobación manual de asociación y continuidad de datos en una instalación concreta. No acredita una equivalencia comercial de materiales, el comportamiento de todos los importadores, las dimensiones finales tras mecanizado, la optimización ni la autorización de fabricación.
+{% endhint %}
+
 ---
 
 [← Parámetros de Producción](parametros-de-produccion.md) · [Reporte de Producción →](reporte-de-produccion.md) · [Archivos generados](archivos-de-reportes-generados.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
