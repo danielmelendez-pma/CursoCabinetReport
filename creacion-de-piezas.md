@@ -4,11 +4,9 @@ Conoce las áreas del Creador de Piezas y estudia los ejemplos de fórmulas de e
 
 <figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Una vez aprendido las variables para crear formulas de calculo de piezas, puede adentrarse a la sección de
+Después de conocer las [variables de cálculo](formulas-y-variables.md), continúa con el **Creador de Piezas**. Aquí puedes preparar nuevas piezas o consultar las que ya están guardadas en Cabinet Report.
 
 ## Creador de Piezas
-
-Donde puede crear sus piezas o utilizar las piezas ya creadas dentro de Cabinet Report
 
 > 💡 **Importante**\
 > Un Creador de Piezas bien configurado garantiza que Cabinet Report genere información confiable, minimizando errores humanos y mejorando la eficiencia en el proceso productivo.
@@ -42,6 +40,21 @@ ESPESOR X ANCHO X LARGO
 Lista de variables que le ayuda a crear las formulas de cada una de sus piezas.
 
 ***
+
+## Antes de interpretar las fórmulas
+
+En los ejemplos siguientes, cada pieza presenta **espesor, ancho y largo**, además del canto asignado a cada borde. El símbolo **X** separa las dimensiones del resultado mostrado; no significa que debas escribir las tres expresiones en un único campo.
+
+| Revisión | Qué comprobar |
+| --- | --- |
+| **Espesor** | Variable y tablero utilizados para la pieza. |
+| **Ancho y largo** | Expresiones y descuentos respecto del módulo actual. |
+| **Cantos** | Aplicación correcta en los cuatro lados. |
+| **Resultado** | Coincidencia de las medidas calculadas con el diseño. |
+
+{% hint style="warning" %}
+**Ejemplo heredado: comprueba sus valores antes de reutilizarlos.** La descripción original menciona un respaldo de cartón de **4 mm**, pero el resultado de «RESPALDO CART» indica **3 mm**. Además, la fórmula de «BASE» utiliza `CART`, cuyo significado no se desarrolla en la lista de [Fórmulas y Variables](formulas-y-variables.md). Se conservan las expresiones y los resultados originales para su consulta, sin presentarlos como parámetros universales. Verifica el espesor real, la definición de cada término y las medidas de salida en tu versión del programa.
+{% endhint %}
 
 ## Ejemplo de fórmulas por pieza
 
@@ -135,7 +148,7 @@ CANTO SUPERIOR = CCAJON
 
 CANTO INFERIOR = CCAJON
 
-CANTO IZQUIERDO = CCAJONCCAJON
+CANTO IZQUIERDO = CCAJON
 
 CANTO DERECHO = CVISTO
 
