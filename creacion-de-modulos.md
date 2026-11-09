@@ -159,6 +159,27 @@ Antes de pulsar **CREAR** o **ACTUALIZAR**, compara el resultado con el diseño:
 **Prueba la definición con medidas conocidas.** Las luces y otros parámetros pueden variar según el catálogo o el cliente. Una previsualización sin errores no garantiza que la pieza sea fabricable.
 {% endhint %}
 
+
+### Ensayo de variantes: una definición, dos medidas
+
+Una definición reutilizable debe probarse más allá de su medida preliminar. Antes de pulsar **CREAR** o **ACTUALIZAR**, utiliza al menos dos configuraciones representativas del mismo tipo constructivo y registra qué parámetros aplicaste. Esta es una **prueba manual recomendada**, no una validación automática del programa.
+
+| Comprobación | Caso A: medida de referencia | Caso B: medida alternativa |
+| --- | --- | --- |
+| **Identidad** | Confirma catálogo, categoría, subcategoría, código y tipo de apertura. | Verifica que sigue siendo la misma variante constructiva; si cambia la estructura, revisa si necesita otra definición. |
+| **Dimensiones** | Introduce profundidad, ancho y alto conocidos. | Modifica una dimensión de forma controlada y mantén identificadas las demás. |
+| **Fórmulas** | Contrasta espesor, ancho y largo de cada pieza con el diseño. | Revisa qué piezas deberían cambiar y cuáles deberían conservar su medida. |
+| **Parámetros** | Comprueba luces, espesores, ranuras, rieles y demás variables usadas por esas piezas. | Confirma nuevamente los valores efectivos; no los presupongas iguales para otro cliente. |
+| **Componentes** | Revisa cantidad de piezas, cantos, vetas, tableros y herrajes previstos. | Comprueba que no aparezcan omisiones, duplicaciones ni componentes incompatibles. |
+
+**Ejemplo didáctico:** para una variante de base con dos puertas, prueba primero un ancho exterior de **600 mm** y después uno de **800 mm**, manteniendo explícitas las demás dimensiones y condiciones que correspondan. No se fija aquí el ancho de cada puerta: calcúlalo con **la fórmula de esa pieza y las luces efectivas**, y compáralo con la especificación del proyecto. Que el cálculo funcione en un caso no acredita el segundo.
+
+Si una pieza falla en el caso B, identifica su nombre, fórmula y variables antes de cambiar nada. Comprueba si el problema está en la **definición de la pieza**, en los **parámetros usados** o en que elegiste una **variante constructiva distinta**. Registra la corrección y repite ambos casos para detectar regresiones.
+
+{% hint style="info" %}
+**Evidencia mínima para revisión técnica:** identificación del módulo y su variante, medidas probadas, valores de parámetros utilizados, piezas verificadas y diferencias pendientes. No conviertas un valor mostrado en previsualización en una medida universal de corte.
+{% endhint %}
+
 Por último, ya puedes hacer clic en **CREAR** para agregar el mueble a la base de datos de tu empresa, automáticamente se reflejará dentro del Catálogo seleccionado y estará listo para utilizar en tu producción
 
 <figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -194,6 +215,19 @@ Para que un usuario Técnico de tu empresa pueda revisar los muebles creados por
 <figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 En la esquina derecha inferior aparece el símbolo de Verificación.
+
+
+### Guardar, verificar y reutilizar no son lo mismo
+
+- **CREAR / ACTUALIZAR:** guarda la definición en el catálogo según el proceso mostrado arriba. No demuestra por sí solo que las medidas sean correctas.
+- **VERIFICADO:** es una etiqueta de revisión técnica que puede asignar el usuario autorizado en el control documentado. Debe apoyarse en las comprobaciones del módulo, no únicamente en su imagen o descripción.
+- **Usar en producción:** al seleccionar el módulo desde el [Catálogo de Módulos](catalogo-de-modulos.md), vuelve a aplicar y revisar las medidas, tableros, variables y herrajes del trabajo real. Después contrasta las piezas en el [Reporte de Producción](reporte-de-produccion/README.md).
+
+**Cuando actualices una definición existente:** identifica qué fórmula, pieza o parámetro cambió; conserva una referencia del resultado anterior; repite los dos ensayos y revisa cualquier producción que pretendas continuar o reutilizar. No supongas que un cambio en el catálogo corrige automáticamente archivos de producción generados anteriormente.
+
+{% hint style="warning" %}
+**Criterio de liberación:** no envíes un módulo a corte solo porque figura como creado o verificado. La aprobación de fabricación exige comprobar el **despiece efectivo de esa producción**, incluidas cantidades, materiales, cantos, vetas y herrajes.
+{% endhint %}
 
 ---
 
