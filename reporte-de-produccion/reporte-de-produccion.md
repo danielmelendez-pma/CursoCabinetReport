@@ -6,6 +6,16 @@ Esta lección recorre las áreas de trabajo del Reporte de Producción, sus opci
 
 **Otras lecciones del proceso:** [Opciones para abrir un reporte](README.md) · [Parámetros de producción](parametros-de-produccion.md) · [Revisión de tableros y cantos](revision-de-tableros-y-cantos.md) · [Archivos generados](archivos-de-reportes-generados.md).
 
+## Secuencia de trabajo de esta ventana
+
+1. **Identificar el trabajo:** confirma cliente, ambiente, referencia y datos del diseño.
+2. **Revisar el despiece:** comprueba módulos, piezas sueltas, cantidades, medidas, tableros, vetas y cantos; realiza las correcciones necesarias.
+3. **Preparar la generación:** revisa los parámetros y ejecuta las comprobaciones disponibles antes de crear los archivos RP.
+4. **Completar las revisiones posteriores:** verifica tableros y cantos en sus secciones correspondientes.
+5. **Optimizar y comprobar las salidas:** selecciona los parámetros y formatos de optimización, y contrasta los archivos resultantes con la producción revisada.
+
+Las capturas reflejan el recorrido histórico de la interfaz. Si los nombres o la posición de los controles difieren de tu versión instalada, verifica la función equivalente antes de continuar; no interpretes todas las capturas como una única pantalla actual.
+
 {% hint style="warning" %}
 **Antes de generar o fabricar:** verifica manualmente medidas, cantidades, materiales, cantos y piezas. Las alertas automáticas ayudan a detectar inconsistencias, pero no sustituyen la comprobación técnica.
 {% endhint %}
@@ -50,7 +60,7 @@ Lugar donde se muestra toda la lista de piezas:
 
 <figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Puede cambiar la lista entre Módulos y Pieza sueltas
+En la interfaz documentada se puede alternar la vista entre **módulos** y **piezas sueltas**. Comprueba en cuál de las dos estás antes de editar.
 
 <figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -70,7 +80,7 @@ Cabinet Report de manera automática te hace un conteo de piezas:
 * **Total Piezas:** es la cantidad de sumas de piezas en total de la producción
 * **Múltiplo de Producción:** es el indicador que estas trabajando con cantidades de Ejemplo: para 1 casas, 2 casas, etc.
 
-Esta información e importante para que puedas llevar un control visual de los cambios en cantidades
+Estos indicadores ayudan a controlar las cantidades. Después de multiplicar, dividir o mover piezas, compara el total previsto con el resultado mostrado.
 
 Además, Cabinet Report le asigna un número de control a tu Reporte RP, importante para poder llevar un control y métricas más adelante.
 
@@ -78,7 +88,7 @@ Además, Cabinet Report le asigna un número de control a tu Reporte RP, importa
 ## Herramientas para editar el Reporte de Producción
 <figure><img src="../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Si quieres agrupar las piezas que tienen mismo nombre, medidas y canteos en una sola fila.
+La herramienta permite agrupar filas con piezas de características coincidentes. **Verifica también material, orientación y la pertenencia al módulo** antes de consolidarlas; nombres y medidas iguales no prueban por sí solos que dos piezas sean intercambiables.
 
 Ejemplo si tienes:
 
@@ -96,7 +106,7 @@ Si quieres que Cabinet Report Invierta las medidas con un solo clic en cada piez
 
 <figure><img src="../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Haciendo clic en el icono de las 2 flechas, la medidas de ancho y largo cambian de posición.
+En la interfaz documentada, el icono de las dos flechas intercambia ancho y largo. **Antes de aplicar el cambio**, revisa la orientación, la veta y los cantos; intercambiar medidas no demuestra por sí solo que la pieza admita giro.
 
 ---
 <figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
@@ -114,11 +124,11 @@ Con la opción de **Filtrar Aglomerado**, puedes reducir la lista de tableros si
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-Si quieres cambiar los tableros de todas las piezas iguales, no necesitas hacerlo una a una, Cabinet Report la cambia de manera automática por ti, solo le debes informar que lo haga.
+Al reemplazar un tablero, revisa si la opción de aplicación masiva está activada. **Comprueba todas las filas afectadas** para evitar asignar un material equivocado a piezas con medidas similares.
 
 <figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
 
-Si quieres cambiar el nombre de un canto o reemplazar un color o espesor de canto por otro para todos los catos iguales uno a uno, Cabinet Report la cambia de manera automática por ti, solo le debes informar que lo haga.
+Al reemplazar un canto, revisa si se aplicará a una pieza o a múltiples coincidencias. **Confirma los lados, colores y espesores afectados** antes de guardar los cambios.
 
 Pero si no quieres que Cabinet Report haga los procesos automáticos, simplemente desmarca la opción en la parte superior derecha de la ventana de Reporte de Producción y tú tendrás el control de todos los cambios sin automatización:
 
@@ -272,11 +282,11 @@ Una vez revisado y estando listo para generar el Reporte de Producción RP, hace
 
 <figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
 
-Si todo sale bien en las revisiones que te hace Cabinet Report, te pregunta donde vas a guardar el archivo RP
+En el recorrido documentado, cuando la generación pasa las comprobaciones correspondientes, se muestra la selección del destino del archivo RP. Verifica la ubicación elegida y comprueba luego que el archivo se haya generado con el contenido previsto.
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
-Pero si hay algo mal, algo inconsistente, los algoritmos de revisión de Cabinet Report lo van a detectar y te mostrará mensajes de alertas.
+Si alguna comprobación encuentra una inconsistencia, la aplicación puede presentar alertas. **La ausencia de alertas no significa que todas las medidas, materiales o fórmulas sean correctos**; mantén la revisión manual.
 
 ---
 ## Revisiones automáticas y filtros de errores
@@ -297,7 +307,7 @@ Detecta error si quieres enchapar unas piezas pero no escribiste bien la frase E
 
 Si vas a enchapar 2 piezas y solo colocas a fabricar 1, te detecta y te informa que deben ser 2 piezas para poder enchaparla.
 
-Si su producción contiene cantos de 2mm y no activó la automatización de Reducción automática en piezas, Cabinet Report lo detecta y pregunta si lo desea activar o mantener desactivado.
+Una captura histórica muestra un aviso relacionado con cantos de **2 mm** y la reducción automática de piezas. **No se debe deducir de esta captura el umbral exacto del algoritmo**: la lección de [Parámetros de Producción](parametros-de-produccion.md) conserva una discrepancia pendiente entre la opción «Mayor a 2 (>2)» y ese ejemplo. Confirma el comportamiento con una prueba de tu versión antes de aplicarlo.
 
 <figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
@@ -317,7 +327,7 @@ Si necesitas hacer un cambio y ya has generado el RP, no te va a permitir hacer 
 
 ---
 ## Revisar aglomerados
-Una vez generado el archivo de producción, el siguiente paso es Activar Revisar Aglomerados
+En el recorrido de generación documentado, después se utiliza **Revisar Aglomerados** para comprobar la clasificación de los tableros. Antes de avanzar, comprueba que los materiales de la producción sean los esperados.
 
 <figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -333,7 +343,7 @@ Una vez activado, se desplegará la lista de tableros que componen la producció
 
 Hacer clic aquí para desplegar los cantos.
 
-Una vez revisado los tableros, el siguiente paso es Activar Revisar los Cantos.
+Después de comprobar los tableros, utiliza **Revisar Cantos** para verificar los materiales de canto y su clasificación. Revisa las asignaciones antes de optimizar.
 
 Una vez activado, se desplegará la lista de cantos que componen la producción actual y debe seleccionar de las opciones a que parte del mueble corresponde cada canto:
 
@@ -351,17 +361,17 @@ Hacer clic aquí para iniciar
 
 Si llegado a este punto, y activa **Optimizar Producción** y algún proceso no se completó, Cabinet Report le enviará este mensaje
 
-Luego de que todos los procesos previos estén correctos y completos, Cabinet Report empieza a revisar que no exista piezas duplicadas o alguna faltante en los archivos generados y si todo está correcto, te muestra el siguiente mensaje:
+La optimización requiere completar los procesos previos previstos por la interfaz. La aplicación puede ejecutar controles de consistencia y mostrar un mensaje al finalizar; **no presupongas que detecta todos los duplicados o faltantes**. Contrasta los archivos generados con el despiece antes de enviarlos a fabricación:
 
 <figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Parámetros de optimización
 
-En la siguiente ventana puede cambiar de algoritmo de optimización, se recomienda Guillotina.
+En la ventana de optimización puedes elegir el algoritmo disponible. La documentación histórica menciona **Guillotina** como opción recomendada; su conveniencia depende del tablero, la máquina y las restricciones del corte.
 
 También colocar el espesor de la sierra para que se tome en cuenta para el cálculo de material.
 
-Si hay tableros sin vetas, se activa el giro de piezas, si desea puede desactivarlo.
+Si se ofrece el giro de piezas para materiales sin veta, verifica que la orientación y las restricciones de cada pieza permitan girarla. Un tablero sin veta no elimina las demás condiciones de fabricación.
 
 Por último coloca el grosor de resane que desea que se tome en cuenta al calcular los tableros.
 
@@ -381,7 +391,9 @@ Seleccione el **Software de Optimización** de su seccionadora para que se gener
 
 Cuanto tenga el Optimizador seleccionado, haga clic en **Generar**.
 
-Al finalizar el proceso le sale el mensaje de éxito.
+Al finalizar, verifica el mensaje de resultado **y abre los archivos generados**. Comprueba totales, dimensiones, tableros, cantos y formatos de salida según el optimizador seleccionado.
+
+Consulta la lección [Archivos de Reportes Generados](archivos-de-reportes-generados.md) para identificar cada salida.
 
 <figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

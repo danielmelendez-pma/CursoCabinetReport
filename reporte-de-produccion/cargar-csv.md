@@ -2,24 +2,22 @@
 
 **Curso de Cabinet Report · Importación CSV**
 
-Esta lección explica cómo preparar e importar un archivo CSV compatible para abrir su contenido en el Reporte de Producción. Conserva el orden de campos documentado y revisa los parámetros antes de iniciar.
+Esta lección explica la secuencia documentada para importar un CSV en el Reporte de Producción. Antes de usar el resultado, contrasta la estructura del archivo con el importador disponible en tu versión.
 
 {% hint style="info" %}
 **Compatibilidad:** verifica el formato del archivo de origen y las opciones disponibles en tu versión de Cabinet Report. Un archivo con la extensión correcta no garantiza que sus datos puedan importarse.
 {% endhint %}
 
-Para abrir archivos CSV generados por software de Diseños como Promob u otros.
-
-No funciona para otros archivos.
+La documentación original presenta la importación de archivos procedentes de programas de diseño como **Promob**. La compatibilidad depende del formato exportado y de la opción de importación de Cabinet Report; no presupongas que cualquier CSV puede abrirse.
 
 <figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Si su empresa cuenta con el Software de diseños Promob, esta funcionalidad le va a ayudar a convertir los archivos CSV generados y poder abrirlos dentro de Cabinet Report y a partir de aguí generar los Reportes de Producción...
+Si trabajas con un CSV generado por un programa de diseño, primero comprueba que las columnas y los valores correspondan con el formato que admite Cabinet Report. La importación es el punto de entrada; aún debes revisar las piezas antes de generar producción.
 
 ---
-## Formato de columnas requerido
+## Campos del formato documentado
 
-La lección original documenta los campos en este orden:
+La lección original muestra estos campos en este orden. Es una referencia para revisar el archivo de origen; **la presencia de los nombres por sí sola no confirma compatibilidad**:
 
 CLIENTE;
 
@@ -61,8 +59,12 @@ Al hacer clic, primero debe seleccionar las opciones de **Parámetros de producc
 1. Seleccionar los tipos de vetas que contienen los materiales de la producción.
 2. Seleccionar las automatizaciones que necesita.
 3. Activar Packing List si lo necesita.
-4. Si va a generar un RP nuevo, Seleccionar Generar Nuevo RP, sino, Seleccionar Modificar RP Anterior.
-5. Hacer clic en **Importar CSV de CutPro**.
+4. Selecciona **Generar Nuevo RP** si vas a iniciar un reporte, o **Modificar RP Anterior** si corresponde continuar uno existente. Confirma la opción elegida para evitar mezclar producciones.
+5. Haz clic en **Importar CSV de CutPro**, nombre del control documentado en esta lección.
+
+{% hint style="warning" %}
+**Nombre de la opción y origen del archivo:** esta página menciona archivos de Promob, pero el control se denomina «Importar CSV de CutPro». La coincidencia de formatos entre programas no queda demostrada aquí. Comprueba el archivo de prueba en la versión instalada; no renombres el control ni supongas compatibilidad universal.
+{% endhint %}
 
 ## 2. Selecciona el archivo CSV
 
@@ -72,7 +74,11 @@ Después de configurar los parámetros, selecciona el **archivo CSV**:
 
 ## 3. Abre el Reporte de Producción
 
-Hacer clic en abrir y se mostrará el **Reporte de Producción**.
+Haz clic en **Abrir** para acceder al **Reporte de Producción**.
+
+## 4. Comprueba la importación
+
+Antes de generar el RP, compara el cliente, ambiente, cantidad de filas y piezas, dimensiones, tableros, vetas y cantos con el CSV original. Si hay diferencias, corrige el origen o revisa la compatibilidad antes de continuar con la [revisión de tableros y cantos](revision-de-tableros-y-cantos.md) y la [guía de la ventana](reporte-de-produccion.md).
 
 ---
 

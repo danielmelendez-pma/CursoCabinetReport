@@ -6,6 +6,17 @@ El Reporte de Producción agrupa distintas formas de comenzar o recuperar un tra
 
 **Accesos por objetivo:** [Cargar CSV](cargar-csv.md) · [Cargar TXT](cargar-txt.md) · [RP a TXT](rp-a-txt.md) · [Reporte en Blanco](reporte-en-blanco.md).
 
+## Elige cómo comenzar
+
+| Si tienes… | Utiliza… | Comprueba antes de continuar |
+| --- | --- | --- |
+| Un CSV exportado desde un programa de diseño | [Cargar CSV](cargar-csv.md) | La compatibilidad de los campos y del importador. |
+| Un TXT de producción compatible | [Cargar TXT](cargar-txt.md) | Cliente, ambiente, columnas y datos de las piezas. |
+| Un Excel RP de Cabinet Report que editaste | [RP a TXT](rp-a-txt.md) | Que la estructura original de la hoja se conserva. |
+| Solo las medidas y los datos de piezas por ingresar | [Reporte en Blanco](reporte-en-blanco.md) | El cliente, ambiente y materiales que registrarás. |
+
+**Importante:** estas son alternativas de entrada, no cuatro pasos consecutivos. Si buscas las herramientas de edición y generación, continúa en la [guía detallada de la ventana](reporte-de-produccion.md).
+
 Al hacer clic en **Reporte de Producción** se despliega un menú con estas opciones. Cada apartado incluye su captura y el enlace a la explicación detallada:
 
 <figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
@@ -14,15 +25,11 @@ Al hacer clic en **Reporte de Producción** se despliega un menú con estas opci
 
 ## <mark style="color:$primary;">**Cargar CSV**</mark>
 
-Para abrir archivos CSV generados por software de Diseños como Promob u otros.
-
-<mark style="color:$primary;">No funciona para otros archivos.</mark>
+Permite intentar importar archivos CSV con la estructura admitida por el importador de Cabinet Report. **No basta que un archivo termine en `.csv`**: comprueba su formato y su origen antes de utilizar los datos.
 
 ## <mark style="color:$primary;">**Cargar TXT**</mark>
 
-Para abrir archivos TXT generados por Cabinet Report, Catálogo de Módulos o archivos TXT generados por otros software compatible.
-
-<mark style="color:$primary;">No puede abrir archivos TXT que no tenga el formato de compatibilidad con Cabinet Report.</mark>
+Abre archivos TXT de producción compatibles, incluidos los generados por Cabinet Report y el Catálogo de Módulos. Los TXT de otras aplicaciones requieren un formato compatible; comprueba la estructura antes de importarlos.
 
 <figure><img src="../.gitbook/assets/image (51).png" alt="" width="155"><figcaption><p><a href="cargar-txt.md"><mark style="color:$primary;">Ver Cómo</mark></a></p></figcaption></figure>
 
@@ -30,17 +37,11 @@ Para abrir archivos TXT generados por Cabinet Report, Catálogo de Módulos o ar
 
 ## <mark style="color:$primary;">**RP a TXT**</mark>
 
-Para convertir los Excel RP previamente generados por Cabinet Report, al archivo TXT de producción.
-
-Esto en caso de que el usuario haya modificado manualmente el archivo de Excel RP
-
-<mark style="color:$primary;">No funciona si el usuario cambia el formato y no sigue el mismo patrón a modificar el RP.</mark>
+Convierte un Excel RP previamente generado por Cabinet Report en un TXT de producción, por ejemplo después de editar datos del reporte. **Conserva el diseño original del Excel** y verifica el TXT resultante antes de abrirlo.
 
 ## <mark style="color:$primary;">**Reporte en Blanco**</mark>
 
-En esta sección puede crear un archivo de producción con piezas libremente, sin abrirlo desde Catálogo ni generarlo desde RP ni de CSV.
-
-<mark style="color:$primary;">Ideal para crear un listado de piezas sueltas que no necesite un Catálogo o una producción especial.</mark>
+Crea un archivo de producción mediante ingreso manual de piezas, sin partir de un CSV, TXT ni Excel RP. Es útil para preparar piezas sueltas o un módulo desde la herramienta de reporte manual.
 
 <figure><img src="../.gitbook/assets/image (53).png" alt="" width="156"><figcaption><p><a href="reporte-en-blanco.md"><mark style="color:$primary;">Ver Cómo</mark></a></p></figcaption></figure>
 
