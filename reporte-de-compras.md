@@ -133,6 +133,59 @@ El recorrido ilustrado finaliza con una **plantilla XLSX** del proveedor. Antes 
 
 Para consultar el alcance actualizado de ambas modalidades, visita la [Documentación oficial — Reporte de Compras](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-compras).
 
+
+## Ensayo reproducible: del reporte de compras a la recepción de materiales
+
+Este ensayo complementa la generación del Excel con un **control manual de abastecimiento y entrega a fabricación**. No es una función de recepción, reserva de inventario ni liberación automática atribuida a Cabinet Report. Sirve para comprobar que lo solicitado, lo recibido y lo destinado a cada ambiente corresponden a la misma producción.
+
+### 1. Preparar las referencias del control
+
+1. Conserva copia de los **RP revisados**, sus archivos de materiales y el **Excel de Compras** realmente generado. Identifica cliente, ambiente, referencia, fecha, versión del archivo y responsable; si usaste **Varios ambientes**, guarda también la hoja y el TXT de trazabilidad.
+2. Comprueba qué ambientes y fuentes fueron **incluidos o excluidos**. Si el Excel consolidado no desglosa las partidas por ambiente, utiliza los archivos originales para reconstruir ese reparto; **no atribuyas cantidades por suposición**.
+3. Anota por partida la **descripción completa, material, espesor, formato/presentación y unidad de compra**. Convierte paquetes, hojas, metros o unidades solo cuando conozcas y puedas demostrar su equivalencia. No sumes unidades distintas.
+4. Registra por separado el documento enviado al proveedor, el comprobante de recepción y la verificación física. **Un Excel de Compras no demuestra que exista un pedido emitido ni que el material haya llegado.**
+
+### 2. Ejemplo didáctico con dos ambientes
+
+Supón que un consolidado revisado de **un mismo cliente** requiere las siguientes cantidades. Son cifras inventadas para practicar el control, **no resultados de Cabinet Report, consumos estándar ni reglas de cálculo del RP**. «Ambiente A» y «Ambiente B» representan dos fuentes que el responsable ya comprobó.
+
+| Insumo y especificación ilustrativa | Unidad | Ambiente A | Ambiente B | Total solicitado | Recibido conforme | Pendiente |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Tablero blanco, **18 mm**, formato acordado | hojas | 3 | 2 | **5** | **4** | **1** |
+| Canto blanco, **22 mm** de ancho | metros | 20 | 20 | **40** | **30** | **10** |
+| Bisagra modelo X, referencia confirmada | unidades | 8 | 16 | **24** | **24** | **0** |
+
+Para verificar el ejemplo:
+
+1. Suma por ambiente **únicamente dentro de la misma partida y unidad**: tableros 3 + 2 = 5, canto 20 + 20 = 40 y bisagras 8 + 16 = 24.
+2. Contrasta lo recibido **físicamente y conforme a especificación**, no solo el número de bultos de la factura. En este ejemplo llegan cuatro tableros correctos; falta uno.
+3. Imagina que llegan 40 metros de cinta, pero **10 metros tienen 19 mm de ancho** en vez de los 22 mm solicitados. Por eso solo **30 metros son conformes** y permanecen pendientes 10; la coincidencia de cantidad bruta no resuelve una diferencia técnica.
+4. Aunque las 24 bisagras sean conformes, **el lote completo no está apto para liberación a fabricación** por los faltantes de tablero y canto. No compenses un material con otro ni distribuyas el faltante silenciosamente entre ambientes.
+
+### 3. Conciliar y autorizar la salida del almacén
+
+En una hoja de control externa o acta de recepción, utiliza una fila **por especificación y unidad homogénea**, con estos campos mínimos:
+
+| Campo del control | Evidencia que debe conservarse |
+| --- | --- |
+| Origen | Cliente, ambiente, RP, referencia, versión de Excel de Compras y archivos seleccionados |
+| Solicitud | Partida, código o descripción del material, espesor/formato, unidad y cantidad requerida |
+| Recepción | Documento de entrega, fecha, cantidad física, especificación comprobada y responsable |
+| Diferencia | Cantidad pendiente, material no conforme, motivo y acción correctiva |
+| Destino | Ambiente o frente de trabajo autorizado, cantidad asignada y registro de entrega |
+| Aprobación | Responsable, fecha y decisión; vínculo a los documentos de respaldo |
+
+**Criterios del ensayo:**
+
+- **APTO PARA LIBERACIÓN:** todas las partidas requeridas para el alcance autorizado están recibidas y conformes, su unidad es comparable y la distribución por ambiente está documentada.
+- **NO APTO:** hay faltantes, materiales con especificación distinta, fuentes no conciliadas o dudas sobre el cliente y el ambiente. Mantén esas partidas fuera de fabricación hasta resolverlas.
+- **LIBERACIÓN PARCIAL CONTROLADA:** solo si se identifica **qué ambiente o trabajo específico** tiene todos sus insumos conformes, el responsable autoriza esa salida y queda documentado lo que sigue pendiente. No equivale a dar por completado el consolidado.
+
+Si cambia el RP, la selección de ambientes o la especificación aprobada, conserva las versiones anteriores y **repite la conciliación** antes de continuar. La prueba se considera reproducible cuando otra persona puede seguir cada cantidad desde su fuente hasta la recepción y el destino, sin depender de una suma global ni de confirmaciones verbales.
+
+Para enlazar el control con las etapas siguientes, consulta [Orden de Producción](orden-de-produccion.md), [Optimizadores](optimizadores.md) y el [índice del Reporte de Producción](reporte-de-produccion/README.md). Antes de entregar una plantilla al proveedor de corte y canteo, conserva adicionalmente la comparación entre dimensiones aprobadas y exportadas explicada en esta misma lección.
+
+
 ---
 
 [← Reporte de Producción](reporte-de-produccion/README.md) · [Orden de Producción →](orden-de-produccion.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
