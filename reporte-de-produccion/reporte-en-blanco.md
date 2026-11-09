@@ -19,9 +19,12 @@ Para preparar fórmulas reutilizables consulta [Creación de Piezas](../creacion
 
 ## 1. Identificar la producción
 
-1. Escribe el **nombre del cliente** y el **ambiente**.
-2. Selecciona **Crear Nuevo** para comenzar el archivo TXT.
-3. Si necesitas continuar una producción existente, utiliza la opción para **abrir un archivo TXT**. Verifica la identidad y el contenido de ese archivo antes de editarlo.
+Elige **una sola** de estas rutas según tu punto de partida:
+
+- **TXT nuevo:** escribe el **nombre del cliente** y el **ambiente** y selecciona **Crear Nuevo**.
+- **TXT existente:** utiliza la opción para **abrir un archivo TXT** y confirma su cliente, ambiente y contenido antes de editarlo.
+
+No es necesario crear otro archivo si vas a continuar una producción compatible que ya existe.
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
