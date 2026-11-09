@@ -32,6 +32,10 @@ Una misma fórmula puede producir resultados distintos si cambian `PROF`, `ANCHO
 
 La elección del tablero y su espesor debe corresponder a la pieza real. `ESPC` y `ESPV` pueden tener valores diferentes.
 
+{% hint style="warning" %}
+**Variable histórica sin definición comprobada:** la fórmula de la `BASE` en [Creación de Piezas](creacion-de-piezas.md) contiene `CART`, pero esta lección no acredita su significado técnico. No sustituyas `CART` por `RESP` ni le atribuyas **3 mm** o **4 mm** por inferencia. Comprueba su procedencia y valor efectivo en la versión y el catálogo utilizados.
+{% endhint %}
+
 ## 3. Cantos
 
 | Variable | Uso documentado |
@@ -95,6 +99,8 @@ Como ejemplo **didáctico**, no como valores predeterminados del programa, consi
 
 El resultado sería un **ancho de 447 mm por hoja**: `(900 - 2 - 2 - 2) / 2 = 447`; y un **alto de 776 mm**: `780 - 2 - 2 = 776`. El espesor de 18 mm se indica en el campo correspondiente de la pieza.
 
+**Comparación con Creación de Piezas:** el ejemplo histórico muestra **448 mm** por puerta, pero no documenta los valores efectivos de todas sus luces. Los **447 mm** de este ejercicio solo resultan de los valores didácticos indicados arriba; la diferencia **no demuestra por sí sola** un error en la fórmula histórica.
+
 {% hint style="warning" %}
 **Comprueba qué representa cada descuento.** El ancho del cuerpo del mueble no equivale necesariamente al ancho de una puerta. Tampoco debe suponerse que las luces de este ejemplo sean las configuradas para otro cliente, catálogo o tipo de apertura.
 {% endhint %}
@@ -106,7 +112,10 @@ El resultado sería un **ancho de 447 mm por hoja**: `(900 - 2 - 2 - 2) / 2 = 44
 3. Comprueba los parámetros de luces, ranuras, rieles y pines que intervienen en la fórmula.
 4. Introduce o revisa por separado las expresiones de **espesor, ancho y largo** de la pieza.
 5. Verifica el resultado calculado, la orientación, el material y los cantos por lado.
-6. Contrasta las medidas con el diseño y vuelve a revisarlas en el **Reporte de Producción**.
+6. Si interviene una variable sin definición o valor comprobable, **no deduzcas un resultado numérico definitivo** hasta verificar su procedencia.
+7. Contrasta las medidas con el diseño y vuelve a revisarlas en el **Reporte de Producción**.
+
+Consulta también la [Documentación oficial del Reporte de Producción](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion) para entender las comprobaciones del despiece y de los parámetros por cliente.
 
 ## Continúa el aprendizaje
 

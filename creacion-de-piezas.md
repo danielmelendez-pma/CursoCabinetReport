@@ -9,7 +9,7 @@ Después de conocer las [variables de cálculo](formulas-y-variables.md), contin
 ## Creador de Piezas
 
 > 💡 **Importante**\
-> Un Creador de Piezas bien configurado garantiza que Cabinet Report genere información confiable, minimizando errores humanos y mejorando la eficiencia en el proceso productivo.
+> Una definición de pieza revisada ayuda a mantener un despiece consistente. **Guardar una fórmula o ver una medida calculada no garantiza que la pieza sea fabricable**: comprueba su resultado para el módulo, los materiales y los parámetros del cliente.
 
 ***
 
@@ -21,15 +21,15 @@ La sección del Creador de Piezas se divide en tres partes:
 
 ## Lista de Piezas Guardadas
 
-Aparecen las piezas existentes creadas y las nuevas que se creen con sus propias fórmulas
+Muestra las piezas existentes y las nuevas definiciones guardadas con sus fórmulas. Antes de crear una nueva, busca si ya existe una equivalente y comprueba que sus expresiones correspondan al módulo que estás preparando.
 
-También tiene un campo para desactivar si desea editar una pieza creada.
+La interfaz documentada también incluye un control relacionado con la edición de piezas existentes; identifica su estado antes de modificar una definición que otros módulos puedan utilizar.
 
 ## Área de Fórmulas
 
-Para colocar el nombre de la pieza y sus fórmulas para las medidas de:
+Aquí se indica el nombre de la pieza y se preparan las expresiones de sus tres dimensiones, cada una en su campo:
 
-ESPESOR X ANCHO X LARGO
+**ESPESOR X ANCHO X LARGO**
 
 <figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
@@ -37,7 +37,20 @@ ESPESOR X ANCHO X LARGO
 
 ## Sección de Variables
 
-Lista de variables que le ayuda a crear las formulas de cada una de sus piezas.
+Lista de variables que ayuda a construir las fórmulas de las piezas. Antes de utilizarlas, revisa la definición y el valor aplicado en el contexto del módulo; consulta [Fórmulas y Variables](formulas-y-variables.md).
+
+## Secuencia para definir o revisar una pieza
+
+1. **Localiza la pieza** en el listado o identifica la nueva definición que necesitas.
+2. **Revisa el módulo de referencia** y sus dimensiones `PROF`, `ANCHO` y `ALTO`.
+3. **Comprueba los valores de variables** de espesores, luces, ranuras y demás descuentos que intervienen.
+4. **Introduce por separado** la expresión de espesor, ancho y largo.
+5. **Asigna los cantos por lado** y confirma material y orientación cuando se definan en tu flujo.
+6. **Contrasta el resultado** con medidas conocidas antes de guardar o reutilizar la pieza.
+
+{% hint style="info" %}
+Si una variable carece de definición o no puedes verificar su valor efectivo, **no deduzcas su valor únicamente a partir del resultado mostrado en un ejemplo**. Señala el dato pendiente de validación.
+{% endhint %}
 
 ***
 
@@ -59,6 +72,8 @@ En los ejemplos siguientes, cada pieza presenta **espesor, ancho y largo**, adem
 ## Ejemplo de fórmulas por pieza
 
 Para un mueble base de 580 x 900 x 780, con 2 puertas con 1 tablilla y respaldo de cartón 4mm, donde el cajon interno es color blanco 15mm y las partes vistas es color madera 18mm, tomando en cuenta que el costado izquierdo es visto:
+
+**Cómo leer este ejemplo histórico:** las dimensiones iniciales describen el mueble; los resultados siguientes corresponden a cada pieza. Las luces, ranuras y otros descuentos no están acompañados de todos sus valores efectivos. **No reutilices los resultados como medidas estándar de fabricación**.
 
 <figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -198,6 +213,17 @@ CANTO IZQUIERDO = CVISTO
 CANTO DERECHO = CVISTO
 
 ***
+
+## Comprueba los ejemplos antes de reutilizarlos
+
+1. **Valida el módulo y sus unidades:** que 580 × 900 × 780 y los resultados mostrados correspondan a tus referencias de diseño.
+2. **Identifica las variables.** La fórmula de la `BASE` utiliza `CART`, pero aquí no consta su definición ni su valor efectivo. No la equipares automáticamente con `RESP`.
+3. **Confirma el espesor real del respaldo:** la introducción menciona **4 mm** y el resultado histórico de **RESPALDO CART** muestra **3 mm**. La discrepancia sigue **pendiente de comprobación técnica**.
+4. **Contrasta las puertas:** esta lección muestra **448 mm** por hoja; el ejemplo didáctico de [Fórmulas y Variables](formulas-y-variables.md) muestra **447 mm**, calculados con luces expresamente asumidas. Sin los valores efectivos de este caso, **no se puede corregir un resultado por comparación directa**.
+5. **Revisa los cantos y la orientación:** cada borde tiene una función; confirma material, veta, ancho y largo antes de fabricar.
+6. **Prueba con tu configuración:** comprueba los valores efectivos del cliente y del módulo, y revisa las piezas resultantes en el RP.
+
+Para consultar las funciones y precauciones relacionadas, revisa el [Creador de piezas en la Documentación oficial](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/creador-de-piezas) y la [guía del Reporte de Producción](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion).
 
 ---
 
