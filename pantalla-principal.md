@@ -1,6 +1,12 @@
 # Pantalla Principal
 
-Esta es la ventana principal que le aparecerá luego de haber iniciado sesión:
+**Etapa del curso · Conoce el entorno**
+
+Después de iniciar sesión, encontrarás la ventana principal de Cabinet Report. En esta lección identificarás sus áreas antes de comenzar a trabajar con materiales, piezas y módulos.
+
+La imagen general y las pestañas numeradas que aparecen más abajo permiten relacionar cada zona de la pantalla con su explicación.
+
+Esta es la ventana principal que aparece después de iniciar sesión:
 
 <figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -59,3 +65,9 @@ En esta barra verá:
 * Boton de actualizacion de parámetros y conexión
 {% endtab %}
 {% endtabs %}
+
+## Próximo paso
+
+Cuando identifiques las áreas de trabajo, continúa con [**Creación de Tableros**](creacion-de-tableros.md) o consulta [**Fórmulas y Variables**](formulas-y-variables.md) si necesitas conocer los parámetros empleados en las lecciones técnicas.
+
+[← Volver a la portada del Curso](README.md)

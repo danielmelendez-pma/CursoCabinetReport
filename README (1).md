@@ -1,6 +1,16 @@
+---
+description: >-
+  Primeros pasos para acceder a Cabinet Report: datos de cliente, licencias,
+  instalación e inicio de sesión.
+---
+
 # Funciones de Ingreso y Licencias
 
-Para utilizar Cabinet Report necesita:
+**Primera etapa del curso · Preparación y acceso**
+
+Antes de pasar a la pantalla principal y preparar una producción, revisa estos elementos de acceso. Esta lección reúne la información y los pasos de instalación y activación documentados en el curso.
+
+Para utilizar Cabinet Report necesitas:
 
 1. Nombre de Cliente
 2. Licencia de Cliente
@@ -24,3 +34,8 @@ Puedes ver el video de Youtube con la explicación de Cómo se instala y Activa 
 {% endcolumn %}
 {% endcolumns %}
 
+## Continúa con la siguiente lección
+
+Cuando hayas completado la configuración que corresponda a tu instalación, consulta [**Inicio de Sesión**](inicio-de-sesion.md) y luego [**Pantalla Principal**](pantalla-principal.md) para familiarizarte con el entorno.
+
+[← Volver a la portada del Curso](README.md)
