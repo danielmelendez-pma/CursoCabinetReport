@@ -201,7 +201,7 @@ Piezas movidas a piezas sueltas:
 ---
 ## Mover piezas sueltas a un módulo
 
-Si hay un grupo de piezas en la lista de piezas sueltas pero en realidad pertenecen a un módulo o forman un módulo, puede moverlas seleccionandolas y haciendo clic en **Mover Piezas****.**
+Si hay un grupo de piezas en la lista de piezas sueltas pero en realidad pertenecen a un módulo o forman un módulo, puede moverlas seleccionandolas y haciendo clic en **Mover Piezas**.
 
 <figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
