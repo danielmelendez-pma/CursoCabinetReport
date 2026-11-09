@@ -226,6 +226,46 @@ Y si todo sale bien, Cabinet Report te avisa que el proceso se completó
 <figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 ---
+
+## Ensayo reproducible: mover piezas sin perder ni duplicar cantidades
+
+Este ensayo de **control documental** comprueba la transferencia entre **módulos** y **piezas sueltas** descrita arriba. No es una prueba automatizada del programa ni una autorización para fabricar.
+
+### Prepara un caso de prueba
+
+1. Trabaja con una **copia identificada de la producción** y conserva el origen sin cambios. Anota cliente, ambiente, referencia, número RP (si existe) y fecha de la comprobación.
+2. Elige un módulo de prueba con **al menos cuatro filas de piezas** y una fila cuya cantidad sea **1**. De este modo podrás revisar tres filas restantes sin confundir el ensayo con la reorganización de un módulo pequeño.
+3. Registra antes del movimiento las filas del módulo y de piezas sueltas. Para la pieza seleccionada, anota nombre, cantidad, espesor, ancho, largo, tablero/material, veta y canto de cada lado; incorpora código o identificador si aparece en tu vista.
+4. Anota el **total físico de unidades de pieza**: suma de cantidades del módulo de prueba y de la lista de piezas sueltas. No utilices el número de filas ni el total de módulos como sustituto de esa suma.
+
+### Ejecuta la transferencia y el retorno
+
+1. En el módulo de prueba, selecciona **solo la fila registrada** y utiliza **Mover Piezas**, siguiendo las pantallas del apartado anterior. Verifica la selección antes de confirmar.
+2. Abre **Piezas Sueltas** y localiza la pieza transferida. Compárala campo por campo con el registro inicial; comprueba además que no permanezca otra unidad no justificada en el módulo de origen.
+3. Vuelve a contar las unidades de pieza del módulo y de piezas sueltas. La cantidad trasladada debe **restarse del origen y aparecer en destino**, sin cambiar el total conjunto. Comprueba también las filas no seleccionadas.
+4. Desde **Piezas Sueltas**, selecciona esa pieza y utiliza **Mover Piezas** para devolverla al módulo original, conforme al apartado siguiente. Verifica el módulo de destino antes de confirmar.
+5. Compara el estado final con el inicial: pertenencia al módulo, cantidades, dimensiones, espesor, material, veta y cuatro cantos. Si el sistema presenta identificadores, registra cualquier diferencia para su revisión; **no presupongas** que una transferencia conserva el identificador interno.
+
+### Evidencias y criterios de resultado
+
+| Comprobación | Resultado esperado |
+| --- | --- |
+| Salida del módulo | La unidad seleccionada deja de contabilizarse en el origen. |
+| Entrada a piezas sueltas | La misma unidad queda visible en destino con sus propiedades técnicas. |
+| Cantidad total | La suma de cantidades entre ambas vistas no aumenta ni disminuye por el traslado. |
+| Piezas no seleccionadas | Sus cantidades y propiedades se mantienen. |
+| Retorno al módulo | La pieza queda asignada al módulo previsto y el estado técnico vuelve a coincidir con el inicial. |
+
+Registra el resultado como **CONFORME** si las cinco comprobaciones se verifican; **NO CONFORME** si aparece una pérdida, duplicación, alteración técnica o destino incorrecto; **NO EJECUTADO** si no se realizó el ejercicio o no se dispone de evidencias suficientes.
+
+{% hint style="warning" %}
+**Si hay una discrepancia:** detén la generación y el envío a corte, conserva capturas y totales de ambos estados y recupera únicamente una **copia previamente comprobada**. No supongas que el mensaje de éxito equivale a integridad, que existe un deshacer automático o que mover piezas conserva por sí solo todos los metadatos y herrajes asociados.
+{% endhint %}
+
+Para continuar el control antes de fabricación, consulta [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) y [Archivos de Reportes Generados](archivos-de-reportes-generados.md).
+
+---
+
 ## Gestión de perfilería
 Desde Reporte de Producción puedes agregar la perfilería ZÓCALOS, TUBOS, GOLA, para que todo vaya dentro del reporte
 
