@@ -2,6 +2,8 @@
 
 Sigue el proceso para definir la estructura de un módulo, configurar sus piezas y fórmulas, y guardar el mueble en el catálogo. Las capturas se presentan en secuencia para facilitar su lectura en pantallas pequeñas.
 
+**Antes de comenzar:** prepara el catálogo en el que guardarás el módulo, un ejemplo de sus dimensiones y las piezas que lo componen. Si necesitas interpretar variables o fórmulas, consulta [Fórmulas y Variables](formulas-y-variables.md) y [Creación de Piezas](creacion-de-piezas.md). Esta lección conserva el recorrido de la interfaz documentada; verifica los controles disponibles en tu versión.
+
 <figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 ## Áreas del Creador de Módulos
@@ -18,11 +20,11 @@ Debe colocar los valores de medidas preliminares del módulo que va a crear o ed
 
 <figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
-Revisar y ajustar si se requiere, los parámetros del catálogo seleccionado o creado, esto para que al crear cada pieza con sus fórmulas, se vayan estableciendo las medidas importantes para el cálculo de cada pieza de su modulo que está creando o editando.
+Revisa los parámetros asociados al catálogo antes de calcular las piezas. Confirma que los valores elegidos correspondan al tipo de mueble y a sus medidas de referencia.
 
 **Parámetros del catálogo:**
 
-En esta sección se crean y editan las fórmulas de cálculo de cada una de sus piezas que se necesiten para su catálogo de módulos, para poder con cada una de estas piezas armar su mueble y poder sea utilizado en sus producciones.
+Esta sección reúne las definiciones usadas para calcular las piezas del módulo. Distingue las **variables y parámetros** de la **fórmula de cada pieza**: seleccionarlos no demuestra que el despiece resultante sea correcto. Contrasta una medida calculada con el diseño antes de guardar.
 
 <figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
@@ -44,7 +46,9 @@ También puede utilizar las piezas ya creadas en la base de datos pública de Ca
 
 ***
 
-## Paso a paso para crear un Módulo:
+## Paso a paso para crear un módulo
+
+### 1. Organiza el catálogo
 
 Crear o seleccionar el Catálogo:
 
@@ -74,6 +78,8 @@ Crear o seleccionar la Subcategorías:
 
 Por ejemplo, dentro de la Categoría de AEREOS C/PUERTA TIR, puedes crear las Subcategorías 1 PUERTA, 2 PUERTAS, 1 PUERTA ESQUINERO, Etc.
 
+### 2. Identifica el mueble
+
 Crear el Nombre o Descripción del Mueble:
 
 <figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -85,6 +91,8 @@ Crear el Nombre o Descripción del Mueble:
 **AÉREO TODO VISTO 2/PU 2/TAB RESP/CART TIR:** Mueble aereo con ambos costados vistos o con toda su estructura en el mismo color madera, con 2 puertas, 2 tablillas, respaldo de cartón y tirador tipo assa.
 
 <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
+### 3. Revisa las dimensiones y variables
 
 Ingresar las variables de medidas y espesores
 
@@ -99,6 +107,8 @@ Revisar estas variables para estar seguros que son las que vamos a aplicar al ca
 Aunque no se estén creando módulos gaveteros, es importante seleccionar el riel.
 
 <figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+
+### 4. Selecciona o crea las piezas
 
 Ya llegó el momento de seleccionar piezas del listado de piezas o crear nuevas piezas.
 
@@ -119,7 +129,9 @@ Si vas a crear una pieza empieza por:
 
 En la parte de abajo se pre-visualiza la medida de la pieza que se está creando
 
-Asignar que lados can canteados y con que típo de canto:
+### 5. Comprueba cantos y completa la descripción
+
+Asigna qué lados llevan canto y qué tipo de canto corresponde:
 
 <figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
@@ -138,6 +150,14 @@ Como ya te expliqué más arriba, en esta sección se agrega o elimina una image
 **SUBIR:** después de seleccionada la imagen, puede hacer clic en subir.
 
 **ELIMINAR:** si la imagen que subiste no es, puedes eliminarla.
+
+### 6. Verifica antes de guardar
+
+Antes de pulsar **CREAR** o **ACTUALIZAR**, compara el resultado con el diseño: dimensiones generales, fórmulas de ancho y largo, espesores, cantidades, lados canteados y descripción. Cuando corresponda, revisa también herrajes y accesorios. Una imagen ayuda a identificar el mueble, pero no reemplaza esta comprobación.
+
+{% hint style="warning" %}
+**Prueba la definición con medidas conocidas.** Las luces y otros parámetros pueden variar según el catálogo o el cliente. Una previsualización sin errores no garantiza que la pieza sea fabricable.
+{% endhint %}
 
 Por último, ya puedes hacer clic en **CREAR** para agregar el mueble a la base de datos de tu empresa, automáticamente se reflejará dentro del Catálogo seleccionado y estará listo para utilizar en tu producción
 
@@ -177,4 +197,4 @@ En la esquina derecha inferior aparece el símbolo de Verificación.
 
 ---
 
-[← Creación de piezas](creacion-de-piezas.md) · [Catálogo de módulos →](catalogo-de-modulos.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
+[← Creación de piezas](creacion-de-piezas.md) · [Fórmulas y variables](formulas-y-variables.md) · [Catálogo de módulos →](catalogo-de-modulos.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
