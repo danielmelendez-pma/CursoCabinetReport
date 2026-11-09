@@ -2,15 +2,13 @@
 
 **Curso de Cabinet Report · Conversión de archivos de producción**
 
-Utiliza esta opción cuando necesites recuperar los datos de un Excel RP después de editarlo, siempre que mantengas su estructura original. Sigue las capturas en orden antes de cargar el TXT resultante.
+Utiliza esta opción para convertir nuevamente en TXT un Excel RP generado por Cabinet Report, por ejemplo después de editarlo. La conversión requiere conservar su estructura original; sigue las capturas y verifica el TXT antes de continuar.
 
 **Consulta también:** [Cargar TXT](cargar-txt.md) · [Parámetros de producción](parametros-de-produccion.md) · [Reporte de Producción detallado](reporte-de-produccion.md).
 
 Para convertir los Excel RP previamente generados por Cabinet Report, al archivo TXT de producción.
 
-Esto en caso de que el usuario haya modificado manualmente el archivo de Excel RP
-
-No funciona si el usuario cambia el formato y no sigue el mismo patrón a modificar el RP.
+Es especialmente útil si modificaste manualmente datos del Excel RP. **Guarda una copia del Excel original** y evita mover o eliminar secciones, encabezados y columnas, porque la conversión depende del formato esperado.
 
 <figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -66,7 +64,7 @@ El archivo debe conservar el formato del reporte Excel RP, con las siguientes se
 <figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-**Compatibilidad:** si el Excel RP no conserva la estructura indicada, el archivo TXT puede generarse incorrectamente.
+**Compatibilidad:** no basta con que el archivo sea de Excel. Si el RP no conserva las secciones indicadas, la conversión puede fallar o producir un TXT incompleto. No utilices ese TXT en producción sin comprobarlo.
 {% endhint %}
 ---
 ## Procedimiento de conversión
@@ -79,19 +77,19 @@ Seleccionar el archivo de Excel RP:
 
 ### 2. Comprueba el contenido
 
-Cabinet Report analizará el archivo y, si es correcto, mostrará en pantalla lo que contiene:
+Cabinet Report analiza el archivo y puede mostrar su contenido. Comprueba que las secciones, cantidades y materiales reconocidos correspondan al Excel antes de generar el TXT:
 
 <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Genera el archivo TXT
 
-Hacer clic en **Generar TXT de Producción**
+Haz clic en **Generar TXT de Producción** cuando la vista previa corresponda con el Excel original.
 
 <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 4. Selecciona dónde guardarlo
 
-Indicar la ruta donde desea guardar el TXT de Producción:
+Selecciona dónde guardar el TXT de Producción. Para conservar una referencia, evita sobrescribir una versión anterior sin una copia de respaldo:
 
 <figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -101,7 +99,9 @@ Cabinet Report le informa que se ha generado y ya lo puede abrir, le muestra los
 
 <figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Hacer clic en abrir y se le abrirá el **Reporte de Producción**
+Haz clic en **Abrir** para acceder al **Reporte de Producción**. Antes de generar u optimizar, **compara el TXT convertido y el reporte abierto con el Excel de origen**: cliente, ambiente, módulos, piezas, cantidades, medidas, materiales y cantos. Si faltan datos, regresa al Excel original y revisa su estructura.
+
+Continúa con [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) y la [guía detallada de la ventana](reporte-de-produccion.md).
 
 <figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
