@@ -1,6 +1,6 @@
 # Parámetros de Producción
 
-Antes de importar un archivo TXT o CSV, revisa las opciones de vetas, automatizaciones, packing list y el tipo de reporte que vas a preparar.
+Antes de importar un archivo TXT o CSV, revisa las opciones de vetas, automatizaciones, packing list y el tipo de reporte que vas a preparar. Esta página describe las opciones de las capturas originales; la aplicación exacta de cada automatismo debe comprobarse con los materiales y la versión instalados.
 
 Cada vez que va a abrir un archivo CSV o TXT, debe seleccionar las opciones de **Parámetros de Producción**, según las condiciones de los materiales y lo que va a fabricar:
 
@@ -38,7 +38,11 @@ Te explico que significa cada automatización:
 
 **Activar Repasado de Cantos Mayor a 2 (>2):** Cabinet Report le reduce a cada pieza la medida que el usaurio le indique, para que el operador de la canteadora no tenga que reducir con la fresadora el espesor completo.
 
-Ejemplo: si el canto es de 2mm, Cabinet Report le reduce 1mm de cada lado a cada pieza y así la fresadora solo debe resanar 1mm y no 2mm
+Ejemplo conservado de la guía original: si el canto es de 2 mm, se describe una reducción de 1 mm por lado para el repasado.
+
+{% hint style="warning" %}
+**Regla por comprobar:** el nombre de la opción dice **«Mayor a 2 (>2)»**, pero el ejemplo anterior usa exactamente **2 mm**. La documentación no permite determinar por sí sola si ese ejemplo se aplica a la condición del control. Antes de activar esta automatización, verifica el umbral y las medidas resultantes en la versión instalada. No se modifica aquí ninguna regla de cálculo.
+{% endhint %}
 
 **Aplicar Medidas Mínimas de Fascias:** si el usuario ingresa una pieza o fascia de 30mm, Cabinet Report de manera automática la agranda a 60mm para que así pase sin problemas por las máquinas de Corte y Canteo.
 
@@ -46,7 +50,7 @@ Ejemplo: si el canto es de 2mm, Cabinet Report le reduce 1mm de cada lado a cada
 
 Invertir medida de Piezas sin Vetas: si el usuario activa que la producción contiene material sin vetas, Cabinet Report arregla medidas de algunas piezas:
 
-Ejemplos:
+Ejemplos de orientación recogidos en el curso (no deben aplicarse como regla universal a todas las piezas):
 
 PUERTA de 18X780X300 Cabinet Report la agrega a 18X300X780 sabiendo que primero debe colocar el ancho y luego la altura
 
@@ -76,14 +80,21 @@ RP Nuevo: Es una producción nueva que está generando.
 
 RP Anterior: Es que va a aplicar un cambio a un RP que había sido generado previamente, para eso debe colocar el  número del RP y con esto Cabinet Report entiende que está haciendo cambios a una producción anterior.
 
-Esto es importante ya que si no se usa de manera correcta, no puede llevar un control adecuado sobre las producciones.
+Esta elección afecta la identificación del trabajo en el historial de producción. Si vas a modificar un RP anterior, comprueba su número y la correspondencia con el cliente y ambiente antes de abrir el archivo.
 
 ***
 
-Una vez cumlido con lo anterior, estal listo para el siguiente paso y puede abrir su archivo
+### Lista de comprobación antes de importar
+
+1. Confirma el **cliente, ambiente y archivo de origen**.
+2. Revisa **vetas y automatizaciones** según los materiales reales; las opciones activadas pueden modificar piezas o nombres durante la carga.
+3. Selecciona **RP Nuevo** o **RP Anterior** y verifica el número del RP si estás recuperando una producción.
+4. Tras importar, continúa con la [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) y contrasta las medidas antes de generar archivos.
+
+Una vez cumplido lo anterior, puedes abrir el archivo correspondiente.
 
 <figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 ---
 
-[← Reporte en blanco](reporte-en-blanco.md) · [Revisión de tableros y cantos →](revision-de-tableros-y-cantos.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
+[← Reporte en blanco](reporte-en-blanco.md) · [Opciones del Reporte de Producción](README.md) · [Revisión de tableros y cantos →](revision-de-tableros-y-cantos.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
