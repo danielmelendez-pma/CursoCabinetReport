@@ -73,6 +73,19 @@ Revisa estos resultados en la lista de piezas calculadas:
 - **Vetas y cantos:** confirma la orientación y los lados que requieren canteo, sin asumir que un nombre de material basta para validarlos.
 - **Fórmulas y herrajes:** revisa cualquier fórmula ajustada para este mueble y los herrajes asociados.
 
+### Caso de control: puertas, luces y variables del cliente
+
+Si un módulo tiene **450 mm de ancho exterior**, no concluyas que una puerta deba medir 450 mm. Las luces, el sistema de apertura y la fórmula aplicable pueden producir una medida diferente. No se fija aquí un valor esperado (447, 448 mm u otro) sin comprobar **la fórmula de esa pieza y los parámetros efectivos del cliente**.
+
+Antes de aceptar un cálculo:
+
+1. Comprueba la **ficha del módulo** y que la fórmula consultada corresponda exactamente a la pieza seleccionada; no transfieras una fórmula de otra pieza solo por compartir nombre.
+2. Revisa las **luces, separaciones, espesores y demás variables** que intervengan. Un valor de parámetro **0** puede ser válido y no debe reemplazarse automáticamente por otro.
+3. Contrasta el **ancho y largo resultantes**, la orientación de veta y los lados de canto con el diseño y el tipo de apertura.
+4. Si cambias una fórmula para este mueble, **vuelve a calcular y revisar las piezas**. No supongas que esa corrección modificó la definición permanente del catálogo.
+
+Para el alcance de estos controles, consulta la [Documentación oficial del Catálogo de Módulos](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/catalogo-de-modulos) y la [guía del Reporte de Producción](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion).
+
 {% hint style="warning" %}
 **Un módulo del catálogo no es automáticamente un despiece validado.** Si aparece el aviso de módulo no verificado, comprueba las medidas y piezas antes de decidir si continúas. La revisión debe repetirse en el [Reporte de Producción](reporte-de-produccion/README.md).
 {% endhint %}
@@ -104,6 +117,8 @@ En este punto, comprueba en la carpeta del proyecto que se incorporaron los arch
 <figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
 
 Si ha seleccionado un mueble y desea agregar mas de una unidad del mismo, puede multiplicar sus cantidades desde aquí. También lo puede hacer manualmente.
+
+**Control de cantidades:** diferencia el número de **módulos** solicitados del número de **piezas** por módulo. Después de multiplicar, comprueba las cantidades finales de cada pieza y de los herrajes asociados antes de agregar la producción; no deduzcas el número de muebles únicamente del total de filas.
 
 <figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
