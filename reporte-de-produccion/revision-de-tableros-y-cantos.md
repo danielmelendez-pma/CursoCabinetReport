@@ -1,29 +1,42 @@
+---
+description: Verifica los tableros, cantos, tipos y archivos complementarios antes de continuar con la producción.
+---
+
 # Revisión de Tableros y Cantos
 
-Luego de abrir un archivo TXT o CSV, se activa la ventana de <mark style="color:$primary;">**Revisión de Tableros y Cantos**</mark>
+Después de abrir un archivo **TXT o CSV**, Cabinet Report presenta la ventana **Revisión de Tableros y Cantos**. Aquí debes comprobar que los materiales del archivo corresponden a los que realmente utilizarás.
 
 <figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-En esta ventana usted le indica a Cabinet Report si los Tableros y Cantos que esta cargando son los que realmente va a utilizar, de lo contrario, en esta ventana puede cambiarlos.
+## 1. Comprobar los materiales encontrados
 
-También Cabinet Report revisa la lista de Tableros para validar que todos estén registrados en la base de datos público o privado según el uso del cliente y de esa manera poder activar los algoritmos de revisión en la Orden de Producción.
+La ventana permite revisar los tableros y cantos detectados y verificar su correspondencia con los registros públicos o privados de la base de datos. Esta identificación se utiliza también en las comprobaciones posteriores de la Orden de Producción.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-Verifique siempre que:
+Antes de continuar, comprueba lo siguiente:
 
-A cada tablero se le haya asignado de manera correcta el Tipo AGL o MDF o CART, según sea el caso,&#x20;
+- **Tableros:** cada uno debe tener el tipo adecuado, por ejemplo **AGL**, **MDF** o **CART**, según corresponda.
+- **Cantos:** cada canto debe estar identificado con el tipo **CANTO**.
+- **Color del tablero:** si necesitas cambiarlo, selecciónalo en la lista desplegable de la derecha.
+- **Nombre del canto:** puedes modificarlo en el campo de la derecha, respetando el formato e indicando el espesor.
 
-A cada canto se le haya seleccionado el Tipo CANTO.
+{% hint style="warning" %}
+**Verificación técnica:** no confirmes automáticamente un material solo porque aparece en la lista. Revisa nombres, tipos y espesores frente al proyecto que vas a fabricar.
+{% endhint %}
 
-Si desea cambiar un color de Tablero solo debe seleccionarlo de la lista desplegable derecha.
+## 2. Revisar los totales
 
-Si desea cambiar el nombre de un canto, solo debe escribirlo a la derecha, manteniendo el formato y colocando el espesor.
+En la parte inferior de la ventana se muestran las cantidades de **tableros** y **cantos** encontrados en el archivo. Compáralas con la información que esperabas importar para identificar posibles diferencias.
 
-***
+<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure></div>
+## 3. Elegir los archivos complementarios y continuar
 
-En la parte inferior observará que Cabinet Report le da la cantidad de Tableros y Cantos encontrados en el archivo para que usted pueda validar que esta correcto o hay alguna anomalía.
+Antes de pulsar **Continuar**, selecciona los archivos de **herrajes y perfilerías** que deseas cargar junto con la producción. También puedes utilizar **Cargar todos automáticamente** si corresponde a tu trabajo.
 
-Ya puede hacer clic en <mark style="color:$primary;">**(Continuar)**</mark>, pero antes, puede seleccionar que archivos de herrajes y perfilerías desea cargar junto con la producción, o seleccionar <mark style="color:$primary;">Cargar todos automáticamente</mark>.
+Una vez verificados los materiales, los totales y los archivos complementarios, pulsa **Continuar**.
+
+---
+
+[← Parámetros de Producción](parametros-de-produccion.md) · [Reporte de Producción →](reporte-de-produccion.md) · [Archivos generados](archivos-de-reportes-generados.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)

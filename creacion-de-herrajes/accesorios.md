@@ -1,33 +1,43 @@
+---
+description: Aprende a crear accesorios, configurar sus propiedades y gestionar su visibilidad en el catálogo de Cabinet Report.
+---
+
 # Accesorios
 
-> ## <mark style="color:$primary;">Sección de Accesorios</mark>
+La sección **Accesorios** permite registrar un accesorio en la base de datos, completar sus propiedades y seleccionarlo para utilizarlo en módulos cuando corresponda.
 
 <figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column width="50%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
+## 1. Crear un accesorio
 
-{% column width="50%" %}
-Ingrese el nombre del accesorio, la categoría y haciendo clic en el botón de (+) puede agregar el accesorio a la base de datos.
-{% endcolumn %}
-{% endcolumns %}
+1. Introduce el **nombre** del accesorio.
+2. Selecciona su **categoría**.
+3. Pulsa el botón **(+)** para agregarlo a la base de datos.
 
-Después de creado el Accesorio, aquí puede agregarle otras propiedades según el herraje creado, sólo si es información necesaria, incluyendo el precio para uso en el módulo de costos:
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+## 2. Completar sus propiedades
 
-{% columns %}
-{% column %}
-También puede filtrar la lista de Accesorio cambiando las selecciones de PÚBLICO y PRIVADO.
-{% endcolumn %}
+Después de crearlo, puedes agregar otras propiedades según el accesorio. Completa únicamente los datos que correspondan, incluido el **precio** cuando necesites utilizarlo en el módulo de Costos.
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+## 3. Filtrar los accesorios disponibles
 
-Desde aquí puedes Agregar el Accesorio seleccionado a tu catálogo privado, eliminarlo y si estás accediendo desde el Creador de Módulos o Catálogo de Módulos, puede Actualizar el herraje al módulo seleccionado.
+Utiliza las selecciones **PÚBLICO** y **PRIVADO** para filtrar los accesorios que aparecen en el listado.
+
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+## 4. Administrar y utilizar el accesorio
+
+Desde esta sección puedes **agregar el accesorio seleccionado a tu catálogo privado** o **eliminarlo**. Si accediste desde el **Creador de Módulos** o el **Catálogo de Módulos**, también puedes **actualizar el herraje del módulo seleccionado**.
+
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Antes de actualizar un módulo:** verifica que el accesorio elegido, su categoría y sus propiedades correspondan al trabajo.
+{% endhint %}
+
+---
+
+[← Creación de Herrajes](README.md) · [Ferretería de Montaje →](ferreteria-de-montaje.md) · [Catálogo de Módulos](../catalogo-de-modulos.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
