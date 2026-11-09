@@ -126,6 +126,32 @@ Para imprimir el muele seleccionado, se genera un documento de excel tipo ficha 
 
 <figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
+### Ensayo reproducible: ficha Excel frente al Reporte de Producción
+
+La opción anterior permite generar una **ficha Excel del mueble con su imagen y las listas de piezas y herrajes**. Antes de entregar esa ficha al taller, comprueba que corresponde a la misma configuración incorporada a producción. **No supongas que una ficha ya guardada se actualiza al cambiar el módulo o volver a generar el RP.**
+
+{% hint style="warning" %}
+**Realiza el ensayo con una copia identificada del proyecto.** Conserva el archivo de producción y las fichas originales sin sobrescribirlos; no alteres una definición pública o compartida para ejecutar la prueba.
+{% endhint %}
+
+1. **Identifica el punto de partida.** Registra versión instalada, cliente, ambiente, referencia del trabajo, módulo seleccionado, sus dimensiones y materiales, y la cantidad de módulos que vas a incorporar.
+2. **Obtén la ficha A.** Con una unidad del módulo, genera la ficha Excel desde la opción documentada. Guárdala como evidencia diferenciada y comprueba que el archivo puede abrirse; registra la fecha de generación.
+3. **Contrasta la producción A.** Incorpora ese módulo al archivo de prueba y consulta las piezas y herrajes en el [Reporte de Producción](reporte-de-produccion/README.md) y, si corresponde, en los [archivos generados](reporte-de-produccion/archivos-de-reportes-generados.md). Anota las cantidades y propiedades efectivamente visibles, sin presumir que todos los campos figuren en la ficha.
+4. **Prepara una segunda versión controlada.** En otra copia del trabajo, utiliza la opción documentada para multiplicar la cantidad del mismo módulo y genera una nueva ficha Excel **B**, si la opción lo permite. Identifica la nueva producción por separado para evitar sumar accidentalmente ambas versiones.
+5. **Concilia A y B.** Comprueba que los cambios de cantidades se reflejen en el contenido correspondiente del RP y de cada ficha; vuelve a comparar identidad, piezas y herrajes. Si un dato no aparece en la ficha, indícalo como **no visible** y verifica su valor en el documento que sí lo contiene.
+6. **Decide qué se entrega.** Si una ficha no coincide con la producción aprobada o no puedes acreditar su versión, sepárala de los documentos válidos y no la utilices como orden de fabricación.
+
+| Elemento que se compara | Evidencia de control |
+| --- | --- |
+| **Identidad** | Cliente, ambiente, nombre o código del módulo y versión A/B identificada en el registro del ensayo. |
+| **Geometría y material** | Medidas, espesor y material de cada pieza que sean visibles en ambos documentos; los campos ausentes se anotan, no se suponen. |
+| **Cantidades** | Unidades de módulo, piezas por tipo y total correspondiente a la versión A o B, sin mezclar las dos producciones. |
+| **Herrajes** | Referencia y cantidades de los herrajes visibles en la ficha frente al detalle disponible de la producción. |
+| **Archivo entregado** | Nombre, fecha y versión de la ficha utilizada, contrastados con el RP autorizado para fabricar. |
+
+**Criterio del ensayo:** **CONFORME** si la identidad, los datos comparables y las cantidades concuerdan y quedan identificados los campos no visibles; **NO CONFORME** si hay una diferencia sin resolver o no puedes determinar qué ficha corresponde al RP; **NO EJECUTADO** si faltan los archivos o no se efectuó la comparación. El ensayo es un procedimiento de verificación documental, **no una prueba funcional Windows realizada en esta página**.
+
+
 Si le ha creado un código al mueble, puede buscar directamente por su código.
 
 <figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
