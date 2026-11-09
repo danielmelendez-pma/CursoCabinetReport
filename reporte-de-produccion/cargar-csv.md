@@ -134,6 +134,4 @@ Registra por separado **filas del archivo, tipos de pieza y unidades efectivas**
 
 ---
 
----
-
 [← Opciones del Reporte de Producción](README.md) · [Cargar TXT →](cargar-txt.md) · [Parámetros de producción](parametros-de-produccion.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
