@@ -4,6 +4,8 @@
 
 ## Selecciona y configura un módulo
 
+**Preparación:** confirma el cliente y ambiente de destino, identifica el catálogo que usarás y ten a mano las dimensiones y los materiales del diseño. Para crear una definición nueva, utiliza antes [Creación de Módulos](creacion-de-modulos.md); esta lección se centra en **seleccionar y adaptar** una definición del catálogo.
+
 A continuación se describen las partes de la ventana de <mark style="color:$primary;">**Catálogo de Módulos**</mark> y te explico como funciona cada una paso a paso:
 
 Crear la carpeta donde se guardará el archivo de muebles ingresando los valores de Cliente y Ambiente. Si ya está creada, debes abrirla y seleccionar el archivo.
@@ -60,7 +62,20 @@ Revisar y si alguna pieza no coincide con la medida esperada, puede hacer click 
 
 <figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Si modifica una fórmula solo se aplica a este mueble pero no se cambia en la Base de Datos.
+Según el procedimiento mostrado, si modificas una fórmula durante la selección, el cambio se aplica a **este mueble** y no a la definición guardada en la base de datos. Comprueba las piezas recalculadas antes de continuar; no confundas esta edición con una actualización permanente del catálogo.
+
+### Comprueba el módulo antes de incorporarlo
+
+Revisa estos resultados en la lista de piezas calculadas:
+
+- **Medidas y cantidades:** contrástalas con el diseño y con la función de cada pieza, incluidas las luces de puertas y frentes cuando correspondan.
+- **Materiales y espesores:** verifica la asignación de tableros de cajón, visto y respaldo.
+- **Vetas y cantos:** confirma la orientación y los lados que requieren canteo, sin asumir que un nombre de material basta para validarlos.
+- **Fórmulas y herrajes:** revisa cualquier fórmula ajustada para este mueble y los herrajes asociados.
+
+{% hint style="warning" %}
+**Un módulo del catálogo no es automáticamente un despiece validado.** Si aparece el aviso de módulo no verificado, comprueba las medidas y piezas antes de decidir si continúas. La revisión debe repetirse en el [Reporte de Producción](reporte-de-produccion/README.md).
+{% endhint %}
 
 Una vez todo listo, puede agregar el mueble a su archivo de Producción:
 
@@ -78,7 +93,7 @@ Lo siguiente es colocarle un nombre al mueble que está agregando, este nombre d
 
 Mensaje de éxito si todo salió bien y el mueble se ha agregado a su archivo de producción.
 
-En este punto puede revisar la carpeta que ha creado y verificar que se ha agregado los archivos de muebles y sus archivos de herrajes:
+En este punto, comprueba en la carpeta del proyecto que se incorporaron los archivos esperados del mueble y, si corresponde, los de herrajes. Luego abre el [Reporte de Producción](reporte-de-produccion/README.md) para contrastar el listado final con el diseño:
 
 <figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
