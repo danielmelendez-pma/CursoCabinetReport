@@ -100,6 +100,52 @@ Además de las salidas ilustradas, la [Documentación oficial del RP](https://ca
 
 Si necesitas agrupar varios RP para fabricación, sigue el proceso independiente de [Orden de Producción](../orden-de-produccion.md). Para cortes, consulta los [Optimizadores](../optimizadores.md) y confirma el formato admitido por tu maquinaria. Para revisiones y recuperación, consulta [Auditoría RP y persistencia](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/auditoria-rp-persistencia).
 
+## Ensayo reproducible: conciliación del paquete de corte
+
+Este ensayo aporta una prueba práctica para contrastar el **RP aprobado**, el **TXT de producción** y el **archivo destinado a la seccionadora o al proveedor de corte**, cuando ese último archivo se haya generado. Es un **control documental y operativo realizado por personas**, no una función de conciliación automática atribuida a Cabinet Report.
+
+### 1. Preparar una referencia inalterada
+
+1. Identifica **cliente, ambiente, número RP (si existe), fecha y responsable** de la revisión. Conserva una copia del RP aprobado, del TXT de origen y de la salida de corte realmente seleccionada; evita comparar archivos de generaciones diferentes.
+2. Asegúrate de que el RP contiene las modificaciones aprobadas. Si se cambia alguna pieza después, **no reutilices la aprobación anterior**: vuelve a contrastar las salidas de esa nueva generación.
+3. Abre cada archivo con una herramienta compatible y registra su **nombre, ruta y fecha de generación**. La existencia del archivo no demuestra que su contenido se haya importado correctamente en la maquinaria.
+
+### 2. Caso de prueba: el total coincide, pero el material no
+
+Usa los siguientes datos **únicamente como ejemplo didáctico de conciliación**; no son fórmulas de Cabinet Report, valores obligatorios ni un despiece listo para fabricar.
+
+| Referencia del RP aprobado | Pieza | Material | Espesor | Ancho × largo | Cantidad |
+| --- | --- | --- | --- | --- | --- |
+| M-01 | COSTADO | Tablero A | 18 mm | 400 × 700 mm | 2 |
+| M-02 | COSTADO | Tablero B | 18 mm | 400 × 700 mm | 2 |
+| **Total** | | | | | **4** |
+
+Supón que el TXT reproduce las cantidades aprobadas, pero que en el archivo preparado para corte aparecen **3 piezas del Tablero A y 1 del Tablero B**. El total sigue siendo **4**, aunque la distribución correcta es **2 del Tablero A y 2 del Tablero B**.
+
+**Resultado esperado:** **NO APTO PARA CORTE**. Registra una pieza excedente del Tablero A y una faltante del Tablero B, identifica el origen del desajuste y vuelve a generar o corregir la salida por el procedimiento autorizado. No compenses materiales distintos solo porque las dimensiones coincidan.
+
+### 3. Repetir la conciliación sobre una producción real
+
+1. **Cruza las partidas, no solo los totales:** compara por pieza o por agrupación demostrablemente equivalente el material, espesor, ancho, largo y cantidad. Revisa también **veta, sentido y cantos por lado** donde figuren en las fuentes; una salida de máquina puede no conservar todos los campos del RP.
+2. **Comprueba la agrupación:** si el formato de corte agrupa piezas idénticas y omite el módulo, compara la suma por material y dimensiones **sin inventar una asignación por módulo**. Conserva el RP para justificar la procedencia de cada cantidad.
+3. **Distingue medidas de diseño y de corte:** si aparecen diferencias por resane, sierra, canteo, mínimos de máquina u otros ajustes, solicita la regla aplicable y la autorización técnica antes de aceptarlas. No presupongas que dos medidas diferentes son intercambiables.
+4. **Valida el destino:** consulta con el operador o proveedor el formato admitido, unidades, codificación de material, orientación y cantidad que su sistema **interpreta tras la importación**. Una exportación exitosa por sí sola no acredita esa lectura.
+5. **Cierra las discrepancias:** registra partida afectada, diferencia observada, corrección, archivo regenerado y nueva comprobación. No remitas a corte una versión anterior mezclada con archivos actualizados.
+
+### 4. Registrar la liberación o la detención
+
+| Evidencia mínima | Qué anotar |
+| --- | --- |
+| Identificación | Cliente, ambiente, número RP si corresponde y versión o fecha del paquete |
+| Fuentes verificadas | Nombres y rutas del RP, TXT y salida(s) para corte efectivamente usadas |
+| Conciliación | Cantidades por material y espesor, diferencias de medidas, veta o cantos que deban revisarse |
+| Lectura de destino | Máquina o proveedor, formato comprobado y resultado de la importación, si aplica |
+| Decisión | **APTO / NO APTO**, responsable, fecha y detalle de correcciones y nueva revisión |
+
+**Criterio de aceptación:** el contenido aprobado y las salidas destinadas a fabricación son conciliables; las transformaciones de medidas y orientaciones están justificadas; no quedan diferencias de material o cantidad sin resolver; y el destinatario confirmó la lectura de los archivos que realmente utilizará. **Si falla cualquiera de estos controles, detén la entrega a corte** hasta obtener una nueva versión revisada.
+
+Para continuar, consulta el procedimiento de [Optimizadores](../optimizadores.md) y, cuando corresponda, la revisión de plantillas y mínimos de proveedor del [Reporte de Compras](../reporte-de-compras.md). Los XML de metadatos, auditoría y parámetros deben conservarse para trazabilidad según su finalidad; **no son automáticamente parte del paquete que se envía a una máquina**.
+
 ## Comprobación de los archivos antes de entregar
 
 1. Localiza la **carpeta y destino reales** de esta generación. Comprueba que los nombres de archivo y los documentos abiertos correspondan al **cliente, ambiente y número RP** correctos.
