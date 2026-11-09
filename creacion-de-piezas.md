@@ -52,6 +52,42 @@ Lista de variables que ayuda a construir las fórmulas de las piezas. Antes de u
 Si una variable carece de definición o no puedes verificar su valor efectivo, **no deduzcas su valor únicamente a partir del resultado mostrado en un ejemplo**. Señala el dato pendiente de validación.
 {% endhint %}
 
+## Ensayo reproducible: una misma pieza en dos módulos de medidas diferentes
+
+Este es un **ensayo de comprobación documental** para detectar cálculos incoherentes al reutilizar una definición de pieza. No acredita por sí solo el funcionamiento de todas las versiones ni sustituye la inspección del despiece en una producción real.
+
+### Prepara un caso controlado
+
+1. Trabaja en una **copia de ensayo** del proyecto y conserva intactos los archivos originales. Anota cliente, ambiente, versión de Cabinet Report y referencia de la prueba.
+2. Escoge dos módulos de prueba **A y B**, del mismo tipo constructivo, que puedan utilizar la **misma definición de pieza**. Deben tener medidas distintas en al menos una dimensión (`PROF`, `ANCHO` o `ALTO`) que aparezca realmente en la fórmula elegida.
+3. Identifica la pieza por su nombre y, si la interfaz lo permite, por su código o referencia. Copia **las expresiones exactas** de espesor, ancho y largo que se muestran para A y B; **un nombre igual no demuestra que sean la misma fórmula**.
+4. Registra por separado las dimensiones de A y B, los tableros y espesores, el material, la veta, los cuatro cantos y **cada variable efectiva** empleada por esas expresiones. Un valor `0` puede ser legítimo: no lo reemplaces por un valor público o supuesto.
+5. Si no puedes acreditar que la pieza y sus fórmulas son comparables, o falta el valor de una variable, marca la comprobación afectada como **NO EJECUTADO**. No inventes el dato para completar el ejercicio.
+
+### Calcula y contrasta sin editar la definición compartida
+
+1. Calcula **por separado** el resultado esperado de la pieza en A y en B, sustituyendo únicamente los valores efectivos comprobados en **la fórmula de esa misma pieza**. Anota la operación y sus unidades; no copies como referencia universal los resultados históricos de esta página.
+2. Consulta la pieza calculada en cada módulo mediante el recorrido descrito en [Creación de Módulos](creacion-de-modulos.md) y [Catálogo de Módulos](catalogo-de-modulos.md). Registra las medidas y cantidades que realmente aparecen.
+3. Compara **espesor, ancho y largo** con los cálculos independientes de cada módulo; compara también material, veta y lados de canto con la configuración prevista para **ese** módulo. No supongas que estos atributos deban ser idénticos entre A y B.
+4. Comprueba que ninguna otra pieza o cantidad haya cambiado inadvertidamente en el proyecto de ensayo y que los datos originales permanecen intactos. Si una fórmula mostrada en A difiere de la de B, registra la diferencia y **no la atribuyas automáticamente a un error de recálculo**.
+5. Si ambos módulos se incorporan a una producción de ensayo, revisa sus piezas por separado en el [Reporte de Producción](reporte-de-produccion/README.md). La coincidencia en el creador no demuestra por sí sola que el archivo final conserve los mismos datos.
+
+### Matriz de evidencias
+
+| Control | Evidencia para considerar CONFORME |
+| --- | --- |
+| Definición utilizada | Identificación y expresiones de la pieza registradas para A y B; diferencias justificadas antes de comparar. |
+| Procedencia de valores | Dimensiones y variables efectivas de cada módulo identificadas, sin completar incógnitas por suposición. |
+| Resultado dimensional | Espesor, ancho y largo coinciden con la evaluación independiente de la fórmula aplicable a cada módulo. |
+| Propiedades y cantidades | Material, veta, cantos, cantidad y piezas no seleccionadas se corresponden con el diseño y el registro inicial. |
+| Salida de producción, si se ejecuta | Las piezas de A y B se reconocen por separado y conservan sus atributos técnicos en el reporte de ensayo. |
+
+Registra para cada control **CONFORME** cuando exista evidencia suficiente, **NO CONFORME** cuando se confirme una discrepancia, o **NO EJECUTADO** cuando no se haya probado o falten datos. Conserva una tabla o capturas con los valores **A / B / esperado / obtenido**, la versión probada y la decisión tomada. No declares conforme el ensayo completo si algún control aplicable queda sin comprobar.
+
+{% hint style="warning" %}
+**Antes de reutilizar la pieza en fabricación:** si hay una diferencia no justificada, detén su incorporación al trabajo definitivo y revisa la fórmula concreta, el módulo y las variables del cliente. No modifiques una definición compartida para resolver un caso de prueba, ni presupongas propagación, reversión automática o persistencia de cambios en el catálogo. Recupera solo una copia original previamente verificada.
+{% endhint %}
+
 ***
 
 ## Antes de interpretar las fórmulas
