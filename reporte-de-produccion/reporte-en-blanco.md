@@ -1,117 +1,91 @@
+---
+description: Crea un Reporte de Producción manual desde cero, agrega piezas sueltas o módulos y verifica el archivo TXT resultante.
+---
+
 # Reporte en Blanco
+
+Desde **Reporte Manual** puedes preparar un archivo TXT de producción sin partir de un reporte existente. También puedes abrir un TXT compatible para continuar el trabajo.
 
 <figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Para crear un archivo TXT de producción a partir de cero, puede hacerlo desde esta sección de <mark style="color:$primary;">**Reporte Manual**</mark>.
+## 1. Identificar la producción
 
-***
+1. Escribe el **nombre del cliente** y el **ambiente**.
+2. Selecciona **Crear Nuevo** para comenzar el archivo TXT.
+3. Si necesitas continuar una producción existente, utiliza la opción para **abrir un archivo TXT**.
 
-## <mark style="color:$primary;">**Procedimiento:**</mark>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column %}
-Escriba el Nombre del Cliente y el Ambiente.
+{% hint style="warning" %}
+**Campos obligatorios:** si intentas crear un TXT nuevo sin indicar cliente y ambiente, Cabinet Report no permite continuar. Completa ambos datos antes de volver a intentarlo.
+{% endhint %}
 
-Hacer clic en Crear Nuevo
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-También puede abrir un Archivo TXT Existente.
-{% endcolumn %}
+## 2. Configurar los parámetros
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+Selecciona los parámetros de producción que correspondan al trabajo antes de agregar piezas.
 
-{% columns %}
-{% column width="33.33333333333333%" %}
-Si intenta crear un TXT Nuevo sin colocar el Nombre de Cliente y Ambiente no puede continuar
-{% endcolumn %}
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% column width="66.66666666666667%" %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+## 3. Elegir cómo incorporar las piezas
 
-***
+### Opción A: piezas sueltas
 
-Seleccione todos los Parámetros:
+Activa la opción de **piezas sueltas** si vas a agregar piezas de forma independiente al listado.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+### Opción B: piezas de un módulo
 
-{% columns %}
-{% column %}
-Si va a agregar piezas sueltas a la lista, active esa opción
-{% endcolumn %}
+Si trabajarás con un **módulo completo**, activa esa opción e introduce las dimensiones del módulo.
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column %}
-Si va a agregar piezas de un módulo completo, active esa opción y coloque las dimensiones del módulo.
-{% endcolumn %}
+## 4. Agregar las piezas al listado
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+Puedes utilizar cualquiera de estos dos métodos:
 
-***
+### Método 1: ingreso manual
 
-<mark style="color:$primary;">**Agregue las piezas, Opción 1**</mark>, manualmente directamente en el listado de piezas:
+Agrega las piezas directamente en el listado de piezas.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:$primary;">**Agregue las piezas, Opción 2**</mark>, colocando el listado de piezas de la base de datos alado y agregando las piezas desde ahí:
+### Método 2: selección desde la base de datos
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+Coloca el listado de piezas de la base de datos junto al área de trabajo y agrega desde allí las piezas que necesites.
 
-***
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Luego de creadas todas las pieza al módulo que esta armndo:
+Cuando hayas incorporado todas las piezas del módulo que estás preparando, revisa el listado antes de continuar.
 
 <figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column %}
-Puede hacer clic en
-{% endcolumn %}
+## 5. Incorporar las piezas al archivo TXT
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+Utiliza la acción indicada en la pantalla para añadir las piezas al reporte.
 
-{% columns %}
-{% column %}
-Si a este punto aun no ha creado el archivo o seleccionado uno existente, Cabinet Report se dará cuenta y le pedirá que lo cree para poder continuar.
-{% endcolumn %}
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+Si todavía no has creado un archivo TXT ni has abierto uno existente, Cabinet Report solicitará hacerlo antes de continuar.
 
-***
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column %}
-Si todo sale bien, Cabinet Report agrega las piezas al TXT de Producción y le envía el siguiente mensaje
-{% endcolumn %}
+Cuando el proceso se completa, se muestra el mensaje de confirmación de incorporación de piezas.
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Verifique que se haya creado el archivo correctamente:
+## 6. Verificar el resultado
+
+Comprueba que el archivo TXT se haya creado o actualizado correctamente y que incluya las piezas previstas.
 
 <figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-***
+{% hint style="info" %}
+**Para más muebles:** repite el procedimiento por cada mueble que necesites incorporar desde el Catálogo de Módulos. Antes de generar la producción, comprueba cantidades, medidas, materiales y cantos.
+{% endhint %}
 
-## <mark style="color:$primary;">**Este proceso lo repites por cada mueble que necesitas agregar desde el Catálogo de Módulos.**</mark>
+---
+
+[← Opciones del Reporte de Producción](README.md) · [Parámetros de Producción](parametros-de-produccion.md) · [Revisión de Tableros y Cantos →](revision-de-tableros-y-cantos.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)

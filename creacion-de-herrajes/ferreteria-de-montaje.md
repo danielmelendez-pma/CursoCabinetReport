@@ -1,47 +1,51 @@
+---
+description: Registra ferretería de montaje, completa propiedades, filtra catálogos y selecciona herrajes por categoría.
+---
+
 # Ferretería de Montaje
 
-> ## <mark style="color:$primary;">Sección de Ferretería de Montaje</mark>
+La sección **Ferretería de Montaje** reúne las opciones para crear y administrar los herrajes utilizados en el montaje de los muebles.
 
 <figure><img src="../.gitbook/assets/image (16) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column %}
+## 1. Crear un herraje de montaje
+
+1. Escribe el **nombre** de la ferretería.
+2. Selecciona la **categoría** y el **tipo**.
+3. Pulsa el botón **(+)** para registrarla.
+
 <figure><img src="../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
 
-{% column %}
-Para crear una Ferretería ingrese el nombre, la categoría y el tipo, luego presionar el botón de (+).
-{% endcolumn %}
-{% endcolumns %}
+## 2. Completar las propiedades
 
-Después de creada la Ferretería, aquí puede agregarle otras propiedades según el herraje creado, sólo si es información necesaria, incluyendo el precio para uso en el módulo de costos:
+Después de crear el herraje, puedes agregar las propiedades necesarias para su uso, incluido el **precio** cuando corresponda utilizarlo en el módulo de Costos.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-{% columns %}
-{% column %}
-También puede filtrar la lista de Ferretería cambiando las selecciones de PÚBLICO y PRIVADO.
-{% endcolumn %}
+## 3. Filtrar el catálogo
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+Utiliza las opciones **PÚBLICO** y **PRIVADO** para filtrar la ferretería disponible.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-Desde aquí puedes Agregar el la Ferretería seleccionada a tu catálogo privado, eliminarla y si estás accediendo desde el Creador de Módulos o Catálogo de Módulos, puede Actualizar el herraje al módulo seleccionado.
+## 4. Administrar la selección
 
-{% columns %}
-{% column %}
-Para seleccionar la ferretería creada en la base de datos, puede hacer clic en la imagen de la categoría y se filtrará la lista según la categoría clickeada.
+Desde el listado puedes **agregar la ferretería seleccionada al catálogo privado** o **eliminarla**. Si estás trabajando desde el **Creador de Módulos** o el **Catálogo de Módulos**, puedes **actualizar el herraje del módulo seleccionado**.
 
-Ejemplo, si clickea Rieles, en el  filtro le aparecerán solo la lista de Rieles agregados:
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="211"><figcaption></figcaption></figure></div>
-{% endcolumn %}
+## 5. Buscar por categoría
 
-{% column %}
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-{% endcolumn %}
-{% endcolumns %}
+Haz clic en la **imagen de una categoría** para filtrar la lista de ferretería. Por ejemplo, al seleccionar **Rieles**, verás los rieles agregados a esa categoría.
+
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="211"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Antes de aplicarlo a un módulo:** comprueba la categoría, el tipo y las propiedades del herraje seleccionado.
+{% endhint %}
+
+---
+
+[← Accesorios](accesorios.md) · [Creación de Herrajes](README.md) · [Ferretería de Instalación →](ferreteria-de-instalacion.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
