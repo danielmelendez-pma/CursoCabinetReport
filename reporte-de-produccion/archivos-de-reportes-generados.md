@@ -102,7 +102,7 @@ Si necesitas agrupar varios RP para fabricación, sigue el proceso independiente
 
 ## Ensayo reproducible: conciliación del paquete de corte
 
-Este ensayo complementa la comprobación general anterior: permite contrastar el **RP aprobado**, el **TXT de producción** y el **archivo destinado a la seccionadora o al proveedor de corte**, cuando ese último archivo se haya generado. Es un **control documental y operativo realizado por personas**, no una función de conciliación automática atribuida a Cabinet Report.
+Este ensayo aporta una prueba práctica para contrastar el **RP aprobado**, el **TXT de producción** y el **archivo destinado a la seccionadora o al proveedor de corte**, cuando ese último archivo se haya generado. Es un **control documental y operativo realizado por personas**, no una función de conciliación automática atribuida a Cabinet Report.
 
 ### 1. Preparar una referencia inalterada
 
