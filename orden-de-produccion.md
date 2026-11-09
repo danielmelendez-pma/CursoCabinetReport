@@ -96,6 +96,55 @@ Esto por si va a cortar 2 producciones con el mismo material, desde aquí Cabine
 4. Si utilizas las herramientas de conversión o fusión de optimizaciones, verifica por separado la compatibilidad del formato y el listado de piezas resultante.
 5. Obtén la autorización correspondiente antes de entregar documentos a corte, montaje o instalación: la OP no acredita la ejecución física.
 
+## 6. Ejercicio verificable: conciliar dos RP en una OP
+
+Este ejercicio complementa las capturas anteriores con un **control manual de trazabilidad**. Se parte de dos Excel RP revisados del **mismo cliente**, pertenecientes a ambientes distintos. Las referencias «RP-A» y «RP-B» son etiquetas didácticas: **no son números reales, formatos de archivo ni datos que debas escribir en Cabinet Report**.
+
+### Hoja de control antes de agrupar
+
+Supón que el RP-A (Cocina) contiene dos módulos iguales con **dos costados, una base y una tapa por módulo**, y que el RP-B (Clóset) contiene un módulo con esa misma composición. Los números son un ejemplo de conteo, **no reglas de despiece ni dimensiones de fabricación**.
+
+| Origen | Ambiente | Módulos del ejemplo | Costados | Bases | Tapas | Piezas efectivas |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| RP-A | Cocina | 2 | 4 | 2 | 2 | **8** |
+| RP-B | Clóset | 1 | 2 | 1 | 1 | **4** |
+| **Total esperado** | **2 ambientes** | **3** | **6** | **3** | **3** | **12** |
+
+**Control de unidades:** el total esperado es **12 unidades de piezas**, no 12 filas ni 12 módulos. Un RP puede agrupar varias unidades en una sola fila; comprueba las cantidades efectivas de cada tipo y su pertenencia al RP. El ejercicio no presupone que la OP muestre las mismas columnas ni que la aplicación calcule automáticamente esta tabla.
+
+### Ejecución y comparación paso a paso
+
+1. **Identifica la fuente autorizada.** Anota para cada Excel RP el cliente, ambiente, **número RP real**, fecha o versión del archivo y ubicación. Conserva una copia del original; no trabajes con dos copias que parezcan ser la versión definitiva.
+2. **Valida cada RP por separado.** En los Excel de origen, confirma las unidades de costados, bases y tapas del ejemplo; en una producción real revisa también **pieza, módulo, medidas, espesor, material, veta y canto por lado**. Si hay piezas sueltas, añádelas a la conciliación sin atribuirlas a un módulo inexistente.
+3. **Comprueba la elegibilidad.** Confirma que ambos RP pertenecen al mismo cliente, que deben integrarse en una misma OP y que **no están asignados a otra orden**. No continúes si hay un vínculo anterior sin resolver o materiales incompatibles para la operación prevista.
+4. **Agrega los archivos individualmente.** Selecciona primero el Excel del RP-A y después el RP-B mediante el recorrido ilustrado. Contrasta la lista de RP cargados con tu hoja de control: deben aparecer **los dos orígenes correctos, sin duplicación**.
+5. **Concilia antes de generar.** Para este caso, comprueba que la información de la orden represente **8 + 4 = 12 piezas efectivas**. Si la pantalla agrupa filas o materiales de otra manera, compara el detalle con los dos Excel: no deduzcas equivalencia solo de un total general.
+6. **Genera y vuelve a abrir el Excel OP.** Confirma número de control OP, cliente, RP incluidos, contenido y carpeta de destino. Comprueba por separado, cuando corresponda, que **la asociación RP ↔ OP esté registrada**; el archivo creado y la persistencia de la orden son dos verificaciones distintas.
+7. **Prepara la salida por área.** Entrega a corte únicamente las listas y optimizaciones verificadas; remite a montaje los RP y complementarios pertinentes, y a instalación la información autorizada. Registra manualmente qué versión recibió cada responsable.
+
+### Prueba de discrepancia: detecta una duplicación
+
+Si en tu **hoja de conciliación** cuentas por equivocación el RP-A dos veces, obtendrías **8 + 8 + 4 = 20** piezas, frente a las **12** aprobadas. La diferencia de **8** indica que debes revisar el origen de cada partida, no aceptar una suma mayor por parecer más completa. **Este ejemplo no afirma que Cabinet Report permita ni detecte automáticamente archivos repetidos.**
+
+Si las cantidades no coinciden, detén la entrega, identifica cuál RP, fila o pieza produce la diferencia, corrige la fuente autorizada y repite la conciliación. No «arregles» la OP editando totales sin rastrear su procedencia.
+
+### Matriz manual de entrega: de la orden al taller
+
+| Documento o etapa | Comprobación de procedencia y contenido | Criterio para avanzar |
+| --- | --- | --- |
+| **Excel RP-A y RP-B** | Cliente, ambiente, número RP, versión, unidades de piezas, materiales y cantos | Ambos orígenes revisados y sin duplicados |
+| **Excel OP** | Número OP, lista de los dos RP, resumen contrastado y archivo que abre correctamente | **12 piezas en el ejemplo**, o diferencia justificada y corregida antes de autorizar |
+| **Asociación de la orden** | Registro y recuperación de los vínculos RP ↔ OP, cuando la función los gestione | No dar por registrada la OP solo por tener el Excel |
+| **Corte / optimización** | Identificación de cada material, piezas colocadas y pendientes, restricciones y formatos de máquina | Conservar correspondencia con los RP; no omitir pendientes |
+| **Compras / almacén** | [Reporte de Compras](reporte-de-compras.md), existencias, descripciones, cantidades y **unidades** de tableros, perfilería y herrajes | No confundir unidades, tramos o longitudes ni el reporte con una compra |
+| **Montaje e instalación** | RP aprobado, identificación del ambiente, complementarios e instrucciones del proyecto | Entrega registrada por el equipo; la OP no certifica ejecución física |
+
+{% hint style="warning" %}
+**Criterio de aceptación del ejercicio:** no entregues la OP si falta un RP esperado, aparece un RP duplicado, no se justifican las unidades efectivas, difieren los materiales o el Excel y la asociación no se pueden comprobar según corresponda. Una optimización fusionada **tampoco sustituye** la conciliación por RP de origen. El estado «aprobado» es una **decisión documentada por el responsable**, no una nueva función o etiqueta del programa.
+{% endhint %}
+
+Para continuar, consulta [Archivos de Reportes Generados](reporte-de-produccion/archivos-de-reportes-generados.md), [Optimizadores](optimizadores.md) y [Reporte de Compras](reporte-de-compras.md). Estas herramientas producen entregables diferentes: **RP, OP, optimización y compras no son documentos intercambiables**.
+
 Consulta los detalles del alcance, registro y continuidad en la [Documentación oficial — Orden de Producción](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/orden-de-produccion).
 
 ---
