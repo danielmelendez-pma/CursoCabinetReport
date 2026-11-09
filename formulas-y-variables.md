@@ -1,73 +1,117 @@
+---
+description: Aprende a identificar variables dimensionales, espesores, cantos y luces, y a comprobar fórmulas de piezas antes de utilizarlas en producción.
+---
+
 # Fórmulas y Variables
 
-Para poder crear muebles dentro de Cabinet Report, es importante conocer las variables fijas que son para poder crear las fórmulas para que Cabinet Report pueda calcular las medidas según la variación de dimensión del mueble.
+Las fórmulas permiten que las medidas de una pieza se recalculen al cambiar las dimensiones o los parámetros del módulo. Antes de crear una pieza, distingue **la variable que se escribe en la fórmula** del **valor que toma esa variable** al trabajar con un módulo concreto.
 
-Para eso existen las siguientes variables que debe aprender:
-
-{% hint style="info" %}
-## Variables para espesores de tableros:
+{% hint style="warning" %}
+**No copies un resultado numérico como si fuera una regla universal.** Los espesores, rieles, luces y demás parámetros deben revisarse en el catálogo, módulo y configuración del cliente que se está utilizando. Antes de fabricar, confirma las medidas obtenidas.
 {% endhint %}
 
-<mark style="color:$primary;">**ESPC:**</mark> Identifica el espesor de los tableros que corresponden al cajón, en las partes que no son visibles después de instalado el mueble.
+## 1. Dimensiones del módulo
 
-<mark style="color:$primary;">**ESPV:**</mark> Identifica el espesor de los tableros que corresponden al cajón en las partes visibles después de instalado, también de puertas, costados vistos, etc.
+Estas variables describen las dimensiones de referencia del mueble. No son descuentos ni luces.
 
-<mark style="color:$primary;">**RESP:**</mark> Identifica al espesor del tablero tipo cartón que va insertado en ranuras para los respaldos de los muebles y fondos en gavetas.
+| Variable | Qué representa |
+| --- | --- |
+| `PROF` | Profundidad del cuerpo del mueble, sin contar puertas o frentes de gavetas. |
+| `ANCHO` | Ancho terminado del cuerpo del mueble. |
+| `ALTO` | Altura terminada del mueble, sin considerar las patas. |
+
+Una misma fórmula puede producir resultados distintos si cambian `PROF`, `ANCHO` o `ALTO`.
+
+## 2. Espesores y respaldo
+
+| Variable | Qué representa |
+| --- | --- |
+| `ESPC` | Espesor del tablero del cuerpo o cajón del mueble, en las partes que no quedan vistas tras la instalación. |
+| `ESPV` | Espesor del tablero de partes visibles, como puertas y costados vistos. |
+| `RESP` | Espesor del tablero delgado que se inserta en ranuras para respaldos o fondos de gavetas. |
+
+La elección del tablero y su espesor debe corresponder a la pieza real. `ESPC` y `ESPV` pueden tener valores diferentes.
+
+## 3. Cantos
+
+| Variable | Uso documentado |
+| --- | --- |
+| `CVISTO` | Canto o cintillo utilizado en los lados frontales o visibles. |
+| `CCAJON` | Canto o cintillo para lados internos, traseros o no visibles. |
+
+Estas referencias **identifican el canto que se asigna a un borde**; no deben confundirse con `ANCHO`, `LARGO` ni con una luz en milímetros. Revisa qué lado de la pieza corresponde a cada canto en el [Creador de Piezas](creacion-de-piezas.md).
+
+## 4. Rieles de gavetas
+
+| Variable | Uso documentado |
+| --- | --- |
+| `RE` | Espesor o espacio consumido por el riel al calcular anchos internos de gaveta. |
+| `RL` | Largo del riel para calcular laterales de gaveta. |
+| `RA` | Altura del riel cuando se utiliza un riel lateral metálico. |
+
+Comprueba que el riel seleccionado sea el que corresponde al sistema de gavetas, incluso cuando reutilices un módulo existente.
+
+## 5. Luces, ranuras y otros descuentos
+
+Las **luces** son separaciones que se consideran en las fórmulas de puertas, frentes y respaldos según el diseño.
+
+| Variable | Uso documentado |
+| --- | --- |
+| `LSU` | Luz superior para puertas y frentes de gavetas. |
+| `LIN` | Luz inferior para puertas y frentes de gavetas. |
+| `LCE` | Luz central entre puertas. |
+| `LIZ` | Luz izquierda para puertas y frentes de gavetas. |
+| `LDE` | Luz derecha para puertas y frentes de gavetas. |
+| `LGA` | Luz entre frentes de gavetas. |
+| `GOL` | Luz asociada a tiradores tipo Gola. |
+| `PIN` | Descuento correspondiente al pin de soporte de tablillas móviles. |
+| `RAN` | Profundidad de la ranura donde se inserta un respaldo delgado. |
+| `LIR` | Luz inferior del respaldo delgado. |
+| `LSR` | Luz superior del respaldo delgado. |
 
 {% hint style="info" %}
-## Variables para las dimensiones del mueble:
+**La procedencia de cada valor importa.** Una variable puede conservar su nombre mientras su valor cambia de un módulo o cliente a otro. Revisa los parámetros aplicados antes de interpretar un resultado como incorrecto.
 {% endhint %}
 
-<mark style="color:$primary;">**PROF:**</mark> Corresponde a la medida de profundidad del cajón del mueble sin tomar en cuenta las puertas o frentes de gavetas.
+## 6. Ejemplo de lectura de una fórmula
 
-<mark style="color:$primary;">**ANCHO:**</mark> Corresponde al ancho terminado del cajón del mueble.
+En la lección [Creación de Piezas](creacion-de-piezas.md) se documenta una puerta de un módulo con dos hojas. Su **ancho** se expresa así:
 
-<mark style="color:$primary;">**ALTO:**</mark> Identifica a la altura terminada del mueble sin tomar en cuenta las patas.
+```text
+(ANCHO - LIZ - LDE - LCE) / 2
+```
 
-{% hint style="info" %}
-## Variables para los cantos:
+Y su **alto**, así:
+
+```text
+ALTO - LSU - LIN
+```
+
+Como ejemplo **didáctico**, no como valores predeterminados del programa, considera:
+
+- `ANCHO = 900 mm`, `LIZ = 2 mm`, `LDE = 2 mm` y `LCE = 2 mm`.
+- `ALTO = 780 mm`, `LSU = 2 mm` y `LIN = 2 mm`.
+- `ESPV = 18 mm`.
+
+El resultado sería un **ancho de 447 mm por hoja**: `(900 - 2 - 2 - 2) / 2 = 447`; y un **alto de 776 mm**: `780 - 2 - 2 = 776`. El espesor de 18 mm se indica en el campo correspondiente de la pieza.
+
+{% hint style="warning" %}
+**Comprueba qué representa cada descuento.** El ancho del cuerpo del mueble no equivale necesariamente al ancho de una puerta. Tampoco debe suponerse que las luces de este ejemplo sean las configuradas para otro cliente, catálogo o tipo de apertura.
 {% endhint %}
 
-<mark style="color:$primary;">**CVISTO:**</mark> Identifica al canto o cintillo que se aplica en los lados frontales y vistos del mueble.
+## 7. Comprobación antes de guardar una pieza
 
-<mark style="color:$primary;">**CCAJON:**</mark> Identifica al canto o cintillo que se aplica en los lados internos, traseros y lados no visibles el mueble.
+1. Identifica el módulo y confirma sus valores de `PROF`, `ANCHO` y `ALTO`.
+2. Revisa los tableros seleccionados y sus espesores `ESPC`, `ESPV` y `RESP`.
+3. Comprueba los parámetros de luces, ranuras, rieles y pines que intervienen en la fórmula.
+4. Introduce o revisa por separado las expresiones de **espesor, ancho y largo** de la pieza.
+5. Verifica el resultado calculado, la orientación, el material y los cantos por lado.
+6. Contrasta las medidas con el diseño y vuelve a revisarlas en el **Reporte de Producción**.
 
-{% hint style="info" %}
-## Variables para rieles de gavetas:
-{% endhint %}
+## Continúa el aprendizaje
 
-<mark style="color:$primary;">**RE:**</mark> Corresponde al espesor del riel, lo que consume en el ancho del mueble de gavetas para calcular los traseros y frentes internos
+[Creación de Piezas →](creacion-de-piezas.md) · [Creación de Módulos](creacion-de-modulos.md) · [Catálogo de Módulos](catalogo-de-modulos.md) · [Reporte de Producción](reporte-de-produccion/README.md)
 
-<mark style="color:$primary;">**RL:**</mark> Corresponde al largo del riel, para identificar el largo de los laterales de las gavetas.
+---
 
-<mark style="color:$primary;">**RA:**</mark> Identifica la altura del riel si es un riel lateral metálico.
-
-{% hint style="info" %}
-**Variables para Luces y resto:**
-{% endhint %}
-
-<mark style="color:$primary;">**PIN:**</mark> Corresponde a lo que consume el pin cargador de tablillas, para las tablillas movibles en el ancho del mueble.
-
-<mark style="color:$primary;">**LSU:**</mark> Corresponde a la luz superior para puertas y frentes de gavetas.
-
-<mark style="color:$primary;">**LIN:**</mark> Corresponde a la luz inferior para puertas y frentes de gavetas.
-
-<mark style="color:$primary;">**LCE:**</mark> Corresponde a la luz central para puertas.
-
-<mark style="color:$primary;">**LIZ:**</mark> Corresponde a la luz Izquierda para puertas y frentes de gavetas.
-
-<mark style="color:$primary;">**LDE:**</mark> Corresponde a la luz derecha para puertas y frentes de gavetas.
-
-<mark style="color:$primary;">**LGA:**</mark> Identifica la luz que va entre un frente y otro frente en gavetas
-
-<mark style="color:$primary;">**GOL:**</mark> Identifica la luz de puertas y gavetas para los tiradores Gola.
-
-<mark style="color:$primary;">**RAN:**</mark> Identifica la profundidad de la ranura donde se insertan los respaldos tipo cartón.
-
-<mark style="color:$primary;">**LIR:**</mark> Corresponde a la luz inferior de los respaldos tipo cartón.
-
-<mark style="color:$primary;">**LSR:**</mark> Corresponde a la luz superior de los respaldos tipo cartón.
-
-***
-
-Todas estas variables serán utilizada tanto para crear piezas como para crear muebles dentro de Cabinet Report
+[← Portada del Curso](README.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
