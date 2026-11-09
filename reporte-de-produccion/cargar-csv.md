@@ -80,6 +80,58 @@ Haz clic en **Abrir** para acceder al **Reporte de Producción**.
 
 Antes de generar el RP, compara el cliente, ambiente, cantidad de filas y piezas, dimensiones, tableros, vetas y cantos con el CSV original. Si hay diferencias, corrige el origen o revisa la compatibilidad antes de continuar con la [revisión de tableros y cantos](revision-de-tableros-y-cantos.md) y la [guía de la ventana](reporte-de-produccion.md).
 
+## 5. Ensayo verificable: CSV de origen → RP abierto
+
+Este ejercicio verifica **una importación concreta** antes de utilizarla en fabricación. No acredita que todos los CSV de un programa sean compatibles con Cabinet Report ni establece un formato nuevo de columnas. La lista de campos históricos anterior es una referencia; **no debe utilizarse para reconstruir el importador por suposición**.
+
+### A. Conserva la fuente y prepara una referencia
+
+1. Elige un **CSV realmente exportado** por el programa de origen y guarda una copia intacta. Registra exportador, versión si se conoce, opción de exportación, fecha y nombre del archivo. Marca como **no comprobado** cualquier dato desconocido.
+2. Consulta el archivo sin modificarlo. Registra cliente, ambiente, módulo y pieza **cuando estén disponibles**; además, anota cantidades efectivas, espesor, ancho, largo, material, veta y cantos por lado. No cambies encabezados, separadores, codificación ni orden de columnas para forzar una supuesta compatibilidad.
+3. Prepara una **hoja de referencia** a partir del CSV y el diseño autorizado. Si el exportador no proporciona un campo, marca **no disponible en origen**; no completes vacíos por deducción.
+4. Anota los [Parámetros de Producción](parametros-de-produccion.md) seleccionados: vetas, traducción técnica, redondeo, inversión de medidas y otras automatizaciones. Así podrás distinguir una transformación esperada de una pérdida de datos.
+5. Ejecuta la prueba sobre un trabajo de ensayo y selecciona **Generar Nuevo RP** cuando la versión instalada lo permita. **Modificar RP Anterior** solo corresponde a un cambio real de un RP existente, después de comprobar número, cliente, ambiente y respaldo.
+
+{% hint style="warning" %}
+**Procedencia no acreditada:** la guía histórica cita **Promob**, pero el control documentado se llama **«Importar CSV de CutPro»**. Registra cuál utilizaste y lo que sucedió. No supongas equivalencia de formatos ni compatibilidad universal entre exportadores.
+{% endhint %}
+
+### B. Concilia los datos después de importar
+
+Utiliza esta tabla como hoja de verificación. Conserva una referencia a cada pieza o grupo identificable en el origen.
+
+| Comprobación | Fuente CSV o diseño aprobado | RP después de importar | Estado |
+| --- | --- | --- | --- |
+| Cliente, ambiente y módulo, cuando existan | Identificar trabajo | Comparar identificación | Coincide / Diferencia / No comprobado |
+| Pieza y **cantidad efectiva** | Contar unidades previstas | Contar unidades cargadas | Coincide / Diferencia / No comprobado |
+| Espesor, ancho, largo y orientación | Registrar cada valor | Revisar cada valor | Coincide / Diferencia / No comprobado |
+| Tablero, acabado y veta | Registrar material previsto | Verificar material asignado | Coincide / Diferencia / No comprobado |
+| Canto superior, inferior, derecho e izquierdo | Registrar lados existentes | Revisar cada lado | Coincide / Diferencia / No comprobado |
+| Parámetros que transforman información | Anotar opciones activadas | Explicar diferencias observadas | Explicado / Pendiente |
+
+**Ejemplo didáctico de conteo:** si el diseño de referencia contiene dos costados, una base y una tapa, se esperan **cuatro unidades físicas**, aunque el CSV y el RP muestren un número diferente de filas. No es una plantilla CSV válida ni demuestra que todos los exportadores acepten esa composición.
+
+Registra por separado **filas del archivo, tipos de pieza y unidades efectivas**. Si un campo no es visible o no puede verificarse en la aplicación, márcalo como **no comprobado**; no interpretes su ausencia como coincidencia.
+
+### C. Comprueba materiales y diagnostica discrepancias
+
+1. Continúa en [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md). Verifica nombre, tipo, espesor, veta y cada borde; que dos materiales tengan nombres parecidos no demuestra equivalencia.
+2. Si una dimensión, nombre u orientación cambia, comprueba las **automatizaciones registradas** y documenta la diferencia de origen y destino antes de atribuirla al importador.
+3. Si faltan piezas o aparecen unidades adicionales, consulta la fuente y la representación del RP. **No confundas filas con unidades** ni ajustes el total para ocultar una discrepancia.
+4. Revisa **por separado** accesorios, ferretería, golas, tubos y zócalos cuando correspondan. Importar un CSV de piezas **no acredita** la recuperación de complementarios; consulta [Archivos de Reportes Generados](archivos-de-reportes-generados.md).
+5. Si se rechaza el archivo, falta una columna reconocible o aparece un campo vacío, registra **el comportamiento y el aviso exacto**. Conserva la fuente intacta y no atribuyas una causa específica sin evidencia.
+
+### D. Decide si puedes continuar
+
+| Resultado de la prueba | Decisión |
+| --- | --- |
+| Se verifica identidad, unidades, medidas, materiales, vetas y cantos frente a la fuente aprobada | Documenta la prueba y continúa con la validación técnica habitual |
+| La diferencia corresponde a una transformación configurada y fue contrastada pieza por pieza | Registra la explicación y vuelve a comprobar el despiece |
+| Se pierden piezas, sobran unidades, cambia un material o persiste una discrepancia | **Detén generación, optimización y entrega** hasta resolverla |
+| El formato no es compatible o no hay datos esenciales para conciliar | **No afirmes compatibilidad ni aprobación**; revisa el archivo de origen y el importador |
+
+**Evidencia mínima:** conserva el CSV original, la copia ensayada, el exportador y la versión conocidos, los parámetros seleccionados, la identificación del RP de prueba, la tabla de comparación, los avisos o capturas relevantes y la decisión final. Un resultado correcto avala **ese archivo y esa configuración**, no cualquier CSV futuro. Antes de fabricar, continúa con la [guía del Reporte de Producción](reporte-de-produccion.md).
+
 ---
 
 [← Opciones del Reporte de Producción](README.md) · [Cargar TXT →](cargar-txt.md) · [Parámetros de producción](parametros-de-produccion.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
