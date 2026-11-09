@@ -2,8 +2,6 @@
 description: >-
   Curso práctico de Cabinet Report: aprende el acceso, la preparación de
   materiales y módulos, y el recorrido hasta los reportes de producción.
-layout:
-  width: wide
 ---
 
 # Curso de Cabinet Report
@@ -22,8 +20,6 @@ Puedes avanzar siguiendo la secuencia sugerida o abrir una lección concreta cua
 
 ## Tu ruta de aprendizaje
 
-{% columns %}
-{% column width="50%" %}
 ### 1. Prepara tu acceso
 
 Revisa qué información necesitas para comenzar, aprende a iniciar sesión y ubica las áreas principales del programa.
@@ -35,8 +31,7 @@ Revisa qué información necesitas para comenzar, aprende a iniciar sesión y ub
 Conoce la creación de tableros y herrajes, y consulta cómo se utilizan las fórmulas y variables en los procesos documentados.
 
 [Tableros](creacion-de-tableros.md) · [Herrajes](creacion-de-herrajes/README.md) · [Fórmulas y variables](formulas-y-variables.md)
-{% endcolumn %}
-{% column width="50%" %}
+
 ### 3. Prepara piezas y módulos
 
 Continúa con las piezas, la creación de módulos y su selección desde el catálogo.
@@ -48,8 +43,6 @@ Continúa con las piezas, la creación de módulos y su selección desde el cat�
 Conoce las entradas al Reporte de Producción, sus parámetros y los archivos de salida. Después, consulta los procesos relacionados.
 
 [Reporte de Producción](reporte-de-produccion/README.md) · [Reporte de Compras](reporte-de-compras.md) · [Orden de Producción](orden-de-produccion.md)
-{% endcolumn %}
-{% endcolumns %}
 
 ## Lo que aprenderás
 
@@ -76,4 +69,4 @@ A fabricantes de muebles de melamina, talleres, personal de producción, supervi
 
 ---
 
-[← Volver al portal principal de Cabinet Report](https://danielmelendez-pma.github.io/cabinet-report-partners/)
+[**🏠 Portal principal**](https://danielmelendez-pma.github.io/cabinet-report-partners/) · [**Documentación oficial**](https://cabinet-report.gitbook.io/cabinet-report-docs/) · [**Manual de usuario**](https://cabinet-report.gitbook.io/cabinet-report-docs/manual-de-usuario)
