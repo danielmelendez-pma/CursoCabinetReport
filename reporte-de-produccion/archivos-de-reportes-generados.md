@@ -2,7 +2,7 @@
 
 Identifica los archivos de salida que aparecen en el recorrido documentado después de generar la producción. Cada elemento incluye su captura original y la función descrita en el curso.
 
-Luego de completar la Generación de Reportes, en la carpeta de su proyecto se han generado diferentes archivos:
+Después de generar la producción, revisa los archivos disponibles en la carpeta del proyecto. **No todos los tipos enumerados tienen que generarse en cada trabajo:** las salidas dependen del contenido de la producción, las opciones seleccionadas y las integraciones disponibles. Las capturas siguientes muestran las categorías descritas en el recorrido original:
 
 <figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -79,6 +79,17 @@ Guarda información de su producción, para que sea utilizado por Cabinet Report
 Son los documentos de Entregas de Herrajes (Accesorios, Ferretería de Montaje y Ferretería de Instalación), que va a entregar a su Almacén y administre los herrajes de manera eficiente y planificada.
 
 <figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+
+## Comprobación de los archivos antes de entregar
+
+1. Verifica que los archivos correspondan al **cliente, ambiente y RP** correctos.
+2. Comprueba que estén presentes los formatos realmente seleccionados para tu trabajo, sin interpretar la lista anterior como un conjunto obligatorio.
+3. Contrasta **cantidades, materiales, piezas, vetas y cantos** con el Reporte de Producción y los planos de fabricación.
+4. Si utilizas archivos para una seccionadora o herramienta externa, comprueba la compatibilidad del formato y las condiciones de corte antes de utilizarlos.
+
+{% hint style="warning" %}
+**Generar un archivo no equivale a validar su contenido.** Revisa la salida final antes de autorizar fabricación o entrega.
+{% endhint %}
 
 ---
 
