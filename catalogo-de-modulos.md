@@ -1,130 +1,143 @@
+---
+description: >-
+  Aprende a seleccionar un módulo existente, configurar sus materiales y
+  parámetros, verificar su despiece e incorporarlo al Reporte de Producción.
+---
+
 # Catálogo de Módulos
 
-<figure><img src=".gitbook/assets/image (14) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+**Curso de Cabinet Report · Del catálogo al Reporte de Producción**
 
-## Selecciona y configura un módulo
+El **Catálogo de Módulos** permite elegir una definición de mueble existente, adaptarla a las medidas y materiales de un proyecto y revisar el resultado antes de incorporarlo a producción. **Seleccionar un módulo no equivale a validar sus piezas.**
 
-**Preparación:** confirma el cliente y ambiente de destino, identifica el catálogo que usarás y ten a mano las dimensiones y los materiales del diseño. Para crear una definición nueva, utiliza antes [Creación de Módulos](creacion-de-modulos.md); esta lección se centra en **seleccionar y adaptar** una definición del catálogo.
+**Recorrido de esta lección:** identificar el trabajo → buscar el módulo → configurar medidas, tableros y parámetros → comprobar piezas y herrajes → agregarlo a producción → revisar el RP.
 
-A continuación se describen las partes de la ventana de <mark style="color:$primary;">**Catálogo de Módulos**</mark> y te explico como funciona cada una paso a paso:
+<figure><img src=".gitbook/assets/image (14) (1) (1) (1).png" alt="Vista original del Catálogo de Módulos de Cabinet Report"><figcaption>Referencia de la interfaz del catálogo; los controles pueden variar según la versión.</figcaption></figure>
 
-Crear la carpeta donde se guardará el archivo de muebles ingresando los valores de Cliente y Ambiente. Si ya está creada, debes abrirla y seleccionar el archivo.
+{% hint style="info" %}
+**Antes de empezar:** ten identificados el cliente y el ambiente, las dimensiones del diseño y los materiales necesarios. Si debes **crear una definición nueva**, consulta [Creación de Módulos](creacion-de-modulos.md). Si necesitas interpretar fórmulas o variables, visita [Fórmulas y Variables](formulas-y-variables.md).
+{% endhint %}
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+## 1. Identifica el trabajo de destino
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+Confirma el **cliente** y el **ambiente** donde se guardará la producción. Si la carpeta o el archivo del trabajo ya existe, ábrelo y selecciona el archivo correspondiente; evita crear otro trabajo por error.
 
-Seleccionar si vas a trabajar con Catálogos Públicos o Privado
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Pantalla original de identificación del cliente y ambiente de producción"><figcaption>Confirma a qué cliente y ambiente pertenece el trabajo.</figcaption></figure>
 
-Seleccionar el Catálogo, Categoría y SubCategoría.
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Captura original del proceso de apertura o selección de producción"><figcaption>Selecciona la producción correcta antes de introducir módulos.</figcaption></figure>
 
-Se filtrará la lista de muebles previamente creados que corresponde a la selección.
+## 2. Filtra el catálogo y selecciona un módulo
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+1. Elige si trabajarás con un catálogo **Público** o **Privado**, según las opciones disponibles para tu usuario.
+2. Selecciona **Catálogo**, **Categoría** y **Subcategoría**. La lista de muebles se filtra conforme a esa selección.
+3. Busca la definición que necesitas y selecciónala desde la lista lateral o desde la barra superior de imágenes, según la interfaz mostrada.
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Controles originales para filtrar catálogos, categorías y subcategorías"><figcaption>Elige la visibilidad y los filtros del catálogo.</figcaption></figure>
 
-También aparecerán las imágenes de los muebles seleccionados...
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Listado original de módulos disponibles según los filtros aplicados"><figcaption>El listado depende del catálogo, categoría y subcategoría seleccionados.</figcaption></figure>
 
-Una vez filtrado, puedes seleccionar un mueble tanto de la lista izquierda como de la barra de imagenes superior.
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Selección del módulo desde el listado o sus imágenes"><figcaption>Elige la definición de módulo que corresponde al diseño.</figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+**Punto de control:** verifica que la definición elegida corresponda al tipo de mueble del diseño. Para crear o editar la estructura guardada en el catálogo, utiliza la lección de [Creación de Módulos](creacion-de-modulos.md); aquí se trabaja sobre el módulo seleccionado para una producción.
 
-Agregar o cambiar las medidas que se va a aplicar a este mueble.
+## 3. Configura medidas, tableros y cantos
 
-Agregar los tableros de Cajón, Visto y Respaldo que previamente ha creado en la Sección de Creación de Tableros.
+1. Introduce o ajusta las **medidas del mueble** para este trabajo.
+2. Selecciona los tableros de **Cajón**, **Visto** y **Respaldo** que correspondan. Si aún no están registrados, consulta [Creación de Tableros](creacion-de-tableros.md).
+3. Revisa los **espesores** y la indicación de **veta** que muestra la selección.
+4. Comprueba los **cantos internos y vistos**. La interfaz documentada propone sus nombres al seleccionar tableros, pero debes verificar que sean correctos para tu fabricación.
 
-Mientras va seleccionado los tableros, automáticamente se van agregando los espesores y el indicador de Vetas.
+<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Configuración original de tableros y campos de canto del módulo"><figcaption>Revisa la asociación de tableros y los campos que se completan al seleccionarlos.</figcaption></figure>
 
-Metras va seleccionando los tableros, automáticamente se generará el nombre del canto que se aplicará tanto para lo interno como para lo visto:
+Si modificas un valor de canto, identifica también su espesor. La documentación original muestra ejemplos de **0,45 mm, 1 mm, 1,8 mm y 2 mm**; utiliza únicamente el que corresponda al material real.
 
-<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Campos originales de canto y medidas asociados a los tableros"><figcaption>Confirma el nombre y espesor del canto antes de calcular.</figcaption></figure>
 
-Si gusta, puede cambiar este valor, importante que siempre indique el espesor del canto ejemplo: 0.45MM, 1MM, 1.8MM, 2MM, etc.
+## 4. Revisa los parámetros y calcula las piezas
 
-<figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+Revisa los parámetros seleccionados, incluido el campo de **riel** que presenta la interfaz histórica. Confirma las variables aplicables al módulo, aunque un elemento no se utilice en ese diseño.
 
-Revisar y modificar si es necesario los parámetros seleccionados, incluyendo el riel aunque no se vaya a utilizar uno.
+Cuando los valores estén preparados, pulsa **Aplicar Parámetros**.
 
-Hacer click al botón de Aplicar Parámetros
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt="Control original para aplicar parámetros al módulo seleccionado"><figcaption>Aplica los parámetros después de revisar sus valores.</figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+La interfaz documentada calcula la lista de piezas a partir de las medidas y de la configuración introducida. **No des por correctas las medidas solo porque el cálculo terminó.**
 
-Si todos los campos estan correctos y los valores están seleccionados...Automáticamente la lista de piezas se calculará según las medidas de muebles ingresadas.
+<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt="Resultado original de la lista de piezas calculadas"><figcaption>Comprueba las piezas obtenidas, no solo la finalización del cálculo.</figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+## 5. Comprueba los herrajes y las fórmulas
 
-Revisar o agregar los herrajes creados al mueble seleccionado:
+Consulta los **herrajes** vinculados al mueble y agrega o ajusta los que correspondan, cuando la opción esté disponible.
 
-<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1).png" alt="Sección original para consultar o ajustar herrajes del módulo"><figcaption>Revisa los herrajes asociados a este módulo.</figcaption></figure>
 
-Revisar y si alguna pieza no coincide con la medida esperada, puede hacer click en el Botón de Mostrar Fórmulas para revisarla y modificarla.
+Si una pieza no coincide con el diseño, utiliza **Mostrar Fórmulas** para revisar la fórmula de esa **pieza concreta** y los valores que intervienen. La documentación histórica indica que la modificación hecha durante esta selección se aplica **a este mueble**, no a la definición guardada en la base de datos; verifica el resultado recalculado antes de seguir.
 
-<figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1) (1).png" alt="Opción original para mostrar y revisar fórmulas de las piezas"><figcaption>Consulta la fórmula concreta de una pieza si la medida calculada no coincide.</figcaption></figure>
 
-Según el procedimiento mostrado, si modificas una fórmula durante la selección, el cambio se aplica a **este mueble** y no a la definición guardada en la base de datos. Comprueba las piezas recalculadas antes de continuar; no confundas esta edición con una actualización permanente del catálogo.
+### Lista de comprobación del despiece
 
-### Comprueba el módulo antes de incorporarlo
-
-Revisa estos resultados en la lista de piezas calculadas:
-
-- **Medidas y cantidades:** contrástalas con el diseño y con la función de cada pieza, incluidas las luces de puertas y frentes cuando correspondan.
-- **Materiales y espesores:** verifica la asignación de tableros de cajón, visto y respaldo.
-- **Vetas y cantos:** confirma la orientación y los lados que requieren canteo, sin asumir que un nombre de material basta para validarlos.
-- **Fórmulas y herrajes:** revisa cualquier fórmula ajustada para este mueble y los herrajes asociados.
+- **Medidas y cantidades:** contrasta cada pieza con el plano y su función, incluidas luces de puertas y frentes cuando correspondan.
+- **Materiales y espesores:** comprueba tableros de cajón, visto y respaldo.
+- **Vetas y cantos:** verifica orientación y lados que requieren canteo.
+- **Fórmulas y herrajes:** revisa ajustes particulares y referencias asociadas.
 
 ### Caso de control: puertas, luces y variables del cliente
 
-Si un módulo tiene **450 mm de ancho exterior**, no concluyas que una puerta deba medir 450 mm. Las luces, el sistema de apertura y la fórmula aplicable pueden producir una medida diferente. No se fija aquí un valor esperado (447, 448 mm u otro) sin comprobar **la fórmula de esa pieza y los parámetros efectivos del cliente**.
+Si un módulo mide **450 mm de ancho exterior**, no se puede concluir que su puerta deba medir también 450 mm. Las luces, la apertura y la fórmula de esa pieza pueden dar otra medida. No se establece como correcta ninguna cifra (447, 448 mm u otra) sin comprobar **la fórmula y los parámetros efectivos del cliente**.
 
-Antes de aceptar un cálculo:
+1. Comprueba que la fórmula consultada pertenece a la **pieza exacta** del módulo.
+2. Revisa las **luces, separaciones, espesores y variables** aplicables. Un parámetro con valor **0** puede ser válido; no debe sustituirse automáticamente.
+3. Contrasta ancho, largo, veta y cantos con el diseño y el tipo de apertura.
+4. Si cambias una fórmula para este mueble, **recalcula y vuelve a verificar las piezas**. No supongas que cambió la definición permanente del catálogo.
 
-1. Comprueba la **ficha del módulo** y que la fórmula consultada corresponda exactamente a la pieza seleccionada; no transfieras una fórmula de otra pieza solo por compartir nombre.
-2. Revisa las **luces, separaciones, espesores y demás variables** que intervengan. Un valor de parámetro **0** puede ser válido y no debe reemplazarse automáticamente por otro.
-3. Contrasta el **ancho y largo resultantes**, la orientación de veta y los lados de canto con el diseño y el tipo de apertura.
-4. Si cambias una fórmula para este mueble, **vuelve a calcular y revisar las piezas**. No supongas que esa corrección modificó la definición permanente del catálogo.
+Para ampliar el alcance de estos controles, consulta la [documentación oficial del Catálogo de Módulos](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/catalogo-de-modulos).
 
-Para el alcance de estos controles, consulta la [Documentación oficial del Catálogo de Módulos](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/catalogo-de-modulos) y la [guía del Reporte de Producción](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion).
+## 6. Incorpora el módulo a la producción
+
+Una vez revisados los resultados, utiliza la opción documentada para **agregar el módulo** al archivo de producción identificado al comenzar.
+
+<figure><img src=".gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt="Control original de incorporación del módulo a la producción"><figcaption>Acción documentada para incorporar el módulo al trabajo.</figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (13) (1) (1) (1) (1).png" alt="Mensaje original de advertencia al agregar un módulo sin verificar"><figcaption>Una advertencia de falta de verificación requiere revisión técnica.</figcaption></figure>
 
 {% hint style="warning" %}
-**Un módulo del catálogo no es automáticamente un despiece validado.** Si aparece el aviso de módulo no verificado, comprueba las medidas y piezas antes de decidir si continúas. La revisión debe repetirse en el [Reporte de Producción](reporte-de-produccion/README.md).
+**Módulo no verificado:** si aparece un aviso de falta de verificación técnica, revisa las piezas y medidas antes de decidir si continúas. Pulsar **Sí** para continuar, cuando proceda, **no acredita por sí solo** que el despiece sea correcto.
 {% endhint %}
 
-Una vez todo listo, puede agregar el mueble a su archivo de Producción:
+Asigna al mueble un **nombre que lo identifique** según sus especificaciones o su diseño. Estas capturas adicionales se conservan del recorrido original; confirma en tu versión cuáles son los campos y mensajes aplicables.
 
-<figure><img src=".gitbook/assets/image (12) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Captura histórica adicional del flujo de incorporación del módulo"><figcaption>Captura conservada del recorrido histórico de incorporación.</figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (13) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Segunda captura histórica del flujo de incorporación"><figcaption>Captura conservada del recorrido histórico de incorporación.</figcaption></figure>
 
-Al agregar el mueble, sale este mensaje, si el mueble aún no ha sido verificado por un técnico dentro de su empresa, le va a informar esta advertencia para que sepa que debe revisar el resultado, hacer clic en <mark style="color:$primary;">**Sí**</mark> para continuar.
+Cuando la interfaz indique que se agregó el mueble, comprueba en la carpeta del proyecto los archivos esperados y, si corresponde, los de herrajes.
 
-Lo siguiente es colocarle un nombre al mueble que está agregando, este nombre debe ser correspondiente a las especificaciones del mueble o el diseño:
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Vista original relacionada con los archivos de producción"><figcaption>Verifica el resultado en los archivos del proyecto y en el RP.</figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+## 7. Revisa el resultado en el Reporte de Producción
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+Abre la [**guía del Reporte de Producción**](reporte-de-produccion/README.md) para comprobar el trabajo **ya incorporado**. Contrasta el cliente, ambiente, nombres o códigos de módulos, **cantidad de módulos y piezas**, dimensiones, materiales, vetas, cantos y herrajes con el diseño. Para las herramientas de la ventana, sigue la [lección detallada del RP](reporte-de-produccion/reporte-de-produccion.md).
 
-Mensaje de éxito si todo salió bien y el mueble se ha agregado a su archivo de producción.
-
-En este punto, comprueba en la carpeta del proyecto que se incorporaron los archivos esperados del mueble y, si corresponde, los de herrajes. Luego abre el [Reporte de Producción](reporte-de-produccion/README.md) para contrastar el listado final con el diseño:
-
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-## <mark style="color:$primary;">**Este proceso lo repites por cada mueble que necesitas agregar desde el Catálogo de Módulos.**</mark>
+**Repite el proceso de selección y verificación por cada módulo** que necesites agregar; una comprobación anterior no sustituye la revisión del reporte final.
 
 ## Otras herramientas del Catálogo de Módulos
 
-<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+### Multiplicar unidades del módulo
 
-Si ha seleccionado un mueble y desea agregar mas de una unidad del mismo, puede multiplicar sus cantidades desde aquí. También lo puede hacer manualmente.
+La interfaz histórica incluye una opción para **multiplicar cantidades**, además del ingreso manual de unidades.
 
-**Control de cantidades:** diferencia el número de **módulos** solicitados del número de **piezas** por módulo. Después de multiplicar, comprueba las cantidades finales de cada pieza y de los herrajes asociados antes de agregar la producción; no deduzcas el número de muebles únicamente del total de filas.
+<figure><img src=".gitbook/assets/image (45).png" alt="Opción original de multiplicar cantidades de un módulo"><figcaption>Después de multiplicar, concilia unidades de módulos, piezas y herrajes.</figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
+**Control de cantidades:** distingue el número de **módulos** del número de **piezas por módulo**. Después de multiplicar, comprueba los totales de cada pieza y de los herrajes asociados. El número de filas no equivale necesariamente al total de muebles.
 
-Para imprimir el muele seleccionado, se genera un documento de excel tipo ficha del mueble con su imagen y lista de piezas y herrajes.
+### Generar una ficha Excel del mueble
 
-<figure><img src=".gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+La opción documentada permite obtener una **ficha Excel** del mueble con su imagen y listas de piezas y herrajes.
+
+<figure><img src=".gitbook/assets/image (46).png" alt="Opción original para generar o imprimir la ficha del módulo"><figcaption>La ficha del módulo y el RP deben corresponder a la misma configuración.</figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (47).png" alt="Captura original relacionada con la generación de una ficha Excel"><figcaption>Conserva la versión de cada ficha generada para poder compararla.</figcaption></figure>
 
 ### Ensayo reproducible: ficha Excel frente al Reporte de Producción
 
@@ -151,11 +164,16 @@ La opción anterior permite generar una **ficha Excel del mueble con su imagen y
 
 **Criterio del ensayo:** **CONFORME** si la identidad, los datos comparables y las cantidades concuerdan y quedan identificados los campos no visibles; **NO CONFORME** si hay una diferencia sin resolver o no puedes determinar qué ficha corresponde al RP; **NO EJECUTADO** si faltan los archivos o no se efectuó la comparación. El ensayo es un procedimiento de verificación documental, **no una prueba funcional Windows realizada en esta página**.
 
+### Buscar por código y consultar la descripción
 
-Si le ha creado un código al mueble, puede buscar directamente por su código.
+Si el módulo tiene un **código**, puedes buscarlo directamente desde la opción documentada.
 
-<figure><img src=".gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (48).png" alt="Opción original para localizar módulos mediante su código"><figcaption>La búsqueda por código facilita localizar una definición existente.</figcaption></figure>
 
-Desde aquí también puede ampliar la Descripción o crearla si aún no la tenía.
+También puedes consultar o ampliar la **descripción del mueble**, si la opción está disponible en tu versión.
 
-[← Portada del Curso](README.md) · [Creación de Módulos](creacion-de-modulos.md) · [Reporte de Producción](reporte-de-produccion/README.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
+---
+
+**Continúa con:** [Reporte de Producción](reporte-de-produccion/README.md) · [Archivos de Reportes Generados](reporte-de-produccion/archivos-de-reportes-generados.md)
+
+[← Portada del Curso](README.md) · [Creación de Módulos](creacion-de-modulos.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
