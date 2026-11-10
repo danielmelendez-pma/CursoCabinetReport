@@ -1,8 +1,8 @@
 # Orden de Producción
 
-Esta lección conserva el recorrido documentado para reunir reportes de producción, consultar materiales y generar una orden. La disponibilidad concreta de opciones debe comprobarse en la versión instalada.
+Organiza en una misma orden los **reportes RP en Excel previamente revisados**. Esta lección muestra cómo preparar, generar y comprobar la OP, sin confundir el documento resultante con el seguimiento físico de fabricación. La disponibilidad de opciones debe comprobarse en la versión instalada.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="Ventana inicial de la herramienta Orden de Producción"><figcaption><p>La OP agrupa reportes RP para organizar la fabricación; no acredita su ejecución.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Alcance de la lección:** las capturas conservan un recorrido histórico. La documentación oficial describe la agrupación de **RP en Excel** bajo una Orden de Producción (OP), su salida Excel y el registro de asociaciones cuando procede. La disponibilidad de cada acción depende de la versión, los permisos y los archivos seleccionados. No es un seguimiento automático de la fabricación física.
@@ -12,61 +12,57 @@ La Orden de Producción reúne información para el control de procesos de fabri
 
 ## 1. Antes de preparar la orden
 
+Parte de los [archivos RP revisados](reporte-de-produccion/archivos-de-reportes-generados.md). Si aún necesitas preparar la relación de materiales para abastecimiento, utiliza [Reporte de Compras](reporte-de-compras.md): **un Excel de Compras no sustituye al RP requerido para la OP**. Si necesitas encontrar una producción anterior, consulta [Explorador de Proyectos](explorador-de-proyectos.md) y recupera los archivos compatibles antes de continuar.
+
 Comprueba que cada **RP - *.xlsx** provenga del proyecto correcto, que se haya revisado su contenido y que conozcas su cliente, ambiente y número RP. Verifica también si alguno **ya está asociado a otra OP**: no debes duplicar esa asociación sin resolverla.
 
 ## 2. Preparar la orden
 
-Haga clic en 
+Selecciona **Agregar Reporte de Producción** en la herramienta de OP:
 
-Agregar Reporte de Producción
+<figure><img src=".gitbook/assets/image (2).png" alt="Opción Agregar Reporte de Producción en la OP"><figcaption><p>Incorpora un RP en Excel y verifica su procedencia antes de agruparlo.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+Localiza el **Excel RP** correspondiente y selecciona **Abrir**:
 
-Seleccione el archivo XLSX de Producción - RP y haga clic en Abrir:
-
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt="Selección de archivo Excel del Reporte de Producción"><figcaption><p>Elige el Excel RP correcto, no un TXT de piezas ni un Excel de Compras.</p></figcaption></figure>
 
 Si el archivo es admitido, el recorrido muestra un mensaje de éxito. Ese aviso de carga no sustituye la verificación del contenido del RP.
 
 También puedes agregar otros RP del mismo cliente si corresponde prepararlos bajo una misma orden. Comprueba **ambientes, números RP y compatibilidad de materiales** antes de agruparlos.
 
-<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4).png" alt="Vista del proceso al incorporar otros reportes RP a la orden"><figcaption><p>Antes de agregar otro RP, comprueba cliente, ambiente y asociación previa.</p></figcaption></figure>
 
-Le aparecerán la lista de materiales y la lista de RP seleccionados que va a cortar juntos bajo una misma Orden de Producción.
+La pantalla ilustrada presenta el resumen de **materiales y RP seleccionados** para la orden. Comprueba que pertenezcan al mismo trabajo autorizado:
 
-<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt="Resumen de materiales y reportes seleccionados para la orden"><figcaption><p>Concilia cada material y RP con los archivos originales.</p></figcaption></figure>
 
-Entre la informacion puede destacar:
+Antes de generar, revisa los datos que muestran las capturas siguientes:
 
-<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6).png" alt="Área informativa del número de control y resumen de la OP"><figcaption><p>Registra el número de control OP y verifica las unidades efectivas.</p></figcaption></figure>
 
-El Número de Control de OP
+El **número de control de OP** y las **cantidades de piezas** aportadas por los RP. Concilia esas cantidades con los Excel de origen:
 
-La cantidad de piezas que contiene la Producción entre todos los RP
+<figure><img src=".gitbook/assets/image (7).png" alt="Detalle de la cantidad de piezas de los RP agrupados"><figcaption><p>El total debe conciliarse con las cantidades de piezas de origen.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+La lista de **aglomerados y cantos**, que debes contrastar con las fuentes:
 
-La lista de Aglomerados y Cantos:
+<figure><img src=".gitbook/assets/image (8).png" alt="Listado de aglomerados y cantos en Orden de Producción"><figcaption><p>Comprueba referencias de materiales, espesores y cantos.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+La lista de **RP seleccionados**, sin duplicaciones o archivos de otro cliente:
 
-Y la lista de RPs seleccionados:
+<figure><img src=".gitbook/assets/image (9).png" alt="Listado de reportes de producción asociados a la OP"><figcaption><p>Verifica los RP incluidos y descarta incorporaciones duplicadas.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+Después de conciliar los RP, utiliza la acción **Generar Reporte de Producción** indicada en la captura histórica de esta herramienta. Verifica que la salida corresponda a la **Orden de Producción**, no a un nuevo RP:
 
-Haga Clic en
+<figure><img src=".gitbook/assets/image (11).png" alt="Acción Generar Reporte de Producción dentro de la herramienta OP"><figcaption><p>En este recorrido histórico, la acción prepara la salida de la orden.</p></figcaption></figure>
 
-Generar Reporte de Producción
+Selecciona una carpeta de destino donde puedas identificar la OP y relacionarla con sus archivos RP originales:
 
-<figure><img src=".gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt="Selección de carpeta para guardar el archivo de Orden de Producción"><figcaption><p>Utiliza una ubicación que permita relacionar la OP con sus RP de origen.</p></figcaption></figure>
 
-Seleccione la ubicación donde guardará la Orden de Producción, preferiblemente dentro de la misma carpeta donde estan los archivos de su producción:
+El recorrido muestra un mensaje de éxito. **Abre y comprueba el Excel** antes de distribuirlo:
 
-<figure><img src=".gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-
-Si todo sale bien le sale el mensaje de éxito
-
-<figure><img src=".gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (13).png" alt="Mensaje de éxito al generar el archivo de Orden de Producción"><figcaption><p>Abre el Excel generado y comprueba por separado el registro de asociaciones.</p></figcaption></figure>
 
 ## 3. Verificar el archivo y el registro de la OP
 
@@ -78,15 +74,15 @@ Después de generar, verifica el **número de control OP**, el cliente, los RP i
 
 ## 4. Herramientas relacionadas
 
-También puede convertir archivos entre Optimizadores, por ahora entre los 2 optimizadores creados
+Las capturas históricas incluyen una opción de **conversión entre optimizadores**. Comprueba qué formatos están disponibles en tu instalación:
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14).png" alt="Herramienta histórica de conversión entre formatos de optimizadores"><figcaption><p>Comprueba los formatos disponibles y verifica la salida antes de mecanizar.</p></figcaption></figure>
 
-Por ultimo puede fusionar o seprar optimizaciones:
+También se ilustran opciones para **fusionar o separar optimizaciones**:
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15).png" alt="Opciones históricas para fusionar o separar optimizaciones"><figcaption><p>Después de combinar o separar, revisa material y cantidades por RP de origen.</p></figcaption></figure>
 
-Esto por si va a cortar 2 producciones con el mismo material, desde aquí Cabinet Report con un solo clic le unifica las piezas en un solo archivo.
+Estas operaciones requieren volver a comprobar las piezas y materiales del resultado contra cada RP de origen. No presupongas que la combinación conserva todas las condiciones del corte; consulta [Optimizadores](optimizadores.md).
 
 ## 5. Comprobación antes de entregar a fabricación
 
