@@ -8,11 +8,17 @@ description: >-
 
 El módulo **Costos** permite organizar la materia prima, los importes y las condiciones comerciales de un proyecto por ambientes, para preparar **cuadros de costos y cotizaciones**. Esta lección parte de los controles y capturas históricos del Curso y los relaciona con el [Reporte de Compras](reporte-de-compras.md) y la [documentación oficial de Costos](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/costos-en-desarrollo).
 
-<figure><img src=".gitbook/assets/image (123).png" alt="Vista original del módulo Costos de Cabinet Report"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (123).png" alt="Vista original del módulo Costos de Cabinet Report"><figcaption><p>Vista general de Costos: comprueba el proyecto y el ambiente antes de valorar materiales.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Alcance de la lección:** Costos es una funcionalidad existente, no una función en desarrollo. Los nombres y controles ilustrados pueden variar según la versión instalada y los permisos. Las reglas históricas sobre archivos y ambientes son referencias para verificar en el programa; no constituyen pruebas funcionales de la versión actual.
 {% endhint %}
+
+## Ruta de aprendizaje
+
+**Del RP a la cotización:** comienza con el [Reporte de Producción revisado](reporte-de-produccion/README.md), continúa con el [Reporte de Compras](reporte-de-compras.md) y concilia aquí las partidas de cada ambiente antes de exportar. Si detectas una discrepancia de funcionamiento, consulta [Reporte de Errores o Feedback](reporte-de-errores-o-feedback.md).
+
+Esta lección incluye un **ensayo de trazabilidad** para practicar el control sin cambiar datos comerciales reales. Las capturas son referencias de la interfaz; comprueba qué opciones ofrece tu instalación.
 
 ## Antes de comenzar
 
@@ -25,7 +31,7 @@ El módulo **Costos** permite organizar la materia prima, los importes y las con
 
 ## 1. Conocer el menú Opciones
 
-<figure><img src=".gitbook/assets/image (126).png" alt="Menú Opciones de Costos en la interfaz documentada"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (126).png" alt="Menú Opciones de Costos en la interfaz documentada"><figcaption><p>Desde Opciones se seleccionan los archivos de entrada y se revisan las configuraciones disponibles.</p></figcaption></figure>
 
 El menú documentado reúne estas acciones:
 
@@ -52,7 +58,7 @@ El menú documentado reúne estas acciones:
 
 ### Catálogos públicos y privados
 
-<figure><img src=".gitbook/assets/image.png" alt="Filtros de materia prima pública y privada en Costos"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.png" alt="Filtros de materia prima pública y privada en Costos"><figcaption><p>Los filtros Pública y Privada ayudan a distinguir la procedencia de las referencias y sus costos.</p></figcaption></figure>
 
 La interfaz histórica incluye filtros **Pública** y **Privada** para las referencias de tableros y herrajes. La documentación del Curso indica que pueden estar ambos activos, pero no los dos desactivados; filtrar las listas de selección no debería reemplazar por sí solo las partidas ya cargadas.
 
@@ -77,7 +83,7 @@ La descripción histórica de **Cargar Precios Unitarios** especifica una búsqu
 
 ### Agregar o revisar una partida manualmente
 
-<figure><img src=".gitbook/assets/image (1).png" alt="Listado de Materia Prima con campos para selección o entrada manual"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt="Listado de Materia Prima con campos para selección o entrada manual"><figcaption><p>La tabla de Materia Prima permite cotejar la descripción, la unidad y los costos con la fuente.</p></figcaption></figure>
 
 La lección original permite **seleccionar una descripción del listado o escribir una nueva**. Cuando una referencia coincide con el catálogo, la interfaz documentada puede completar **UND, ID, TIPO y COST-UNIT**. Para una partida escrita manualmente, verifica esos campos por separado: el texto ingresado no demuestra que exista un registro ni que tenga precio.
 
@@ -85,7 +91,7 @@ La lección original permite **seleccionar una descripción del listado o escrib
 
 ### Márgenes de producción y operación
 
-<figure><img src=".gitbook/assets/image (127).png" alt="Opciones históricas para guardar o limpiar márgenes"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (127).png" alt="Opciones históricas para guardar o limpiar márgenes"><figcaption><p>Antes de guardar o limpiar márgenes, comprueba la configuración que corresponde al trabajo.</p></figcaption></figure>
 
 El recorrido documentado distingue **margen de producción** y **margen operativo**. La acción **Guardar Márgenes** utiliza los archivos `MargenProduccion.xml` y `MargenOperativo.xml` en la carpeta `ArchivosCliente` de la instalación. La acción **Limpiar Márgenes**, según esa documentación, elimina los archivos almacenados.
 
@@ -93,7 +99,7 @@ El recorrido documentado distingue **margen de producción** y **margen operativ
 
 ### Notas globales y notas del proyecto
 
-<figure><img src=".gitbook/assets/image (128).png" alt="Opciones documentadas para guardar o limpiar Notas Globales"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (128).png" alt="Opciones documentadas para guardar o limpiar Notas Globales"><figcaption><p>Las Notas Globales reúnen condiciones reutilizables; la referencia debe corresponder al proyecto actual.</p></figcaption></figure>
 
 Las **Notas Globales** recogen condiciones reutilizables del cliente, como forma de pago, suministro, instalación, exclusiones y observaciones. La acción **Guardar Notas Globales** utiliza `ArchivosCliente/NotasGlobales.xml`; **Limpiar Notas Globales** se describe históricamente como eliminación de ese archivo.
 
@@ -144,7 +150,73 @@ Después de exportar, abre el documento generado y contrasta proyecto, ambientes
 | **Aparecen notas o márgenes anteriores** | Identifica los archivos globales de `ArchivosCliente` y diferencia sus datos de los propios del proyecto. |
 | **No se genera la cotización** | Comprueba que exista el Excel de Costos exportado requerido y revisa los mensajes de la aplicación. |
 
-## 7. Lista de comprobación antes de entregar
+## 7. Ensayo reproducible: de Compras a cotización
+
+Este ejercicio conecta la [conciliación del Reporte de Compras](reporte-de-compras.md) con la valoración en **Costos**. Es una **prueba documental y manual**, no una función nueva de Cabinet Report ni un resultado verificado en Windows. Usa archivos compatibles con tu versión y un proyecto de prueba que puedas descartar.
+
+{% hint style="warning" %}
+**Protege los presupuestos reales:** conserva copias de los RP, Excel de Compras, XML de Costos y archivos de configuración global. No cambies precios, márgenes ni datos de producción vigentes para completar este ejercicio.
+{% endhint %}
+
+### A. Preparar dos ambientes con fuentes identificables
+
+Parte de dos RP previamente revisados del mismo proyecto de práctica, por ejemplo **COCINA-ENSAYO** y **CLÓSET-ENSAYO**, y sus Excel de Compras. Los siguientes números son **datos didácticos ficticios**: no representan una salida del software, un despiece estándar ni cantidades reales.
+
+| Partida con una misma especificación | Unidad | Cocina | Clóset | Total esperado |
+| --- | --- | ---: | ---: | ---: |
+| Tablero de melamina, mismo espesor y formato | hojas | 3 | 2 | **5** |
+| Canto, misma referencia y ancho | metros | 20 | 20 | **40** |
+| Bisagra, mismo modelo y referencia | unidades | 8 | 16 | **24** |
+
+1. Anota el **cliente activo de la instalación**, el **nombre del proyecto**, el **ambiente**, el número o referencia del RP y la versión de cada archivo. El cliente activo no debe confundirse con el nombre del proyecto importado.
+2. Para cada partida, registra su **descripción técnica, unidad y cantidad** según el RP y el Excel de Compras correspondiente. No asignes un total consolidado a un ambiente por suposición.
+3. Si una fuente usa cajas y la otra unidades individuales, consigue la equivalencia de presentación documentada por el proveedor antes de sumar. **Hojas, metros y unidades no se suman entre sí.**
+
+### B. Cargar y revisar el aislamiento de los ambientes
+
+1. En una instalación de prueba autorizada, utiliza la opción documentada **Cargar reportes de compra XLSX** con archivos compatibles. Comprueba la identificación y las partidas que efectivamente se importaron; no presupongas que la aplicación detecta duplicados.
+2. Selecciona **COCINA-ENSAYO**, registra sus partidas visibles y repite en **CLÓSET-ENSAYO**. Vuelve a Cocina y contrasta cada ambiente con su origen. Si tu versión no dispone de este recorrido, consigna el paso como **NO EJECUTADO**.
+3. Comprueba **DESCRIPCION, UND, ID, TIPO, COST-UNIT**, cantidades y cualquier importe mostrado. Revisa también la **procedencia pública o privada** de las referencias seleccionadas.
+4. Distingue **Notas Globales**, márgenes reutilizables y **referencia propia del proyecto**. La presencia de configuraciones históricas no demuestra que sean apropiadas para esta cotización.
+
+### C. Encontrar errores antes de valorar
+
+Reproduce las siguientes discrepancias **solo en una hoja de control externa**; no alteres los archivos de producción.
+
+| Error didáctico | Cálculo que revela la discrepancia | Qué hacer |
+| --- | --- | --- |
+| Contar dos veces el tablero de Cocina | **3 + 3 + 2 = 8 hojas**, frente a las **5** de origen | Identificar y excluir la fuente duplicada; volver a cotejar el resultado. |
+| Interpretar las 16 bisagras de Clóset como 16 cajas de 10 | **160 unidades** supuestas en vez de **16 unidades** verificadas | Comprobar la unidad de la fuente; «caja de 10» es solo una hipótesis del ejercicio. |
+| Confundir dos referencias de canto por tener nombres similares | Un total de **40 metros** no demuestra que el ancho y el acabado coincidan | Separar por referencia técnica antes de sumar y valorar. |
+
+**Criterio:** el total correcto del ejemplo contiene **5 hojas**, **40 metros** y **24 bisagras**, en partidas diferentes y con las especificaciones indicadas. El conteo de filas de un archivo no sustituye las cantidades efectivas; una coincidencia de nombres tampoco acredita equivalencia técnica.
+
+### D. Verificar la valoración, sin inventar precios
+
+Por cada partida, conserva una evidencia externa con estos datos:
+
+| Campo de control | Evidencia mínima |
+| --- | --- |
+| Origen | Cliente activo, proyecto, ambiente, RP y Excel de Compras utilizados |
+| Material | Descripción, referencia, especificación, cantidad y unidad |
+| Precio | Proveedor, presentación, moneda, costo unitario, fecha de verificación y unidad de cotización |
+| Condiciones | Márgenes aplicables, tratamiento de ITBMS, notas, exclusiones y responsable |
+| Entregable | XML de Costos cuando corresponda, Excel de Costos y cotización exportada, con identificación de versión |
+
+Para revisar manualmente una partida, compara **cantidad homogénea × costo unitario verificado para esa misma unidad**. Esta comprobación **no describe ni modifica la fórmula interna** de Costos. Si falta un costo unitario confiable, marca la partida **PENDIENTE DE VALORACIÓN** y **no la reemplaces por cero** ni presentes el total como cotización definitiva.
+
+No se fija aquí ningún precio, margen, tasa de ITBMS o fórmula comercial: comprueba los valores y condiciones **aplicables a la operación real**. El impacto económico mostrado por el Revisor IA pertenece a otro proceso y no sustituye la cotización comercial.
+
+### E. Exportar, conciliar y documentar el resultado
+
+1. Con los datos ya revisados, utiliza solo las salidas disponibles en tu versión. Para crear una cotización Word o Excel, la documentación oficial indica que antes debe existir un **Excel de Costos exportado**.
+2. Abre el Excel de Costos y la cotización, si existe, y coteja **proyecto, ambientes, partidas, cantidades, unidades, costos, márgenes, impuestos y notas** contra las fuentes y el control manual. Exportar un archivo no significa que haya sido aprobado.
+3. Para cada prueba, registra **CONFORME** si se comprobó, **NO CONFORME** si persisten diferencias o **NO EJECUTADO** si faltó la opción, evidencia o ejecución. El trabajo no debe autorizarse para entregar una oferta si quedan partidas duplicadas, unidades incompatibles o precios sin verificar.
+4. Si observas un comportamiento del programa que no logras explicar, reúne evidencias sin información sensible y usa la lección [Reporte de Errores o Feedback](reporte-de-errores-o-feedback.md). Los desacuerdos comerciales se resuelven con el responsable del presupuesto y los proveedores.
+
+**Resultado comprobable:** otra persona puede seguir una partida desde el RP al Excel de Compras, identificarla en el ambiente correcto de Costos y localizar el archivo exportado, sin confundir comprobación manual con una función automática.
+
+## 8. Lista de comprobación antes de entregar
 
 - [ ] Cliente activo, proyecto y ambientes identificados sin confusión.
 - [ ] Archivos importados correspondientes al trabajo y respaldados.
