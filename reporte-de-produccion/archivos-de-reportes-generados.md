@@ -101,7 +101,7 @@ Son los documentos de Entregas de Herrajes (Accesorios, Ferretería de Montaje y
 
 Además de las salidas ilustradas, la [Documentación oficial del RP](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion) describe **metadatos técnicos XML** y un **XML de Auditoría RP** relacionados con la producción y las decisiones de revisión. Son registros con propósitos distintos del TXT de piezas, los parámetros y el Excel imprimible; su presencia o ubicación no debe darse por supuesta para toda instalación.
 
-Si necesitas agrupar varios RP para fabricación, sigue el proceso independiente de [Orden de Producción](../orden-de-produccion.md). Para cortes, consulta los [Optimizadores](../optimizadores.md) y confirma el formato admitido por tu maquinaria. Para revisiones y recuperación, consulta [Auditoría RP y persistencia](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/auditoria-rp-persistencia).
+Si necesitas agrupar varios RP para fabricación, sigue el proceso independiente de [Orden de Producción](../orden-de-produccion.md). Para cortes, consulta los [Optimizadores](../optimizadores.md) y confirma el formato admitido por tu maquinaria. Para revisiones y recuperación, consulta [Auditoría RP y persistencia](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion/auditoria-rp-persistencia).
 
 ## Ensayo reproducible: conciliación del paquete de corte
 
