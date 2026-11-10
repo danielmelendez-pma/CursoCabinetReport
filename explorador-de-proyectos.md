@@ -10,11 +10,15 @@ description: >-
 
 El **Explorador de Proyectos** sirve para buscar y consultar información de trabajos registrados en Cabinet Report. Permite identificar una producción antes de decidir cómo continuarla, pero **encontrar un registro no garantiza que puedas abrir, editar o reconstruir todos sus archivos desde otro equipo**.
 
-<figure><img src=".gitbook/assets/image (115).png" alt="Vista del Explorador de Proyectos de Cabinet Report"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (115).png" alt="Vista del Explorador de Proyectos de Cabinet Report"><figcaption><p>Localiza un registro; su aparición no garantiza que los archivos de producción estén recuperados.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Alcance de esta lección:** la consulta por proyecto, planificador o número de RP está descrita en la [Documentación oficial del Explorador](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/explorador-de-proyectos). La importación directa de proyectos entre equipos y otras funciones avanzadas no están acreditadas allí como disponibles. No confundas la lista de proyectos con una copia de seguridad completa.
 {% endhint %}
+
+## Cuándo consultar el Explorador
+
+Puedes acudir aquí **antes de preparar nuevos archivos** o cuando necesites ubicar una producción usada en [Reporte de Compras](reporte-de-compras.md) o [Orden de Producción](orden-de-produccion.md). La consulta solo identifica un registro; para continuar con fabricación, debes recuperar y revisar por separado los archivos que correspondan.
 
 ## 1. Localiza la producción correcta
 
@@ -87,6 +91,8 @@ Supón que recibes de otro colaborador un **número de RP** y necesitas retomar 
 **Objetivo del ejercicio:** distinguir tres estados diferentes: *proyecto localizado*, *información recuperada* y *producción validada*. Uno no demuestra automáticamente los otros.
 
 ## Continúa tu recorrido
+
+Una vez recuperado y revisado el RP correcto, consulta [Reporte de Compras](reporte-de-compras.md) si necesitas preparar insumos o [Orden de Producción](orden-de-produccion.md) si vas a agrupar reportes para fabricación. **Ninguno de esos procesos acredita por sí solo la recepción de materiales ni el avance físico en planta.**
 
 Consulta el [**Reporte de Producción**](reporte-de-produccion/README.md) para preparar o reabrir los datos de piezas. Para los límites funcionales del Explorador, utiliza su [**Documentación oficial**](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/explorador-de-proyectos).
 
