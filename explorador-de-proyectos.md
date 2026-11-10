@@ -62,7 +62,7 @@ Los archivos relacionados con una producción tienen funciones diferentes. No ut
 - **Archivos de herrajes, perfiles, materiales y parámetros:** pueden acompañar al trabajo según su contenido y la generación realizada. Verifica su pertenencia a la misma producción.
 - **Metadatos técnicos y Auditoría RP en XML:** cuando existan, cumplen funciones de trazabilidad y revisión distintas del listado de piezas. No los edites ni sustituyas manualmente como si fueran un respaldo universal.
 
-Para reconocer las salidas de una producción, abre [Archivos de Reportes Generados](reporte-de-produccion/archivos-de-reportes-generados.md). Para conocer la persistencia de revisiones, consulta [Auditoría RP y persistencia](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/auditoria-rp-persistencia).
+Para reconocer las salidas de una producción, abre [Archivos de Reportes Generados](reporte-de-produccion/archivos-de-reportes-generados.md). Para conocer la persistencia de revisiones, consulta [Auditoría RP y persistencia](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion/auditoria-rp-persistencia).
 
 ## 4. Verifica el resultado antes de volver a generar
 
