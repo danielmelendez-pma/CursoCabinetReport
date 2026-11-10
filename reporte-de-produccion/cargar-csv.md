@@ -10,7 +10,7 @@ Esta lección explica la secuencia documentada para importar un CSV en el Report
 
 La documentación original presenta la importación de archivos procedentes de programas de diseño como **Promob**. La compatibilidad depende del formato exportado y de la opción de importación de Cabinet Report; no presupongas que cualquier CSV puede abrirse.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1) (1).png" alt="Captura histórica de la entrada para importar un CSV en el Reporte de Producción"><figcaption><p>Reconoce la entrada CSV y comprueba el formato real del archivo antes de importarlo.</p></figcaption></figure>
 
 Si trabajas con un CSV generado por un programa de diseño, primero comprueba que las columnas y los valores correspondan con el formato que admite Cabinet Report. La importación es el punto de entrada; aún debes revisar las piezas antes de generar producción.
 
@@ -52,7 +52,7 @@ CANTO IZQUIERDO
 
 Al hacer clic, primero debe seleccionar las opciones de **Parámetros de producción**:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md">Ver Explicación</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Ventana de Parámetros de Producción antes de la importación CSV"><figcaption><p>Revisa vetas y automatizaciones antes de cargar el archivo. <a href="parametros-de-produccion.md">Consultar Parámetros de Producción</a>.</p></figcaption></figure>
 
 ### Antes de importar, verifica lo siguiente
 
@@ -70,7 +70,7 @@ Al hacer clic, primero debe seleccionar las opciones de **Parámetros de producc
 
 Después de configurar los parámetros, selecciona el **archivo CSV**:
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Cuadro de selección del archivo CSV que se va a abrir"><figcaption><p>Selecciona el CSV de origen conservando una copia intacta para comparar los datos.</p></figcaption></figure>
 
 ## 3. Abre el Reporte de Producción
 
