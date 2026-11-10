@@ -1,70 +1,93 @@
+---
+description: >-
+  Identifica las cinco zonas de la pantalla principal de Cabinet Report,
+  sus controles históricos y el recorrido seguro hasta un reporte de producción.
+layout:
+  width: wide
+---
+
 # Pantalla Principal
 
 **Etapa del curso · Conoce el entorno**
 
-Después de iniciar sesión, encontrarás la ventana principal de Cabinet Report. En esta lección identificarás sus áreas antes de comenzar a trabajar con materiales, piezas y módulos.
+Después de [iniciar sesión](inicio-de-sesion.md), identifica **cinco zonas** de la ventana principal antes de preparar materiales, piezas, módulos y reportes. Esta guía conserva **capturas históricas**: el diseño, los controles y su disponibilidad pueden variar por versión, licencia y nivel de usuario.
 
-La imagen general y las pestañas numeradas que aparecen más abajo permiten relacionar cada zona de la pantalla con su explicación.
+La imagen general muestra el entorno documentado. La tabla permite orientarte **sin depender exclusivamente de las pestañas o de la numeración visible en la captura**.
 
-Esta es la ventana principal que aparece después de iniciar sesión:
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Vista general histórica de la pantalla principal de Cabinet Report con sus principales áreas de trabajo"><figcaption><p>Vista de conjunto de la interfaz histórica; utiliza la guía de cinco zonas para localizar cada área.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+## Mapa rápido de la pantalla
+
+| Zona de la captura | Qué representa | Para qué te sirve |
+| --- | --- | --- |
+| **1 · Panel de ventanas** | Área central de ventanas internas. | Distinguir el espacio de trabajo del menú de acceso. |
+| **2 · Menús** | Opciones para abrir funciones del programa. | Encontrar la tarea adecuada según lo habilitado. |
+| **3 · Utilidades superiores** | Iconos complementarios de la parte superior izquierda. | Reconocer controles que pueden variar según versión. |
+| **4 · Ventana y Acerca de** | Controles de minimizar, maximizar, cerrar e información. | Consultar la versión y los datos de la aplicación. |
+| **5 · Barra inferior** | Identificación de usuario, equipo y licencia, según la captura. | Verificar la sesión sin confundirla con el proyecto. |
+
+Las descripciones se refieren a la interfaz histórica documentada; **la captura no acredita por sí sola que cada control permanezca en la misma ubicación en la versión actual**.
+
+## Examina cada zona
+
+Abre una pestaña para consultar la captura ampliada de esa parte. Si tu lector no permite operar las pestañas, utiliza el mapa anterior y las descripciones de zona que siguen.
 
 {% tabs %}
-{% tab title="1" %}
-Es el panel de Ventanas, donde se mostrarán la mayoría de Ventanas no flotantes que irá abriendo dentro de la aplicación.
+{% tab title="1 · Panel de ventanas" %}
+El **panel central** aloja la mayoría de las ventanas no flotantes abiertas dentro de Cabinet Report. Es el espacio para consultar o preparar el trabajo, no una lista de funciones disponibles.
 
-En esta ventana se mostrarán inicialmente temáticas de fechas especiales como Días Patrios, Navidad, Año Nuevo, Etc, en ocasiones también mostrará mensajes y frases con la intención de ambientar el estado de ánimo del usuario.
+En la documentación histórica, al iniciar podían aparecer imágenes de fechas especiales (como días patrios, Navidad o Año Nuevo), frases o mensajes de bienvenida. **Esos contenidos son ornamentales o informativos**: su presencia no confirma que se haya abierto un proyecto.
 
-<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Panel de ventanas internas de la pantalla principal de Cabinet Report"><figcaption><p>Zona central en la que se muestran las ventanas internas abiertas; el contenido inicial puede ser informativo.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="2" %}
-Es el panel de Menús con las opciones principales de funciones de Cabinet Report.
+{% tab title="2 · Panel de menús" %}
+El **panel de menús** ofrece acceso a las herramientas principales, según los permisos y las funciones instaladas. **Abrir una herramienta no significa que ya exista un proyecto o una producción validada.**
 
-Según cada versión, esta sección puede cambiar añadiendo, eliminando o reubicando funcionalidades.
+Al cambiar la versión pueden incorporarse, moverse o retirarse accesos. La tabla [Encuentra el recorrido adecuado](#encuentra-el-recorrido-adecuado-desde-la-pantalla-principal) sirve para elegir una tarea sin depender de la posición histórica del botón.
 
-<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Panel de menús que reúne los accesos principales a funciones de Cabinet Report"><figcaption><p>Menú de acceso a herramientas; comprueba qué opciones están habilitadas en tu instalación.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="3" %}
-Se trata de la barra superior Izquierda donde pueden aparecer nuevas funcionalidades añadidas que no tienen que ver con utilidad técnica sino funciones de métricas, tareas, teclado en pantalla para dispositivos tablets. etc.
+{% tab title="3 · Utilidades superiores" %}
+La **barra superior izquierda** reunía accesos complementarios. La descripción histórica menciona, a modo de ejemplo, métricas, tareas y teclado en pantalla para equipos táctiles; **no se confirma que todos estén vigentes, activos o incluidos en tu licencia**.
 
-<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+No utilices el aspecto de un icono como prueba de su función. Consulta su rótulo o la ayuda correspondiente en la versión instalada antes de modificar información.
 
-Estos iconos pueden cambiar según cada versión
+<figure><img src=".gitbook/assets/image (9) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Barra superior izquierda con iconos de utilidades que pueden variar por versión"><figcaption><p>Iconos de utilidades complementarias; no se asegura que aparezcan en todas las versiones.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="4" %}
-En esta sección encontrará los botones típicos de todo Software como:
+{% tab title="4 · Controles y Acerca de" %}
+En la **parte superior derecha**, la interfaz documentada muestra controles habituales de ventana:
 
-Minimizar
+- **Minimizar:** enviar la ventana a la barra de tareas sin interpretar ese gesto como guardado.
+- **Maximizar o restaurar:** cambiar el tamaño de la ventana cuando el control esté disponible.
+- **Cerrar:** salir de la ventana o de la aplicación según corresponda; **verifica antes que tu trabajo esté guardado**.
 
-Maximizar
+También se documenta el acceso **Acerca de** mediante el icono de información **(i)**. Esta ventana permite consultar la versión y acceder a recursos del programa; la [guía oficial de Acerca de](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/ventana-acerca-de) describe su alcance.
 
-Cerrar
-
-<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-Adicional también encontrará el acceso a la Ventana de Acerca De, donde encontrará información relacionada al Software, Documentación, Redes Sociales, Etc.
+<figure><img src=".gitbook/assets/image (10) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Zona superior derecha con controles de ventana y acceso a información de la aplicación"><figcaption><p>Controles de ventana y acceso a Acerca de, de acuerdo con la distribución documentada.</p></figcaption></figure>
 {% endtab %}
 
-{% tab title="5" %}
-Se trata de la barra inferior donde se muestra información de usuarios y licencias:
+{% tab title="5 · Barra inferior" %}
+La **barra inferior** identifica datos de la sesión y de la licencia en la interfaz histórica. Entre los elementos descritos aparecen:
 
-<figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+- **Usuario activo** y **nivel de acceso**.
+- **Nombre del equipo o computadora**.
+- **Cliente titular de la licencia activa**.
+- **Identificación de la licencia del usuario**, cuando se muestre.
+- Acceso a la **gestión de licencias**, según permisos y versión.
+- Botón de **actualización de parámetros o conexión**, de acuerdo con la captura histórica; su funcionamiento actual requiere comprobación en la instalación.
 
-En esta barra verá:
+**No publiques ni compartas capturas que expongan claves, códigos completos de licencia u otra información confidencial.**
 
-* El nombre del usuario activo
-* El Nivel del Usuario activo
-* El nombre el equipo o computadora
-* El nombre del Cliente propietario de la licencia activa
-* La licencia del usuario activo
-* Acceso a la ventana de licencias
-* Boton de actualizacion de parámetros y conexión
+<figure><img src=".gitbook/assets/image (11) (1) (1) (1) (1) (1) (1) (1).png" alt="Barra inferior de la pantalla principal con datos de sesión, equipo y licencia"><figcaption><p>Datos de la sesión y de la licencia; no equivalen automáticamente al cliente o ambiente de un proyecto.</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
+
+{% hint style="info" %}
+**Alcance documentado:** se confirman cinco áreas de referencia y el propósito general de sus controles. La ubicación exacta de los iconos, el contenido del panel inicial y la disponibilidad de utilidades, licencias y conexiones **deben comprobarse en la versión Windows utilizada**. Esta lección no sustituye a la [Documentación Oficial de funcionalidades](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/).
+{% endhint %}
 
 ## Antes de comenzar un trabajo
 
@@ -102,6 +125,17 @@ Utiliza este recorrido de práctica con **un módulo de un proyecto identificado
 5. **Abre el [Reporte de Producción](reporte-de-produccion/reporte-de-produccion.md).** Confirma los identificadores del trabajo, la integridad de las piezas, sus medidas y cantidades, y la orientación de veta y cantos.
 6. **Prepara la salida que necesites.** Generar un reporte y optimizar para corte son procesos distintos. Consulta los [archivos generados](reporte-de-produccion/archivos-de-reportes-generados.md) y comprueba el formato y contenido antes de compartirlos con el taller.
 
+**Registra el resultado del ensayo**, sin alterar una producción real:
+
+| Control de aprendizaje | Resultado a marcar | Evidencia esperada |
+| --- | --- | --- |
+| Identifiqué las cinco zonas de la ventana. | Conforme / No conforme / No ejecutado | Zona y función reconocidas en mi versión. |
+| Diferencié el titular de la licencia del cliente y ambiente del proyecto. | Conforme / No conforme / No ejecutado | Identificadores comprobados sin divulgar claves. |
+| Localicé la ruta hacia una herramienta técnica. | Conforme / No conforme / No ejecutado | Nombre de la opción visible o ausencia documentada. |
+| Revisé las medidas y cantidades de un módulo de práctica antes del RP. | Conforme / No conforme / No ejecutado | Comparación con diseño y parámetros aplicables. |
+
+Si una función no está disponible, anota la versión y el nivel de acceso y marca **No ejecutado**: no inventes capturas, resultados ni permisos.
+
 {% hint style="warning" %}
 **Punto de control antes de fabricar:** no des por terminado el trabajo porque una ventana se haya cerrado, un archivo se haya generado o una revisión automática no muestre hallazgos. Compara la salida final con el diseño y conserva una copia de los datos de origen.
 {% endhint %}
@@ -119,4 +153,4 @@ Utiliza este recorrido de práctica con **un módulo de un proyecto identificado
 
 Cuando identifiques las áreas de trabajo, continúa con [**Creación de Tableros**](creacion-de-tableros.md) o consulta [**Fórmulas y Variables**](formulas-y-variables.md) si necesitas conocer los parámetros empleados en las lecciones técnicas.
 
-[← Volver a la portada del Curso](README.md)
+[← Inicio de Sesión](inicio-de-sesion.md) · [Portada del Curso](README.md) · [🏠 Portal principal](https://danielmelendez-pma.github.io/cabinet-report-partners/)
