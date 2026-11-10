@@ -196,7 +196,7 @@ Trabaja con una copia de prueba y **dos configuraciones A/B** de la misma pieza 
 **Resultado por control:** **CONFORME** si los datos y cálculos concuerdan con evidencia; **NO CONFORME** si existe una diferencia demostrada; **NO EJECUTADO** si la prueba no se realizó o faltan datos. No conviertas una operación didáctica en una prueba funcional del programa.
 
 {% hint style="warning" %}
-**Antes de fabricar:** un cálculo sin errores aparentes, una sugerencia del [Revisor IA](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/revisor-inteligencia-artificial) o un RP generado no sustituyen la comprobación de las medidas y condiciones reales de fabricación. Si hay incertidumbres técnicas, conserva la producción de ensayo y solicita la validación correspondiente.
+**Antes de fabricar:** un cálculo sin errores aparentes, una sugerencia del [Revisor IA](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-produccion/revisor-inteligencia-artificial) o un RP generado no sustituyen la comprobación de las medidas y condiciones reales de fabricación. Si hay incertidumbres técnicas, conserva la producción de ensayo y solicita la validación correspondiente.
 {% endhint %}
 
 ## Continúa el aprendizaje
