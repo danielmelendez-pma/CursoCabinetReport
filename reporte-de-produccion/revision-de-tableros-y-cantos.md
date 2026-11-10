@@ -6,13 +6,15 @@ description: Verifica los tableros, cantos, tipos y archivos complementarios ant
 
 Después de abrir un archivo **TXT o CSV**, Cabinet Report presenta la ventana **Revisión de Tableros y Cantos**. Aquí debes comprobar que los materiales del archivo corresponden a los que realmente utilizarás.
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1).png" alt="Ventana de Revisión de Tableros y Cantos al importar un archivo"><figcaption><p>Identifica los materiales detectados antes de continuar.</p></figcaption></figure>
+
+**Continuidad del recorrido:** esta revisión viene después de [Parámetros de Producción](parametros-de-produccion.md), al cargar un [TXT](cargar-txt.md), un [CSV](cargar-csv.md) o un TXT procedente de [RP a TXT](rp-a-txt.md). El paso siguiente es verificar cada pieza en el [Reporte de Producción](reporte-de-produccion.md). La revisión de materiales no reemplaza la conciliación de cantidades y medidas.
 
 ## 1. Comprobar los materiales encontrados
 
 La ventana permite revisar los tableros y cantos detectados y verificar su correspondencia con los registros públicos o privados de la base de datos. Esta identificación se utiliza también en las comprobaciones posteriores de la Orden de Producción.
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55).png" alt="Listado para cotejar tableros y cantos con referencias de catálogo"><figcaption><p>Valida tipo, nombre y espesor de cada material.</p></figcaption></figure>
 
 Antes de continuar, comprueba lo siguiente:
 
@@ -42,7 +44,7 @@ En la parte inferior de la ventana se muestran las cantidades de **tableros** y 
 
 **Distingue identificación de consumo:** estos totales de materiales detectados no deben interpretarse automáticamente como cantidad de planchas que comprar ni como metros de canto necesarios. La estimación y optimización de materiales es una comprobación posterior.
 
-<figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (56).png" alt="Totales de tableros y cantos detectados en el archivo"><figcaption><p>Estos totales indican referencias detectadas, no consumo de planchas o canto.</p></figcaption></figure>
 
 ## 3. Elegir los archivos complementarios y continuar
 
