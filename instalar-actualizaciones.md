@@ -26,6 +26,32 @@ Una actualización modifica la instalación del programa. **No presupongas que e
 **Antes de actualizar una producción activa:** conserva el origen y los archivos aprobados por separado. La actualización no sustituye la revisión técnica, y un respaldo incompleto puede impedir reconstruir el trabajo.
 {% endhint %}
 
+## Consultar y descargar una versión desde el portal oficial
+
+Si no aparece el aviso de actualización dentro de Cabinet Report, o necesitas **consultar qué versiones están publicadas**, puedes hacerlo desde el [portal oficial de Cabinet Report](https://danielmelendez-pma.github.io/cabinet-report-partners/). Este recorrido es **informativo y de descarga**: no significa que el instalador descargado se haya ejecutado ni que sustituya automáticamente al actualizador integrado.
+
+1. Abre el **portal oficial** y selecciona **Descargar última versión** (botón con el icono de Windows). La ventana consulta las publicaciones estables de GitHub cuando la abres; no muestra una versión fija escrita en la página.
+2. Comprueba la **versión indicada**, la fecha de la versión cuando esté publicada, la fecha de publicación en GitHub y las novedades. Si existe imagen oficial, puedes ampliarla para leer sus detalles. La fecha de versión y la fecha de publicación pueden ser diferentes.
+3. Si necesitas el archivo, pulsa **Descargar instalador**. Antes de abrir el ejecutable, confirma que la descarga procede del repositorio oficial `danielmelendez-pma/CabinetReport-Updates` en GitHub y que el nombre sigue el patrón `CabinetReport-Setup-X.X.X.X.exe`, correspondiente a la versión elegida. **El nombre por sí solo no acredita su procedencia.**
+4. Si necesitas consultar una publicación anterior, utiliza la opción **Versiones** del menú superior. El historial presenta hasta diez versiones estables recientes, cada una con sus propios detalles y enlace de instalador. No selecciones una versión anterior para sustituir la instalada sin confirmar su compatibilidad y necesidad con soporte.
+5. **Antes de ejecutar cualquier instalador**, completa las comprobaciones y el respaldo de la sección anterior. Si el programa ya ofrece una actualización interna, sigue primero el procedimiento indicado en esta lección; la ejecución manual de un instalador puede requerir indicaciones adicionales para tu instalación y licencia.
+
+{% hint style="warning" %}
+**No fuerces instalaciones ni desactives las protecciones de Windows.** Si GitHub no responde, el portal no permite verificar la versión o el archivo no coincide con la publicación seleccionada, no descargues una copia desde sitios alternativos. Utiliza los [canales oficiales de soporte](https://cabinet-report.gitbook.io/cabinet-report-docs/politicas-de-soporte).
+{% endhint %}
+
+### Lista de comprobación antes de continuar
+
+| Comprobación | Qué confirmar |
+| --- | --- |
+| **Versión instalada** | Registrar la versión visible en **Acerca de Cabinet Report**. |
+| **Versión ofrecida** | Identificar su publicación estable en el portal y su instalador específico en GitHub. |
+| **Procedencia** | Verificar el repositorio oficial y la correspondencia entre etiqueta y ejecutable; no confiar únicamente en el nombre. |
+| **Respaldo** | Conservar y comprobar copias de los proyectos y archivos de producción afectados. |
+| **Método de actualización** | Distinguir el actualizador integrado de una descarga manual y solicitar orientación antes de reemplazar una instalación en uso. |
+
+---
+
 ## 1. Iniciar sesión
 
 Al iniciar Cabinet Report, aparecerá la pantalla de inicio de sesión:
