@@ -10,7 +10,7 @@ Esta lección explica cómo abrir un TXT de producción compatible con Cabinet R
 
 Puedes utilizar un TXT generado por Cabinet Report o por el Catálogo de Módulos, así como un archivo de otro programa **si respeta la estructura compatible**. La extensión `.txt` no confirma por sí sola esa compatibilidad.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Captura histórica de la entrada Cargar TXT en el Reporte de Producción"><figcaption><p>Ubica la opción Cargar TXT y comprueba que el archivo procede de una fuente compatible.</p></figcaption></figure>
 
 ---
 ## Campos del formato documentado
@@ -50,7 +50,7 @@ CANTO IZQUIERDO
 
 Al hacer clic, primero debe seleccionar las opciones de **Parámetros de producción**:
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p><a href="parametros-de-produccion.md">Ver Explicación</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Ventana de Parámetros de Producción antes de importar TXT"><figcaption><p>Selecciona los parámetros y confirma si abrirás un RP nuevo o uno anterior. <a href="parametros-de-produccion.md">Consultar Parámetros de Producción</a>.</p></figcaption></figure>
 
 ### Antes de importar, verifica lo siguiente
 
@@ -64,7 +64,7 @@ Al hacer clic, primero debe seleccionar las opciones de **Parámetros de producc
 
 Después de configurar los parámetros, selecciona el **archivo TXT**:
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Cuadro para seleccionar el archivo TXT de producción"><figcaption><p>Elige el TXT de producción y contrasta su contenido al abrir el reporte.</p></figcaption></figure>
 
 ## 3. Abre el Reporte de Producción
 
