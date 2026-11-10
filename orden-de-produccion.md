@@ -1,4 +1,14 @@
+---
+description: >-
+  Guía para preparar, conciliar y comprobar una Orden de Producción con varios RP
+  en Excel: identidad, materiales, cantidades, archivo generado y asociaciones.
+layout:
+  width: wide
+---
+
 # Orden de Producción
+
+**CABINET REPORT · ORGANIZACIÓN DOCUMENTAL PARA FABRICACIÓN**
 
 Organiza en una misma orden los **reportes RP en Excel previamente revisados**. Esta lección muestra cómo preparar, generar y comprobar la OP, sin confundir el documento resultante con el seguimiento físico de fabricación. La disponibilidad de opciones debe comprobarse en la versión instalada.
 
@@ -14,7 +24,15 @@ La Orden de Producción reúne información para el control de procesos de fabri
 
 Parte de los [archivos RP revisados](reporte-de-produccion/archivos-de-reportes-generados.md). Si aún necesitas preparar la relación de materiales para abastecimiento, utiliza [Reporte de Compras](reporte-de-compras.md): **un Excel de Compras no sustituye al RP requerido para la OP**. Si necesitas encontrar una producción anterior, consulta [Explorador de Proyectos](explorador-de-proyectos.md) y recupera los archivos compatibles antes de continuar.
 
-Comprueba que cada **RP - *.xlsx** provenga del proyecto correcto, que se haya revisado su contenido y que conozcas su cliente, ambiente y número RP. Verifica también si alguno **ya está asociado a otra OP**: no debes duplicar esa asociación sin resolverla.
+### RP, RC y OP: documentos diferentes
+
+| Documento | Qué toma como referencia | Para qué se utiliza | Qué no acredita |
+| --- | --- | --- | --- |
+| **Reporte de Producción (RP)** | Piezas, módulos, cantidades y especificaciones del trabajo | Preparar y revisar la información de fabricación; generar el Excel RP que se incorpora a la OP | Que todas las piezas hayan sido fabricadas |
+| **Reporte de Compras (RC)** | Fuentes y relaciones de materiales de uno o varios ambientes | Preparar necesidades de abastecimiento en Excel | Que se haya comprado, recibido o descontado material del almacén |
+| **Orden de Producción (OP)** | Uno o varios **Excel RP** compatibles y su identificación | Agrupar trabajos bajo una orden, generar el Excel OP y comprobar sus asociaciones, cuando corresponda | Que la OP esté registrada por el solo hecho de generar Excel, ni que el taller haya ejecutado los trabajos |
+
+Comprueba que cada **RP - *.xlsx** provenga del proyecto correcto, que se haya revisado su contenido y que conozcas su cliente, ambiente y **número RP real**. Confronta esos datos con la carpeta y la versión del Excel; si conservas varias copias de un mismo RP, identifica cuál es la autorizada. Verifica también si alguno **ya está asociado a otra OP**: no debes duplicar esa asociación sin resolverla.
 
 ## 2. Preparar la orden
 
@@ -28,7 +46,7 @@ Localiza el **Excel RP** correspondiente y selecciona **Abrir**:
 
 Si el archivo es admitido, el recorrido muestra un mensaje de éxito. Ese aviso de carga no sustituye la verificación del contenido del RP.
 
-También puedes agregar otros RP del mismo cliente si corresponde prepararlos bajo una misma orden. Comprueba **ambientes, números RP y compatibilidad de materiales** antes de agruparlos.
+También puedes agregar otros RP del mismo cliente si corresponde prepararlos bajo una misma orden. Comprueba **ambientes, números RP y compatibilidad de materiales** antes de agruparlos. No confundas **el número de cada RP** con **el número de control de la OP**: una orden puede reunir varios RP, pero cada origen debe conservar su identidad para la conciliación.
 
 <figure><img src=".gitbook/assets/image (4).png" alt="Vista del proceso al incorporar otros reportes RP a la orden"><figcaption><p>Antes de agregar otro RP, comprueba cliente, ambiente y asociación previa.</p></figcaption></figure>
 
@@ -60,6 +78,8 @@ Selecciona una carpeta de destino donde puedas identificar la OP y relacionarla 
 
 <figure><img src=".gitbook/assets/image (12).png" alt="Selección de carpeta para guardar el archivo de Orden de Producción"><figcaption><p>Utiliza una ubicación que permita relacionar la OP con sus RP de origen.</p></figcaption></figure>
 
+La [documentación oficial](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/orden-de-produccion) describe como referencia el nombre de salida `OP-[número] - [cliente].xlsx` y una plantilla ubicada en `Plantillas`. **Confirma el nombre real, la disponibilidad de la plantilla y los permisos de lectura/escritura en tu instalación**; no cambies manualmente el identificador para ocultar un conflicto. Si el selector no admite una ruta de red, utiliza una **copia local autorizada** del RP y verifica que coincida con el original antes de continuar.
+
 El recorrido muestra un mensaje de éxito. **Abre y comprueba el Excel** antes de distribuirlo:
 
 <figure><img src=".gitbook/assets/image (13).png" alt="Mensaje de éxito al generar el archivo de Orden de Producción"><figcaption><p>Abre el Excel generado y comprueba por separado el registro de asociaciones.</p></figcaption></figure>
@@ -70,7 +90,18 @@ El recorrido muestra un mensaje de éxito. **Abre y comprueba el Excel** antes d
 **Un archivo Excel no equivale por sí solo a una orden registrada.** La creación del documento puede depender de la plantilla local y del guardado de las asociaciones entre RP y OP. Si falla la plantilla, el archivo está bloqueado o la aplicación informa un error de registro, no distribuyas la orden como definitiva.
 {% endhint %}
 
-Después de generar, verifica el **número de control OP**, el cliente, los RP incluidos, los totales de piezas y el destino del Excel. Si trabajaste sin conexión, vuelve a comprobar los vínculos y el estado del registro cuando recuperes la conectividad; no des por hecha la sincronización.
+Después de generar, verifica el **número de control OP**, el cliente, los RP incluidos, los totales de piezas y el destino del Excel. Las comprobaciones de archivo y registro se realizan **por separado**:
+
+| Comprobación | Evidencia que debes obtener | Si no concuerda |
+| --- | --- | --- |
+| **Excel OP generado** | Existe en la carpeta elegida, abre correctamente, identifica la orden y contiene el resumen esperado | Revisa plantilla local, ruta, permisos y posibles bloqueos del archivo; no lo distribuyas |
+| **Identidad de la OP** | Número OP identificado y no reutilizado indebidamente, cliente correcto, relación verificable con los números RP | Detén el proceso y comprueba si existe otra orden o una versión previa |
+| **Asociación RP ↔ OP** | Los RP seleccionados figuran vinculados a la OP en el registro o consulta disponible, cuando la función lo permite | No presentes el Excel como prueba de registro; investiga el error antes de repetir la operación |
+| **Integridad de materiales** | Cantidades efectivas, materiales, espesores y cantos conciliados con cada Excel RP | Localiza la fila o partida de origen, corrige la fuente autorizada y vuelve a verificar |
+
+La documentación oficial contempla registro de vínculos y consulta de órdenes según el contexto, pero **no garantiza que la creación del Excel, la persistencia y la recuperación funcionen como una sola operación**. Si trabajaste sin conexión, vuelve a comprobar los vínculos y el estado del registro cuando recuperes la conectividad; **no des por hecha una sincronización automática**.
+
+Ante un error, conserva los **Excel RP originales**, el nombre y ubicación del Excel OP, el identificador de orden, el mensaje mostrado y, cuando sea posible, una captura sin datos sensibles. No crees una segunda OP ni cambies su número solo para eludir un fallo de guardado: primero comprueba si la anterior llegó a registrarse.
 
 ## 4. Herramientas relacionadas
 
@@ -88,9 +119,10 @@ Estas operaciones requieren volver a comprobar las piezas y materiales del resul
 
 1. Confirma que **cliente, ambientes, RP y número OP** sean correctos y estén asociados de forma coherente.
 2. Contrasta piezas, cantidades y tableros/cantos con los reportes originales.
-3. Revisa la existencia y apertura del Excel generado y el estado del registro de la OP.
-4. Si utilizas las herramientas de conversión o fusión de optimizaciones, verifica por separado la compatibilidad del formato y el listado de piezas resultante.
-5. Obtén la autorización correspondiente antes de entregar documentos a corte, montaje o instalación: la OP no acredita la ejecución física.
+3. Revisa la existencia y apertura del Excel generado y, **por separado**, el estado del registro y las asociaciones de la OP.
+4. Comprueba que no falte ningún RP previsto, que un mismo origen no se haya incluido dos veces y que el número OP no corresponda a otra orden.
+5. Si utilizas las herramientas de conversión o fusión de optimizaciones, verifica por separado la compatibilidad del formato y el listado de piezas resultante, incluidas las **piezas no colocadas**.
+6. Obtén la autorización correspondiente antes de entregar documentos a corte, montaje o instalación: la OP no acredita la ejecución física.
 
 ## 6. Ejercicio verificable: conciliar dos RP en una OP
 
@@ -121,6 +153,8 @@ Supón que el RP-A (Cocina) contiene dos módulos iguales con **dos costados, un
 ### Prueba de discrepancia: detecta una duplicación
 
 Si en tu **hoja de conciliación** cuentas por equivocación el RP-A dos veces, obtendrías **8 + 8 + 4 = 20** piezas, frente a las **12** aprobadas. La diferencia de **8** indica que debes revisar el origen de cada partida, no aceptar una suma mayor por parecer más completa. **Este ejemplo no afirma que Cabinet Report permita ni detecte automáticamente archivos repetidos.**
+
+Si, por el contrario, omites RP-B, el total quedaría en **8** piezas: faltarían **4**. En ambos casos compara **la lista de números RP y sus cantidades de origen**, no solo el total, porque dos errores opuestos podrían compensarse. Una coincidencia numérica tampoco valida que materiales, espesores, vetas o cantos sean compatibles.
 
 Si las cantidades no coinciden, detén la entrega, identifica cuál RP, fila o pieza produce la diferencia, corrige la fuente autorizada y repite la conciliación. No «arregles» la OP editando totales sin rastrear su procedencia.
 
