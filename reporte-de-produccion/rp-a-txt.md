@@ -1,3 +1,7 @@
+---
+description: Convierte un Excel RP compatible a TXT y comprueba los datos antes de reabrir la producción.
+---
+
 # RP a TXT
 
 **Curso de Cabinet Report · Conversión de archivos de producción**
@@ -10,58 +14,63 @@ Para convertir los Excel RP previamente generados por Cabinet Report, al archivo
 
 Es especialmente útil si modificaste manualmente datos del Excel RP. **Guarda una copia del Excel original** y evita mover o eliminar secciones, encabezados y columnas, porque la conversión depende del formato esperado.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png" alt="Vista de acceso a la conversión de Excel RP a TXT"><figcaption><p>La conversión parte de un Excel RP con su estructura conservada.</p></figcaption></figure>
 
 ---
+
+## Ruta de comprobación
+
+**Excel RP compatible → TXT convertido → [Parámetros de Producción](parametros-de-produccion.md) → [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) → [Reporte de Producción](reporte-de-produccion.md).** Convertir y abrir no equivale a validar una producción. Utiliza el ejercicio de conciliación de esta lección para comparar la copia editada y aprobada con el TXT y el RP abiertos.
+
 ## Estructura requerida del archivo Excel RP
 
 El archivo debe conservar el formato del reporte Excel RP, con las siguientes secciones:
 
 ### Encabezado
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Encabezado del Excel RP utilizado en la conversión"><figcaption><p>Conserva la distribución de los campos de encabezado.</p></figcaption></figure>
 
 ### Sección de Módulos
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección de módulos del Excel RP"><figcaption><p>Comprueba los módulos incluidos en el archivo de origen.</p></figcaption></figure>
 
 ### Sección de Piezas Sueltas
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección de piezas sueltas del Excel RP"><figcaption><p>Revisa las piezas independientes y sus cantidades.</p></figcaption></figure>
 
 ### Sección de Observaciones
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección de observaciones del Excel RP"><figcaption><p>Conserva la sección de observaciones del reporte.</p></figcaption></figure>
 
 ### Sección de Materiales
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección de materiales del Excel RP"><figcaption><p>Contrasta las referencias de los materiales.</p></figcaption></figure>
 
 ### Sección de Herrajes y Accesorios
 
 #### Zócalos de PVC
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección de zócalos de PVC del Excel RP"><figcaption><p>Verifica los registros de zócalos que correspondan.</p></figcaption></figure>
 
 #### Golas
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección de golas del Excel RP"><figcaption><p>Verifica los registros de golas que correspondan.</p></figcaption></figure>
 
 #### Tubos
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1) (1).png" alt="Sección de tubos del Excel RP"><figcaption><p>Verifica los registros de tubos que correspondan.</p></figcaption></figure>
 
 #### Accesorios
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1) (1) (1).png" alt="Sección de accesorios del Excel RP"><figcaption><p>Comprueba los accesorios de forma independiente.</p></figcaption></figure>
 
 #### Ferretería de Montaje
 
-<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png" alt="Sección de ferretería de montaje del Excel RP"><figcaption><p>Comprueba los registros de ferretería de montaje.</p></figcaption></figure>
 
 #### Ferretería de Instalación
 
-<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt="Sección de ferretería de instalación del Excel RP"><figcaption><p>Comprueba los registros de ferretería de instalación.</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Compatibilidad:** no basta con que el archivo sea de Excel. Si el RP no conserva las secciones indicadas, la conversión puede fallar o producir un TXT incompleto. No utilices ese TXT en producción sin comprobarlo.
@@ -73,37 +82,37 @@ El archivo debe conservar el formato del reporte Excel RP, con las siguientes se
 
 Seleccionar el archivo de Excel RP:
 
-<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1) (1).png" alt="Selector del archivo Excel RP en la herramienta de conversión"><figcaption><p>Elige una copia del archivo Excel RP compatible.</p></figcaption></figure>
 
 ### 2. Comprueba el contenido
 
 Cabinet Report analiza el archivo y puede mostrar su contenido. Comprueba que las secciones, cantidades y materiales reconocidos correspondan al Excel antes de generar el TXT:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Vista de comprobación del contenido previo a la conversión"><figcaption><p>Contrasta las secciones, cantidades y materiales con el Excel aprobado.</p></figcaption></figure>
 
 ### 3. Genera el archivo TXT
 
 Haz clic en **Generar TXT de Producción** cuando la vista previa corresponda con el Excel original.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt="Control para generar un TXT de producción desde el Excel RP"><figcaption><p>Genera el TXT únicamente cuando los datos de origen estén comprobados.</p></figcaption></figure>
 
 ### 4. Selecciona dónde guardarlo
 
 Selecciona dónde guardar el TXT de Producción. Para conservar una referencia, evita sobrescribir una versión anterior sin una copia de respaldo:
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt="Selección de destino para el TXT de producción convertido"><figcaption><p>Guarda el TXT de prueba sin sobrescribir el respaldo.</p></figcaption></figure>
 
 ### 5. Verifica y abre el resultado
 
 Cabinet Report le informa que se ha generado y ya lo puede abrir, le muestra los datos del archivo y le pregunta si lo desea abrir, entonces le pide seleccione si es un RP nuevo o es para modificar un RP Anterior:
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1).png" alt="Confirmación de generación del TXT y opción de apertura"><figcaption><p>La confirmación de creación no valida los datos convertidos.</p></figcaption></figure>
 
 Haz clic en **Abrir** para acceder al **Reporte de Producción**. Antes de generar u optimizar, **compara el TXT convertido y el reporte abierto con el Excel de origen**: cliente, ambiente, módulos, piezas, cantidades, medidas, materiales y cantos. Si faltan datos, regresa al Excel original y revisa su estructura.
 
 Continúa con [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) y la [guía detallada de la ventana](reporte-de-produccion.md).
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1) (1).png" alt="Reporte de Producción abierto a partir de un TXT convertido"><figcaption><p>Concilia las piezas, unidades, medidas, materiales y cantos después de abrir.</p></figcaption></figure>
 
 
 ## Ejercicio verificable: Excel RP editado → TXT → RP recuperado
