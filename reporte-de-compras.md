@@ -8,6 +8,10 @@ Cabinet Report reúne materiales y herrajes para preparar un informe que el depa
 **Dos recorridos:** la documentación oficial contempla **Un ambiente** y **Varios ambientes**. Las capturas originales siguientes ilustran principalmente el procedimiento histórico de un ambiente; los controles pueden variar según la versión instalada.
 {% endhint %}
 
+## Del RP revisado a la preparación de compras
+
+El punto de partida es el [Reporte de Producción revisado](reporte-de-produccion/README.md) junto con los **archivos de materiales y complementarios de ese mismo trabajo**. El Reporte de Compras prepara un **Excel para revisar necesidades de abastecimiento**; el pedido, la recepción y la autorización de materiales son comprobaciones externas. Si lo que necesitas es agrupar RP para fabricación, sigue [Orden de Producción](orden-de-produccion.md). Para localizar un trabajo anterior, consulta [Explorador de Proyectos](explorador-de-proyectos.md).
+
 ## Antes de empezar
 
 1. Genera y revisa el [Reporte de Producción](reporte-de-produccion/README.md) correspondiente.
@@ -17,21 +21,21 @@ Cabinet Report reúne materiales y herrajes para preparar un informe que el depa
 
 ## 1. Generar el reporte de un ambiente (capturas originales)
 
-<figure><img src=".gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (95).png" alt="Pantalla inicial del recorrido de Reporte de Compras"><figcaption><p>Inicio del procedimiento de compras mostrado en la versión ilustrada.</p></figcaption></figure>
 
 **Seleccione Parámetros**
 
-<figure><img src=".gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (96).png" alt="Opción para seleccionar los parámetros de producción"><figcaption><p>El recorrido comienza identificando los parámetros del trabajo correcto.</p></figcaption></figure>
 
 Navegue hasta la carpeta de su proyecto y seleccione el archivo de Parámetros y haga clic en Abrir:
 
-<figure><img src=".gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (98).png" alt="Selección del archivo de parámetros dentro de la carpeta del proyecto"><figcaption><p>Comprueba la carpeta, el cliente y el ambiente antes de abrir el archivo.</p></figcaption></figure>
 
 Se cargan los datos de la producción
 
-<figure><img src=".gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (99).png" alt="Vista de los datos de la producción cargados desde parámetros"><figcaption><p>Revisa que la información cargada pertenezca a esta producción.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (100).png" alt="Continuación de la vista de producción previa al reporte de compras"><figcaption><p>Confirma los datos de origen antes de solicitar el reporte.</p></figcaption></figure>
 
 Seleccione Generar Reporte de Compras
 
@@ -44,15 +48,15 @@ En la siguiente ventana, selecciona los **archivos disponibles que correspondan 
 
 Selecciona las fuentes pertinentes y haz clic en **Abrir**. Si falta una categoría, verifica primero si se generó para ese trabajo; no sustituyas un archivo faltante por otro de distinto proyecto.
 
-<figure><img src=".gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (101).png" alt="Selección de archivos de materiales, ferretería y accesorios"><figcaption><p>Selecciona únicamente los archivos disponibles de la misma producción.</p></figcaption></figure>
 
 Si todo sale bien, le sale el siguiente mensaje de éxito
 
-<figure><img src=".gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (102).png" alt="Mensaje de confirmación de la generación del Reporte de Compras"><figcaption><p>Un mensaje de éxito no sustituye la revisión del Excel producido.</p></figcaption></figure>
 
 **Se le genera el archivo XLSX con el Reporte de Compras junto con los demás archivos de su producción:**
 
-<figure><img src=".gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (103).png" alt="Ejemplo del archivo XLSX de compras junto a otros archivos del proyecto"><figcaption><p>Comprueba el archivo XLSX generado y su ubicación real.</p></figcaption></figure>
 
 ## 2. Consolidar varios ambientes
 
@@ -69,17 +73,17 @@ La modalidad **Varios ambientes**, descrita en la [documentación oficial del Re
 
 ### Archivos adicionales según las opciones seleccionadas
 
-<figure><img src=".gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (105).png" alt="Opciones históricas de archivos adicionales de compras"><figcaption><p>La disponibilidad de salidas adicionales depende de las opciones utilizadas.</p></figcaption></figure>
 
 **Se generan los archivos de cortes de Perfilarías con la optimización de corte lista para entregar a su departamento de perfilerías con el plan de trabajo de corte:**
 
-<figure><img src=".gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (104).png" alt="Ejemplo de archivos con plan de corte de perfilería"><figcaption><p>Revisa las unidades y las condiciones de corte antes de remitir a perfilería.</p></figcaption></figure>
 
-## Que más puede hacer desde la Ventaja de **Reporte de Compras?**
+## 3. Exportar a plantillas de corte y canteo
 
-Exportar su producción a los archivo plantillas de su proveedor de corte y canteo preferído:
+Además del Excel de compras, las capturas históricas ilustran la exportación a plantillas de proveedores de corte y canteo. **Comprueba primero la opción disponible en tu versión y el formato solicitado por el proveedor.**
 
-<figure><img src=".gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (106).png" alt="Opciones para exportar a plantillas de proveedores de corte y canteo"><figcaption><p>Selecciona un formato de proveedor solo tras comprobar su compatibilidad vigente.</p></figcaption></figure>
 
 Las capturas de esta lección muestran plantillas de:
 
@@ -89,41 +93,41 @@ Las capturas de esta lección muestran plantillas de:
 - TANDOR Comercial
 - MULTILAMINAS
 
-Solo debe hacer clic en el proveedor con el que va a cortar y cantear su producción, seleccionar el archivo TXT de Producción y Abrir:
+Selecciona la plantilla del proveedor correspondiente y localiza el **TXT de producción revisado**. Confirma cliente, ambiente y referencia antes de abrirlo:
 
-<figure><img src=".gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (107).png" alt="Selección del TXT de producción destinado a la plantilla del proveedor"><figcaption><p>El TXT seleccionado debe corresponder a la producción revisada.</p></figcaption></figure>
 
-En la siguiente ventana seleccione los tableros que va a cortar y cantear con el proveedor y también puede colocar el código del material.
+En el paso ilustrado, selecciona los tableros destinados al proveedor y, cuando corresponda, indica sus códigos de material. Comprueba que coincidan con la referencia acordada.
 
 La captura histórica describe una opción para indicar la **medida mínima de corte y canteo** del proveedor y ajustar piezas inferiores a ese límite:
 
-<figure><img src=".gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (108).png" alt="Selección de tableros, códigos y medida mínima de corte del proveedor"><figcaption><p>Verifica los códigos y cualquier cambio de medida antes de aprobar la exportación.</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Un mínimo de proveedor puede alterar dimensiones de corte.** No consideres una pieza ajustada como equivalente a la medida del diseño. Antes de autorizar la exportación, compara las medidas originales y las exportadas, confirma las tolerancias y coordina cualquier corrección con el responsable técnico. La disponibilidad y el comportamiento exacto de esta opción deben verificarse en la versión instalada.
 {% endhint %}
 
-Si quiere agregar otro TXT de Producción para cortar junto, puede agregarlo haciendo clic aquí:
+Si tu trabajo requiere incluir otro TXT en la misma exportación, la captura muestra dónde incorporarlo. Concilia ambas producciones antes de continuar:
 
-<figure><img src=".gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (110).png" alt="Opción de incorporar otro TXT de producción en la exportación"><figcaption><p>Añadir un segundo TXT requiere conciliar ambos orígenes.</p></figcaption></figure>
 
-Cuando todo esté listo para exportar la producción a la plantilla del proveedor, haga clic en **Exportar**:
+Una vez verificadas las fuentes, los materiales y las dimensiones, selecciona **Exportar**:
 
-<figure><img src=".gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (111).png" alt="Acción de exportar la producción a la plantilla de proveedor"><figcaption><p>Exportar el documento no confirma un pedido ni una aprobación de fabricación.</p></figcaption></figure>
 
-Seleccione la carpeta de destino o la de su producción y haga clic en Guardar:
+Elige una carpeta de destino identificable y guarda la plantilla, sin sobrescribir la fuente aprobada:
 
-<figure><img src=".gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (112).png" alt="Selección de la carpeta de destino para guardar la plantilla"><figcaption><p>Guarda el resultado en una ubicación identificable y conserva el archivo original.</p></figcaption></figure>
 
-Si todo sale bien, le sale el mensaje de éxito:
+El recorrido muestra un mensaje de confirmación. Después, **abre el XLSX y revisa su contenido**:
 
-<figure><img src=".gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (113).png" alt="Mensaje de confirmación del proceso de exportación"><figcaption><p>Comprueba el archivo creado aunque el sistema confirme la exportación.</p></figcaption></figure>
 
 El recorrido ilustrado finaliza con una **plantilla XLSX** del proveedor. Antes de entregarla, comprueba que se haya completado correctamente y que el formato siga siendo aceptado por el proveedor; la exportación **no representa un pedido realizado ni una aprobación técnica automática**:
 
-<figure><img src=".gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (114).png" alt="Ejemplo de plantilla XLSX obtenida para el proveedor"><figcaption><p>Antes de enviarla, revisa contenido, formato y dimensiones con el responsable técnico.</p></figcaption></figure>
 
-## Comprobación antes de comprar o enviar a corte
+## 4. Comprobación antes de comprar o enviar a corte
 
 - **Procedencia:** confirma cliente, ambiente(s), referencia y archivos seleccionados.
 - **Contenido:** coteja materiales, espesores, unidades, cantidades y partidas faltantes con el RP.
@@ -134,7 +138,7 @@ El recorrido ilustrado finaliza con una **plantilla XLSX** del proveedor. Antes 
 Para consultar el alcance actualizado de ambas modalidades, visita la [Documentación oficial — Reporte de Compras](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/reporte-de-compras).
 
 
-## Ensayo reproducible: del reporte de compras a la recepción de materiales
+## 5. Ensayo reproducible: del reporte de compras a la recepción de materiales
 
 Este ensayo complementa la generación del Excel con un **control manual de abastecimiento y entrega a fabricación**. No es una función de recepción, reserva de inventario ni liberación automática atribuida a Cabinet Report. Sirve para comprobar que lo solicitado, lo recibido y lo destinado a cada ambiente corresponden a la misma producción.
 
