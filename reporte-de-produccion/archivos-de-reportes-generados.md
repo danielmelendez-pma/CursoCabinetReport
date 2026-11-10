@@ -4,55 +4,58 @@ Identifica los archivos de salida que aparecen en el recorrido documentado despu
 
 Después de generar la producción, revisa los archivos disponibles en la carpeta del proyecto. **No todos los tipos enumerados tienen que generarse en cada trabajo:** las salidas dependen del contenido de la producción, las opciones seleccionadas y las integraciones disponibles. Las capturas siguientes muestran las categorías descritas en el recorrido original:
 
-## Identifica el propósito de cada salida
+## Identifica la salida según la tarea
 
-| Grupo de archivos | Para qué se utiliza | Qué no debes asumir |
+Usa los enlaces de esta tabla para ir a la captura de la categoría que necesitas. Los archivos ilustrados son **ejemplos históricos**: verifica los nombres y formatos realmente producidos en tu instalación. Para la entrega, ve directamente a la [comprobación final](#comprobación-de-los-archivos-antes-de-entregar).
+
+| Necesitas… | Abre esta sección | Comprueba antes de utilizar el archivo |
 | --- | --- | --- |
-| **TXT de producción** | Conservar los datos de piezas para retomar o reutilizar el trabajo con un formato compatible. | No reemplaza el Excel RP ni acredita que las piezas ya estén aprobadas. |
-| **Excel RP (.xlsx)** | Revisar, imprimir y distribuir el reporte tras la validación técnica. | Crear este Excel **no significa** crear o registrar una Orden de Producción (OP). |
-| **TXT de herrajes y perfilerías** | Consultar zócalos, tubos, golas, accesorios y ferretería que correspondan. | No todas estas categorías existen en todos los proyectos. |
-| **Materiales y optimización** | Consultar materiales utilizados y preparar intercambios con una herramienta de corte compatible. | El listado no acredita stock físico ni garantiza importación en cualquier seccionadora. |
-| **Parámetros y otros registros técnicos** | Facilitar la recuperación y trazabilidad según la función y versión. | No deben confundirse con los reportes para fabricación ni editarse manualmente sin respaldo. |
+| **Retomar un trabajo de piezas** | [TXT de producción](#archivo-txt-de-producción) | No sustituye el Excel RP imprimible ni demuestra que las piezas estén aprobadas. |
+| **Revisar, imprimir o entregar el reporte** | [Excel RP (.xlsx)](#archivo-xlsx-de-reporte-de-producción) | El RP generado debe revisarse; **no equivale** a una Orden de Producción (OP) registrada. |
+| **Consultar complementos del trabajo** | [Zócalos](#archivo-txt-de-zócalos), [accesorios](#archivo-txt-de-accesorios), [ferretería de montaje](#archivo-txt-de-ferretería-de-montaje), [ferretería de instalación](#archivo-txt-de-ferretería-de-instalación), [tubos](#archivos-txt-de-tubos) y [golas](#archivo-txt-de-golas) | No presupongas que todas las categorías existen ni que sus cantidades están conciliadas. |
+| **Preparar materiales o intercambio con corte** | [Materiales de producción](#archivos-de-materiales-de-producción) y [archivos para la seccionadora](#archivos-del-optimizador-de-la-seccionadora) | El listado no acredita inventario físico; el archivo de máquina requiere comprobar formato y lectura en destino. |
+| **Conservar parámetros y trazabilidad** | [TXT de parámetros](#archivos-txt-de-parámetros-de-producción) y [archivos de apoyo](#archivos-de-apoyo-y-trazabilidad) | No son equivalentes al TXT de piezas ni al RP, y su recuperación debe verificarse por separado. |
+| **Documentar una entrega de herrajes** | [Órdenes de Entregas de Herrajes](#órdenes-de-entregas-de-herrajes) | Revisa las partidas y su correspondencia con el trabajo antes de distribuirlas. |
 
 Los nombres de archivo, las ubicaciones y las salidas disponibles pueden variar. Identifica siempre el **archivo concreto generado**, en lugar de depender solo de la captura de este curso.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt="Vista histórica de ejemplo de los archivos de salida de producción"><figcaption><p>Vista ilustrativa de una generación: la lista real depende del trabajo y de las opciones utilizadas.</p></figcaption></figure>
 
 ### Archivo TXT de Zócalos
 
 Archivo donde se guardan los Zócalos que se crearon para esta producción.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt="Captura histórica del TXT de zócalos de producción"><figcaption><p>Ejemplo de TXT de zócalos; comprueba que corresponde al proyecto antes de usarlo.</p></figcaption></figure>
 
 ### Archivo TXT de Accesorios
 
 Archivo donde se guardan los Accesorios que se crearon para esta producción.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt="Captura histórica del TXT de accesorios de producción"><figcaption><p>Ejemplo de TXT de accesorios; concilia sus cantidades con el RP.</p></figcaption></figure>
 
 ### Archivo TXT de Ferretería de Montaje
 
 Archivo donde se guardan las Ferreterías de Montaje que se crearon para esta producción.
 
-<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt="Captura histórica del TXT de ferretería de montaje"><figcaption><p>Ejemplo de ferretería de montaje; confirma que sus partidas corresponden a esta producción.</p></figcaption></figure>
 
 ### Archivo TXT de Ferretería de Instalación
 
 Archivo donde se guardan las Ferreterías de Instalación que se crearon para esta producción.
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt="Captura histórica del TXT de ferretería de instalación"><figcaption><p>Ejemplo de ferretería de instalación; verifica cantidades y destino.</p></figcaption></figure>
 
 ### Archivos TXT de Tubos
 
 Archivo donde se guardan los Tubos que se crearon para esta producción.
 
-<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt="Captura histórica de los archivos TXT de tubos de producción"><figcaption><p>Ejemplo de tubos; su presencia depende de los componentes del trabajo.</p></figcaption></figure>
 
 ### Archivo TXT de Golas
 
 Archivo donde se guardan los Golas que se crearon para esta producción.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt="Captura histórica del TXT de golas de producción"><figcaption><p>Ejemplo de golas; revisa referencias y cantidades de la producción.</p></figcaption></figure>
 
 ### Archivo TXT de Producción
 
@@ -60,19 +63,19 @@ Copia de la producción donde se guarda la lista de piezas, para poder continuar
 
 **Conserva este archivo junto con los datos del proyecto.** Antes de volver a importarlo, verifica cliente, ambiente, columnas y contenido; no lo confundas con el RP imprimible. Consulta el procedimiento [Cargar TXT](cargar-txt.md).
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="Captura histórica del TXT de piezas de producción"><figcaption><p>El TXT de piezas sirve para retomar datos compatibles; no sustituye la revisión del Excel RP.</p></figcaption></figure>
 
 ### Archivos del Optimizador de la Seccionadora
 
 Archivo destinado al intercambio con el optimizador de una seccionadora, **cuando existe un formato compatible**. Antes de importarlo, revisa las exigencias del proveedor, la orientación de las piezas, el espesor de sierra y las restricciones del corte; no presupongas compatibilidad universal.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="Captura histórica del archivo destinado al optimizador de seccionadora"><figcaption><p>La compatibilidad del archivo de corte debe confirmarse con el operador o proveedor de la máquina.</p></figcaption></figure>
 
 ### Archivos de Materiales de Producción
 
 Listado de tableros y cantos asociados a la producción y sus cantidades documentadas. **No equivale a un inventario físico ni acredita existencias disponibles para corte o compra.**
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="Captura histórica del archivo de materiales utilizados en producción"><figcaption><p>El listado de materiales es una referencia de producción, no una certificación de existencias.</p></figcaption></figure>
 
 ### Archivo XLSX de Reporte de Producción
 
@@ -80,19 +83,19 @@ Reporte de Producción en Excel, destinado a revisar, imprimir y entregar a los 
 
 Puede circular entre las áreas de Maquinaria, Montaje, Instalación e Inspección según el flujo de cada empresa. **No lo confundas con una OP registrada**: para agrupar reportes en una orden se sigue otro proceso.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt="Captura histórica del reporte de producción en Excel XLSX"><figcaption><p>El Excel RP es el reporte para revisión y entrega; generarlo no registra automáticamente una OP.</p></figcaption></figure>
 
 ### Archivos TXT de Parámetros de Producción
 
 Guarda datos de parámetros de la producción para su posible reutilización por Cabinet Report al volver a abrir el trabajo. Evita editar estos archivos manualmente sin respaldo y verifica que pertenecen al mismo proyecto.
 
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (93).png" alt="Captura histórica de los archivos TXT de parámetros de producción"><figcaption><p>Estos TXT conservan parámetros técnicos; verifica su pertenencia al proyecto antes de reutilizarlos.</p></figcaption></figure>
 
 ### Órdenes de Entregas de Herrajes
 
 Son los documentos de Entregas de Herrajes (Accesorios, Ferretería de Montaje y Ferretería de Instalación), que va a entregar a su Almacén y administre los herrajes de manera eficiente y planificada.
 
-<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt="Captura histórica de las órdenes de entrega de herrajes"><figcaption><p>Documentos de entrega de herrajes: confirma destinatario, partidas y cantidades.</p></figcaption></figure>
 
 ## Archivos de apoyo y trazabilidad
 
