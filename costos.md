@@ -20,6 +20,16 @@ El módulo **Costos** permite organizar la materia prima, los importes y las con
 
 Esta lección incluye un **ensayo de trazabilidad** para practicar el control sin cambiar datos comerciales reales. Las capturas son referencias de la interfaz; comprueba qué opciones ofrece tu instalación.
 
+**Responsabilidad de cada documento:** no trates la lista de insumos, la valoración y una operación comercial como un mismo resultado.
+
+| Etapa | Qué permite comprobar | Qué no acredita por sí sola |
+| --- | --- | --- |
+| **Reporte de Producción (RP)** | Piezas, materiales y datos técnicos del ambiente revisado. | Necesidad comercial expresada en unidades de compra o costo vigente del proveedor. |
+| **Reporte de Compras (RC)** | Materiales y cantidades consolidados para preparar abastecimiento, con su trazabilidad cuando está disponible. | Pedido emitido, existencia en almacén, recepción o pago. |
+| **Costos y cotización** | Partidas valoradas, condiciones, resultados por ambiente y archivo de oferta revisable. | Aceptación del cliente, facturación, compra realizada ni ejecución de fabricación. |
+
+Si cambia el RP o el Excel de Compras, reconcilia de nuevo las cantidades antes de reutilizar un presupuesto. El flujo descrito es una guía de trabajo, **no una sincronización automática acreditada**.
+
 ## Antes de comenzar
 
 1. Prepara el [Reporte de Producción](reporte-de-produccion/README.md) y el [Reporte de Compras](reporte-de-compras.md) que correspondan al trabajo. Confirma **cliente, proyecto, ambiente, materiales, cantidades y unidades**.
@@ -81,11 +91,28 @@ La descripción histórica de **Cargar Precios Unitarios** especifica una búsqu
 **Coincidencia no es equivalencia técnica ni precio confirmado.** El texto original describe comparación de descripciones tal como están escritas, sin normalización del texto. Si no hay coincidencia, si existen nombres similares o si el costo parece incorrecto, revisa manualmente la referencia, su unidad, proveedor, moneda, impuestos y vigencia. No inventes un costo para completar la tabla.
 {% endhint %}
 
+### Identificar qué precio se está utilizando
+
+Para cada partida, distingue **procedencia, vigencia y aplicación**; una coincidencia de catálogo es solo una referencia de partida.
+
+| Estado del importe | Evidencia que lo respalda | Decisión de revisión |
+| --- | --- | --- |
+| **Precio registrado** | Valor visible en catálogo público/privado o archivo importado, con referencia y unidad. | No presentarlo como precio actual del proveedor. |
+| **Precio vigente comprobado** | Fuente autorizada, proveedor, fecha, moneda, presentación y condiciones verificadas. | Confirmar que corresponde a la misma especificación y unidad. |
+| **Costo unitario aplicado** | Valor que aparece en `COST-UNIT` para la partida y ambiente elegidos. | Compararlo con la evidencia vigente; no asumir que una búsqueda lo actualizó correctamente. |
+| **Costo calculado mostrado** | Cantidad, unidad y subtotal observables en la versión utilizada. | Conciliar con una comprobación externa y registrar diferencias; no inferir la fórmula interna. |
+
+**Control de cambios:** si el catálogo muestra un precio, pero aún no se confirma su vigencia, documenta la discrepancia. No sustituyas silenciosamente el precio registrado, no atribuyas al programa una actualización en línea y no uses un valor faltante como si fuera cero.
+
 ### Agregar o revisar una partida manualmente
 
 <figure><img src=".gitbook/assets/image (1).png" alt="Listado de Materia Prima con campos para selección o entrada manual"><figcaption><p>La tabla de Materia Prima permite cotejar la descripción, la unidad y los costos con la fuente.</p></figcaption></figure>
 
 La lección original permite **seleccionar una descripción del listado o escribir una nueva**. Cuando una referencia coincide con el catálogo, la interfaz documentada puede completar **UND, ID, TIPO y COST-UNIT**. Para una partida escrita manualmente, verifica esos campos por separado: el texto ingresado no demuestra que exista un registro ni que tenga precio.
+
+**Para partidas manuales**, registra una referencia que permita reconocer el material, la **cantidad y su unidad**, una presentación compatible con la compra, el origen del precio y el ambiente asignado. Revisa especialmente valores ausentes, importes escritos como texto, referencias duplicadas y cantidades cero o negativas: el documento no acredita que la interfaz los detecte o rechace automáticamente. Un registro escrito a mano tampoco crea por sí solo un material en el catálogo.
+
+Si la descripción coincide pero difieren espesor, formato, acabado, unidad o proveedor, mantén las partidas separadas hasta verificar equivalencia. No agrupes partidas únicamente porque compartan texto o un identificador parcial.
 
 ## 3. Administrar márgenes y notas
 
@@ -96,6 +123,17 @@ La lección original permite **seleccionar una descripción del listado o escrib
 El recorrido documentado distingue **margen de producción** y **margen operativo**. La acción **Guardar Márgenes** utiliza los archivos `MargenProduccion.xml` y `MargenOperativo.xml` en la carpeta `ArchivosCliente` de la instalación. La acción **Limpiar Márgenes**, según esa documentación, elimina los archivos almacenados.
 
 **Antes de limpiar:** conserva un respaldo de esos XML si necesitas recuperar la configuración. Después de guardar o cargar, comprueba en pantalla que las condiciones realmente corresponden a la cotización actual.
+
+### Diferenciar margen de recargo y condiciones de comercialización
+
+La documentación oficial acredita **margen de producción (MP)**, **margen operativo (MO)** y una sección de **precio de venta**. No acredita un tercer control autónomo llamado «margen de comercialización». La decisión comercial final incluye revisar la oferta, sus condiciones y su precio; no la confundas con los conceptos de fabricación u operación.
+
+En una comparación **matemática externa**, cuando costo y precio de venta sean válidos y positivos:
+
+- **Recargo respecto del costo:** (precio de venta − costo) ÷ costo.
+- **Margen respecto de la venta:** (precio de venta − costo) ÷ precio de venta.
+
+**No son porcentajes intercambiables.** Estas identidades son referencias para revisar una oferta, **no fórmulas atribuidas a Cabinet Report** ni instrucciones para modificar sus márgenes configurados. Antes de aplicar un porcentaje, confirma su base, concepto, unidad monetaria y quién lo autorizó. No se prescribe ninguna tasa.
 
 ### Notas globales y notas del proyecto
 
@@ -120,6 +158,8 @@ Para una cotización con varios ambientes:
 3. Si importas varios archivos, comprueba que no se repitan materiales ni se sobrescriban las referencias o cantidades de otro ambiente.
 4. Revisa por separado el resumen global del proyecto y los subtotales por ambiente antes de presentar una cifra consolidada.
 
+**Control adicional de aislamiento:** cuando se carguen dos archivos de un mismo proyecto, anota el listado de A, luego de B y de nuevo de A. Las reglas de independencia descritas en `modulo-costos.md` son **expectativas normativas históricas**, no pruebas de que la versión instalada retenga las ediciones al cambiar de ambiente o al cerrar la ventana. Comprueba por separado el **cliente activo** antes y después de importar: ningún dato de un XML, XLSX o PDF debe ser tratado como autorización para consultar el catálogo privado de otro cliente.
+
 ## 5. Comprobar importes y preparar la cotización
 
 La [documentación oficial de Costos](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/costos-en-desarrollo) describe materia prima, márgenes de producción y operación, precio de venta, ITBMS, resumen de ambientes, notas y condiciones.
@@ -130,6 +170,14 @@ La [documentación oficial de Costos](https://cabinet-report.gitbook.io/cabinet-
 4. Verifica que las notas, exclusiones, forma de pago y referencia correspondan al proyecto actual.
 5. Comprueba si las partidas comunes se han incluido una sola vez y si existen materiales o herrajes sin costear.
 
+### Separar cálculo, ajustes y cotización final
+
+La cantidad homogénea y el costo unitario comprobado permiten una **comprobación manual de referencia**; el costo mostrado por la aplicación debe revisarse contra sus partidas, sin deducir a partir del nombre del campo qué fórmula interna se utilizó.
+
+La fuente oficial documenta **ITBMS**, pero no establece en esta página un procedimiento verificable para **descuentos, orden de aplicación o redondeos**. Por ello, no se presume que el programa aplique un descuento específico ni un redondeo concreto. Si tu versión presenta dichos campos o diferencias de centavos, registra la base, importes intermedios, visualización y archivo exportado para revisión comercial y funcional.
+
+Distingue los tres estados al revisar el proyecto: **costo estimado** (según datos cargados y todavía contrastables), **precio de venta mostrado** (resultado de la configuración revisada) y **cotización final preparada** (archivo exportado, comprobado y aprobado internamente para su uso). Ninguno acredita por sí mismo una venta aceptada.
+
 ### Guardar y exportar
 
 La documentación oficial indica que Costos contempla **Exportar costos** y salidas a **Excel (.xlsx)**, además de cotización en **Word (.docx) tipo carta** o **Excel (.xlsx) tipo tabla**. Para esas dos presentaciones de cotización, se requiere primero disponer de un **Excel de costos exportado**.
@@ -139,6 +187,10 @@ Después de exportar, abre el documento generado y contrasta proyecto, ambientes
 {% hint style="warning" %}
 **El archivo exportado no certifica que el presupuesto sea correcto ni que haya sido aceptado.** Valida la cotización con los precios actuales y las condiciones comerciales antes de entregarla al cliente. Tampoco confundas esta cotización con la estimación económica de hallazgos del Revisor IA, que tiene otra finalidad.
 {% endhint %}
+
+**Guardar no es sinónimo de exportar:** identifica la acción de guardado realmente utilizada, la ruta del XML de Costos del **proyecto**, la existencia del XLSX exportado y, cuando corresponda, la cotización Word/Excel creada **a partir de ese Excel**. Las notas y márgenes globales documentados en `ArchivosCliente` son archivos diferentes del XML del proyecto. No supongas que cualquier edición se persiste automáticamente ni que al volver a abrir se recuperan todos los valores: compruébalo con un archivo de prueba y un cierre/reapertura controlados.
+
+Para cada salida, registra **nombre, carpeta, fecha, extensión y versión**, comprueba que se pueda abrir y coteja al menos una partida de cada ambiente con su origen. No sobrescribas la única copia de una cotización aprobada.
 
 ## 6. Si algo no coincide
 
@@ -179,6 +231,10 @@ Parte de dos RP previamente revisados del mismo proyecto de práctica, por ejemp
 3. Comprueba **DESCRIPCION, UND, ID, TIPO, COST-UNIT**, cantidades y cualquier importe mostrado. Revisa también la **procedencia pública o privada** de las referencias seleccionadas.
 4. Distingue **Notas Globales**, márgenes reutilizables y **referencia propia del proyecto**. La presencia de configuraciones históricas no demuestra que sean apropiadas para esta cotización.
 
+**Registro A → B → A:** en una hoja de prueba independiente, anota la cantidad esperada y la cantidad observada por partida y ambiente antes y después de alternar la selección. Señala **NO CONFORME** si aparece una partida exclusiva de B en A, si una partida se duplica o si el cliente activo visible cambia por los datos importados. Si faltan controles o no se ejecuta el paso, utiliza **NO EJECUTADO**: no infieras un resultado favorable.
+
+Incluye una partida compartida con igual especificación en ambos ambientes y otra **diferente solo en espesor o presentación**, para comprobar que la consolidación respeta la identidad técnica y la unidad. Este ensayo no prueba el aislamiento del servidor entre clientes; esa comprobación requiere permisos, datos de prueba autorizados y validación funcional independiente.
+
 ### C. Encontrar errores antes de valorar
 
 Reproduce las siguientes discrepancias **solo en una hoja de control externa**; no alteres los archivos de producción.
@@ -207,6 +263,8 @@ Para revisar manualmente una partida, compara **cantidad homogénea × costo uni
 
 No se fija aquí ningún precio, margen, tasa de ITBMS o fórmula comercial: comprueba los valores y condiciones **aplicables a la operación real**. El impacto económico mostrado por el Revisor IA pertenece a otro proceso y no sustituye la cotización comercial.
 
+**Casos de contraste adicionales (en control externo):** identifica una partida sin precio verificado, una descripción coincidente con unidad incompatible y una fuente de Compras repetida. Marca cada una como **PENDIENTE**, **DIFERENCIA** o **RESUELTA CON EVIDENCIA**, según corresponda. No corrijas el importe global por compensación sin encontrar la partida de origen. Cuando haya una diferencia entre subtotal mostrado y comprobación manual, conserva ambos valores y el criterio de redondeo observado, sin atribuir al programa una regla aún no verificada.
+
 ### E. Exportar, conciliar y documentar el resultado
 
 1. Con los datos ya revisados, utiliza solo las salidas disponibles en tu versión. Para crear una cotización Word o Excel, la documentación oficial indica que antes debe existir un **Excel de Costos exportado**.
@@ -215,6 +273,16 @@ No se fija aquí ningún precio, margen, tasa de ITBMS o fórmula comercial: com
 4. Si observas un comportamiento del programa que no logras explicar, reúne evidencias sin información sensible y usa la lección [Reporte de Errores o Feedback](reporte-de-errores-o-feedback.md). Los desacuerdos comerciales se resuelven con el responsable del presupuesto y los proveedores.
 
 **Resultado comprobable:** otra persona puede seguir una partida desde el RP al Excel de Compras, identificarla en el ambiente correcto de Costos y localizar el archivo exportado, sin confundir comprobación manual con una función automática.
+
+### Evidencia y criterio de cierre de la prueba
+
+Para cada comprobación conserva **origen → resultado esperado → resultado observado → estado → acción → archivo de evidencia**; identifica versión de Windows, ambiente y fecha, sin incluir costos confidenciales ni datos personales innecesarios.
+
+- **CONFORME:** coincidencia efectivamente observada entre la fuente, el ambiente y la salida evaluada.
+- **NO CONFORME:** diferencia reproducible sin resolver; conserva captura, mensaje de error o extracto anonimizado y detén la entrega si afecta el presupuesto.
+- **NO EJECUTADO:** no se dispone de versión, archivo compatible, permiso o prueba real. No equivale a aprobación.
+
+Este protocolo **no acredita pruebas Windows realizadas**, cálculos comerciales validados ni permisos de acceso entre clientes. Separa la resolución técnica documentada de la **autorización comercial** y de las actividades de compras o contratación, que ocurren fuera de esta comprobación.
 
 ## 8. Lista de comprobación antes de entregar
 
@@ -225,6 +293,11 @@ No se fija aquí ningún precio, margen, tasa de ITBMS o fórmula comercial: com
 - [ ] Márgenes, ITBMS, notas y exclusiones revisados.
 - [ ] Ambientes y partidas compartidas revisados para evitar duplicaciones.
 - [ ] Excel de Costos y cotización final abiertos y comprobados antes de compartir.
+
+- [ ] Procedencia y vigencia de precios distinguidas del importe aplicado y del costo mostrado.
+- [ ] Márgenes de producción y operación diferenciados del recargo y de la decisión comercial.
+- [ ] Archivos del proyecto y configuraciones globales identificados; guardado y reapertura comprobados cuando se ejecutaron.
+- [ ] Resultado del ensayo A → B → A y de la exportación registrado como CONFORME, NO CONFORME o NO EJECUTADO.
 
 **Consulta relacionada:** [Reporte de Compras](reporte-de-compras.md) · [Tableros](creacion-de-tableros.md) · [Herrajes](creacion-de-herrajes/README.md) · [Documentación oficial — Costos](https://cabinet-report.gitbook.io/cabinet-report-docs/funcionalidades-de-cabinet-report/costos-en-desarrollo) · [Especificación técnica histórica](https://github.com/danielmelendez-pma/DocumetacionTecnicaCabinetReport/blob/main/modulo-costos.md)
 
