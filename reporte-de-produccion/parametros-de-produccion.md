@@ -1,14 +1,20 @@
+---
+description: Revisa vetas, automatizaciones y modo de importación antes de validar el Reporte de Producción.
+---
+
 # Parámetros de Producción
 
 Antes de importar un archivo TXT o CSV, revisa las opciones de vetas, automatizaciones, packing list y el tipo de reporte que vas a preparar. Esta página describe las opciones de las capturas originales; la aplicación exacta de cada automatismo debe comprobarse con los materiales y la versión instalados.
 
+**Ruta de trabajo:** comienza con [Cargar CSV](cargar-csv.md), [Cargar TXT](cargar-txt.md) o un TXT obtenido mediante [RP a TXT](rp-a-txt.md). Después de elegir los parámetros, continúa con [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) y comprueba las piezas en el [RP](reporte-de-produccion.md). Usa el ensayo de esta lección para distinguir cambios de origen y cambios causados por automatizaciones.
+
 Cada vez que va a abrir un archivo CSV o TXT, debe seleccionar las opciones de **Parámetros de Producción**, según las condiciones de los materiales y lo que va a fabricar:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Ventana de Parámetros de Producción anterior a la importación"><figcaption><p>Revisa las opciones adecuadas al trabajo antes de importar.</p></figcaption></figure>
 
 ***
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt="Opciones de vetas de aglomerados para el reporte"><figcaption><p>Selecciona las vetas según los materiales previstos.</p></figcaption></figure>
 
 ## Vetas de Aglomerados
 
@@ -24,7 +30,7 @@ Active o desactive las automatizaciones de este listado según su necesidad.
 
 Las que se mantengan activas, Cabinet Report las toma en cuenta para ejecutar ciertos algoritmos durante el proceso.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt="Opciones de automatización para las piezas importadas"><figcaption><p>Registra qué automatizaciones están activas antes de comparar.</p></figcaption></figure>
 
 Te explico que significa cada automatización:
 
@@ -60,13 +66,13 @@ FRENTE GAVETA de 18X300X600 Cabinet Report la agrega a 18X300X600 sabiendo que p
 
 ## Funcionalidad para Generar Packing List
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1).png" alt="Opción para incluir un Packing List con la producción"><figcaption><p>Verifica los datos del Packing List como archivo complementario.</p></figcaption></figure>
 
 Puede activar esta opción y Cabinet Report le agrega un archivo Packing List a su producción, listo para ser utilizado por su transportista y receptor de la producción en obra.
 
 Tambien si ya tiene la producción generada y quiere agregarle el Packing List después, puede hacerlo haciendo clic en este boton
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1).png" alt="Control para agregar un Packing List después de generar"><figcaption><p>Comprueba el Packing List creado para la producción existente.</p></figcaption></figure>
 
 ***
 
@@ -74,7 +80,7 @@ Tambien si ya tiene la producción generada y quiere agregarle el Packing List d
 
 Antes de importar el TXT o CSV, debe seleccionar si es un RP Nuevo o va a Modificar un RP Existente:
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt="Selección entre RP Nuevo y RP Anterior"><figcaption><p>Confirma el tipo de reporte y su identificación antes de importar.</p></figcaption></figure>
 
 RP Nuevo: Es una producción nueva que está generando.
 
@@ -93,7 +99,7 @@ Esta elección afecta la identificación del trabajo en el historial de producci
 
 Una vez cumplido lo anterior, puedes abrir el archivo correspondiente.
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (54).png" alt="Pantalla para abrir el archivo una vez revisados los parámetros"><figcaption><p>Abre el archivo y comprueba el resultado de la importación.</p></figcaption></figure>
 
 
 ## Ensayo reproducible: verificar el efecto de las automatizaciones
