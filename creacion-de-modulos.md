@@ -1,24 +1,30 @@
+---
+description: >-
+  Aprende a organizar catálogos, definir módulos, incorporar piezas y verificar
+  medidas, variables y herrajes antes de guardar y reutilizar un mueble.
+---
+
 # Creación de Módulos
 
 Sigue el proceso para definir la estructura de un módulo, configurar sus piezas y fórmulas, y guardar el mueble en el catálogo. Las capturas se presentan en secuencia para facilitar su lectura en pantallas pequeñas.
 
 **Antes de comenzar:** prepara el catálogo en el que guardarás el módulo, un ejemplo de sus dimensiones y las piezas que lo componen. Si necesitas interpretar variables o fórmulas, consulta [Fórmulas y Variables](formulas-y-variables.md) y [Creación de Piezas](creacion-de-piezas.md). Esta lección conserva el recorrido de la interfaz documentada; verifica los controles disponibles en tu versión.
 
-<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (27).png" alt="Vista inicial del Creador de Módulos"><figcaption><p>Vista general del formulario empleado para crear y editar módulos.</p></figcaption></figure>
 
 ## Áreas del Creador de Módulos
 
 La ventana de **Creador de Módulos** consta de las siguientes partes:
 
-<figure><img src=".gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (28).png" alt="Áreas principales del Creador de Módulos"><figcaption><p>Identificación de las áreas que integran el Creador de Módulos.</p></figcaption></figure>
 
 Debe seleccionar o crear el Catálogo, Categoría, Subcategoría, Nombre y Código del Módulo a crear o editar.
 
 Debe colocar los valores de medidas preliminares del módulo que va a crear o editar.
 
-<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (29).png" alt="Sección de identificación y medidas del módulo"><figcaption><p>Campos de identificación y dimensiones preliminares del módulo.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (30).png" alt="Campos de medidas preliminares del módulo"><figcaption><p>Detalle complementario de los datos dimensionales del módulo.</p></figcaption></figure>
 
 Revisa los parámetros asociados al catálogo antes de calcular las piezas. Confirma que los valores elegidos correspondan al tipo de mueble y a sus medidas de referencia.
 
@@ -26,9 +32,9 @@ Revisa los parámetros asociados al catálogo antes de calcular las piezas. Conf
 
 Esta sección reúne las definiciones usadas para calcular las piezas del módulo. Distingue las **variables y parámetros** de la **fórmula de cada pieza**: seleccionarlos no demuestra que el despiece resultante sea correcto. Contrasta una medida calculada con el diseño antes de guardar.
 
-<figure><img src=".gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (31).png" alt="Parámetros del catálogo para calcular piezas"><figcaption><p>Parámetros y variables que intervienen en la definición del módulo.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (33).png" alt="Configuración complementaria de parámetros del catálogo"><figcaption><p>Configuración de parámetros de referencia antes de revisar las piezas.</p></figcaption></figure>
 
 Sección en la que se asigna una imagen a cada uno de los muebles creados, para que tenga una representación visual de cada mueble.
 
@@ -38,11 +44,11 @@ Puede agregarla en fondo Negro o Blanco.
 
 En la parte inferior puede colocar la descripción textual del mueble, acceso para agregar herrajes como Accesorios, Ferretería de Montaje y Ferretería de instalación, de esta manera tener un catálogo bien completo.
 
-<figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (34).png" alt="Sección de imagen descripción y herrajes del módulo"><figcaption><p>Área de información visual, descripción y herrajes del módulo.</p></figcaption></figure>
 
 También puede utilizar las piezas ya creadas en la base de datos pública de Cabinet Report, abriendolas desde el menú lateral, seccion **Creador de Piezas**, se le acoplará en la parte izquierda de la ventana de **Creador de Módulos** para solo seleccionar piezas para armar su mueble:
 
-<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (35).png" alt="Panel para incorporar piezas existentes al módulo"><figcaption><p>Selección de piezas ya registradas desde el panel de trabajo.</p></figcaption></figure>
 
 ***
 
@@ -52,7 +58,7 @@ También puede utilizar las piezas ya creadas en la base de datos pública de Ca
 
 Crear o seleccionar el Catálogo:
 
-<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Control para crear o seleccionar un catálogo"><figcaption><p>Paso 1: elegir o crear el catálogo en el que se organizará el mueble.</p></figcaption></figure>
 
 Al crear el catálogo, debe crear también los parámetros explicados arriba en **Parámetros del catálogo**...
 
@@ -68,13 +74,13 @@ Un Catálogo es como una carpeta donde guardará los muebles por un tipo.
 
 Crear o seleccionar la Categoría:
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Control para elegir la categoría del mueble"><figcaption><p>Paso 1: definir la categoría que corresponde al catálogo.</p></figcaption></figure>
 
 Por ejemplo dentro del catálogo de AÉREOS H730, puede dividirlos por AEREOS ABIERTOS, AÉREOS C/PUERTA TIR, AÉREOS C/PUERTA GOLA, AÉREOS PU/PANERA, Etc
 
 Crear o seleccionar la Subcategorías:
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Control para definir la subcategoría del módulo"><figcaption><p>Paso 1: organizar la subcategoría dentro de la categoría seleccionada.</p></figcaption></figure>
 
 Por ejemplo, dentro de la Categoría de AEREOS C/PUERTA TIR, puedes crear las Subcategorías 1 PUERTA, 2 PUERTAS, 1 PUERTA ESQUINERO, Etc.
 
@@ -82,7 +88,7 @@ Por ejemplo, dentro de la Categoría de AEREOS C/PUERTA TIR, puedes crear las Su
 
 Crear el Nombre o Descripción del Mueble:
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Campo para nombrar o describir el mueble"><figcaption><p>Paso 2: proporcionar un nombre identificable al mueble.</p></figcaption></figure>
 
 **Este campo es el nombre del mueble, ejemplos:**
 
@@ -90,7 +96,7 @@ Crear el Nombre o Descripción del Mueble:
 
 **AÉREO TODO VISTO 2/PU 2/TAB RESP/CART TIR:** Mueble aereo con ambos costados vistos o con toda su estructura en el mismo color madera, con 2 puertas, 2 tablillas, respaldo de cartón y tirador tipo assa.
 
-<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (36).png" alt="Vista complementaria de la identificación del mueble"><figcaption><p>Paso 2: comprobar los datos que identifican el módulo.</p></figcaption></figure>
 
 ### 3. Revisa las dimensiones y variables
 
@@ -100,13 +106,13 @@ Para que las piezas puedan visualizar un medida y poder validar la fórmula crea
 
 Las variables de fórmulas en la aplicación están en color y mayúscula para que pueda ser identificadas visualmente más rápido y clara.
 
-<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (37).png" alt="Pantalla de dimensiones y variables de fórmula"><figcaption><p>Paso 3: revisar dimensiones y variables antes de calcular piezas.</p></figcaption></figure>
 
 Revisar estas variables para estar seguros que son las que vamos a aplicar al catálogo y debe funcionar para todos los muebles del mismo catálogo.
 
 Aunque no se estén creando módulos gaveteros, es importante seleccionar el riel.
 
-<figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (39).png" alt="Selección de parámetros y riel del catálogo"><figcaption><p>Paso 3: contrastar parámetros aplicables y la selección de riel.</p></figcaption></figure>
 
 ### 4. Selecciona o crea las piezas
 
@@ -114,11 +120,11 @@ Ya llegó el momento de seleccionar piezas del listado de piezas o crear nuevas 
 
 Si se va a utilizar el listado de piezas existentes, simplemente se debe seleccionar del listado y para encontrar la pieza más rápido, puedes escribir parte de su nombre en el filtro de búsqueda y el listado mostrará solo las piezas que coincidan con lo escrito.
 
-<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (40).png" alt="Listado y búsqueda de piezas disponibles"><figcaption><p>Paso 4: localizar las piezas mediante el listado y su filtro.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (41).png" alt="Selección de piezas para formar el módulo"><figcaption><p>Paso 4: incorporar y revisar las piezas que componen el mueble.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/IcoAgregar.png" alt="" width="256"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/IcoAgregar.png" alt="Icono Agregar utilizado en la creación de piezas" width="256"><figcaption><p>Acción Agregar para incorporar la pieza seleccionada.</p></figcaption></figure>
 
 Si vas a crear una pieza empieza por:
 
@@ -133,17 +139,17 @@ En la parte de abajo se pre-visualiza la medida de la pieza que se está creando
 
 Asigna qué lados llevan canto y qué tipo de canto corresponde:
 
-<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (43).png" alt="Configuración de los cantos de una pieza"><figcaption><p>Paso 5: asignar y revisar los cantos de la pieza.</p></figcaption></figure>
 
 Haces clic en (+) y se crea la pieza
 
 Una vez creadas todas las piezas que necesita tu mueble, llegó el momento de crearle una descripción que detalle cómo se compone tu mueble textualmente y haciendo esto a la vez estás validando que ninguna pieza te falte o te sobre:
 
-<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (4) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Campo de descripción de la composición del módulo"><figcaption><p>Paso 5: documentar las piezas y características del mueble.</p></figcaption></figure>
 
 Al terminar de detallar textualmente el mueble que estás creando, puedes agregarle una imagen que lo represente, este punto no es necesario pero si importante para que los demás usuario de tu catálogo dentro de tu empresa puedan con solo ver la imagen, saber que es el mueble que necesitan y así reducir tiempo en la búsqueda del mueble:
 
-<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección para asociar una imagen al módulo"><figcaption><p>Representación visual del mueble dentro del catálogo.</p></figcaption></figure>
 
 Como ya te expliqué más arriba, en esta sección se agrega o elimina una imagen para el mueble actual:
 
@@ -182,13 +188,13 @@ Si una pieza falla en el caso B, identifica su nombre, fórmula y variables ante
 
 Por último, ya puedes hacer clic en **CREAR** para agregar el mueble a la base de datos de tu empresa, automáticamente se reflejará dentro del Catálogo seleccionado y estará listo para utilizar en tu producción
 
-<figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Control Crear para guardar un nuevo módulo"><figcaption><p>Paso 6: crear el registro del módulo tras las comprobaciones.</p></figcaption></figure>
 
 Si el mueble ya estaba creado y solo estas modificando alguna pieza, con el mismo botón puedes ACTUALIZAR una vez terminada la modificación.
 
 Después de creado el mueble, puedes luego añadirle Herrajes:
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Sección de herrajes asociados al módulo"><figcaption><p>Complemento del módulo con accesorios y herrajes documentados.</p></figcaption></figure>
 
 ***
 
@@ -196,23 +202,23 @@ Después de creado el mueble, puedes luego añadirle Herrajes:
 
 Otros elementos que contiene este formulario:
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Opciones adicionales del Creador de Módulos"><figcaption><p>Vista general de otras funciones disponibles en el formulario.</p></figcaption></figure>
 
 Para cambiar un módulo de un catálogo a otro, en caso tal que lo hayas creado en el catálogo equivocado o simplemente estás estructurando los catálogos.
 
-<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Opción para trasladar un módulo entre catálogos"><figcaption><p>Acción documentada para reorganizar módulos entre catálogos.</p></figcaption></figure>
 
 Para descargar el catálogo a un archivo excel y puedas hacer auditoría de los muebles creados
 
 ***
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Opción para exportar la información del catálogo"><figcaption><p>Acción documentada de exportación del catálogo para su revisión.</p></figcaption></figure>
 
 Para que un usuario Técnico de tu empresa pueda revisar los muebles creados por el mismo o por otros usuarios y validar que todo esté en orden entonces asignar la etiqueta de **VERIFICADO** al mueble creado.
 
 <p align="center"><strong>Mueble Verificado</strong></p>
 
-<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (44).png" alt="Indicador de módulo Verificado"><figcaption><p>Identificación visual del estado VERIFICADO de un módulo.</p></figcaption></figure>
 
 En la esquina derecha inferior aparece el símbolo de Verificación.
 
