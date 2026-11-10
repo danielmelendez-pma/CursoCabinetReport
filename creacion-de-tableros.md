@@ -126,9 +126,9 @@ Las operaciones siguientes requieren revisar la **referencia seleccionada y los 
 
 Con los campos revisados y los permisos adecuados, pulsa este botón para guardar la referencia. Después **búscala de nuevo** y confirma que se conservaron tipo, nombre, proveedor, código, dimensiones, espesor, veta y visibilidad.
 
-<figure><img src=".gitbook/assets/IcoBorrar.png" alt="Icono de la acción Eliminar una referencia de tablero"><figcaption><p>Confirma la identidad de la referencia y su autorización antes de eliminarla.</p></figcaption></figure>
-
 ### Eliminar una referencia
+
+<figure><img src=".gitbook/assets/IcoBorrar.png" alt="Icono de la acción Eliminar una referencia de tablero"><figcaption><p>Confirma la identidad de la referencia y su autorización antes de eliminarla.</p></figcaption></figure>
 
 Selecciona el tablero correcto y verifica que tengas autorización para eliminarlo. La eliminación puede afectar referencias que otros trabajos utilizan; no borres registros por similitud de nombres ni asumas que puedes eliminar referencias públicas.
 
@@ -136,9 +136,9 @@ Selecciona el tablero correcto y verifica que tengas autorización para eliminar
 **Antes de eliminar:** verifica nombre, fabricante, código y visibilidad. Si no puedes determinar si la referencia se utiliza en un trabajo existente, no la elimines como parte de un ejercicio.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Control para incorporar una referencia pública al catálogo privado"><figcaption><p>Verifica que la clonación genere la referencia privada esperada, sin modificar la pública.</p></figcaption></figure>
-
 ### Agregar una referencia pública a mi catálogo
+
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Control para incorporar una referencia pública al catálogo privado"><figcaption><p>Verifica que la clonación genere la referencia privada esperada, sin modificar la pública.</p></figcaption></figure>
 
 Utiliza esta opción para **clonar una referencia pública al catálogo privado**, si está habilitada para tu perfil. Después localiza la nueva referencia privada y verifica sus datos; duplicar no significa editar la ficha pública ni confirmar stock físico.
 
