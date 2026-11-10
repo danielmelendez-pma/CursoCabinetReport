@@ -15,7 +15,7 @@ Desde **Reporte Manual** puedes preparar un archivo TXT de producción sin parti
 
 Para preparar fórmulas reutilizables consulta [Creación de Piezas](../creacion-de-piezas.md) y [Fórmulas y Variables](../formulas-y-variables.md). Para comparar los puntos de entrada al RP consulta su [índice](README.md).
 
-<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1) (1) (1) (1).png" alt="Pantalla de entrada al Reporte Manual de Cabinet Report"><figcaption><p>Entrada para preparar piezas sin importar previamente un CSV o TXT.</p></figcaption></figure>
 
 ## 1. Identificar la producción
 
@@ -26,19 +26,19 @@ Elige **una sola** de estas rutas según tu punto de partida:
 
 No es necesario crear otro archivo si vas a continuar una producción compatible que ya existe.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="Campos de identificación del cliente y ambiente para crear un TXT nuevo"><figcaption><p>Identifica el cliente y el ambiente antes de seleccionar Crear Nuevo.</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Campos obligatorios:** si intentas crear un TXT nuevo sin indicar cliente y ambiente, Cabinet Report no permite continuar. Completa ambos datos antes de volver a intentarlo.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt="Aviso por ausencia de datos necesarios al crear el archivo de producción"><figcaption><p>Completa los datos requeridos del trabajo antes de intentarlo nuevamente.</p></figcaption></figure>
 
 ## 2. Configurar los parámetros
 
 Selecciona los parámetros de producción que correspondan al trabajo antes de agregar piezas. Contrasta las opciones disponibles en tu versión con los materiales y procesos previstos: **vetas, automatizaciones y tipo de reporte**, cuando apliquen. Consulta [Parámetros de Producción](parametros-de-produccion.md). Una automatización activada no valida las medidas por sí sola.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt="Ventana de selección de parámetros para el reporte manual"><figcaption><p>Comprueba vetas y automatizaciones aplicables a la producción de prueba.</p></figcaption></figure>
 
 ## 3. Elegir cómo incorporar las piezas
 
@@ -46,13 +46,13 @@ Selecciona los parámetros de producción que correspondan al trabajo antes de a
 
 Activa la opción de **piezas sueltas** si vas a agregar piezas de forma independiente al listado.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png" alt="Opción para trabajar con piezas sueltas en el reporte manual"><figcaption><p>Usa esta alternativa para piezas independientes del listado de módulos.</p></figcaption></figure>
 
 ### Opción B: piezas de un módulo
 
 Si trabajarás con un **módulo completo**, activa esa opción e introduce las dimensiones del módulo. Confirma las referencias de **profundidad, ancho y alto** que se utilizarán para interpretar las piezas. No confundas las dimensiones exteriores del mueble con las medidas efectivas de cada pieza.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1) (1).png" alt="Opción de módulo completo con sus dimensiones de referencia"><figcaption><p>Confirma profundidad, ancho y alto como referencias del módulo.</p></figcaption></figure>
 
 ## 4. Agregar las piezas al listado
 
@@ -62,13 +62,13 @@ Puedes utilizar cualquiera de estos dos métodos:
 
 Agrega las piezas directamente en el listado de piezas.
 
-<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png" alt="Listado del reporte manual para agregar piezas directamente"><figcaption><p>Revisa cantidad, medidas y material por pieza antes de incorporarla.</p></figcaption></figure>
 
 ### Método 2: selección desde la base de datos
 
 Coloca el listado de piezas de la base de datos junto al área de trabajo y agrega desde allí las piezas que necesites.
 
-<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1) (1) (1) (1) (1).png" alt="Selección de piezas guardadas en la base de datos para el reporte manual"><figcaption><p>La pieza elegida desde el catálogo aún requiere comprobación técnica.</p></figcaption></figure>
 
 Cuando hayas incorporado todas las piezas del módulo que estás preparando, revisa el listado antes de continuar. Tanto para el ingreso manual como para la selección desde la base de datos, comprueba:
 
@@ -79,21 +79,21 @@ Cuando hayas incorporado todas las piezas del módulo que estás preparando, rev
 
 Una definición guardada en la base de datos **no queda validada automáticamente** para un módulo con parámetros distintos.
 
-<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1) (1) (1) (1).png" alt="Listado de piezas preparadas antes de incorporarlas al TXT"><figcaption><p>Concilia el listado de piezas del módulo con el diseño de referencia.</p></figcaption></figure>
 
 ## 5. Incorporar las piezas al archivo TXT
 
 Utiliza la acción indicada en la pantalla para añadir las piezas al reporte. **Incorporar piezas al TXT no equivale a generar u optimizar la producción final**: el resultado debe comprobarse antes de continuar con el RP.
 
-<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1) (1) (1).png" alt="Control para incorporar las piezas preparadas al archivo TXT"><figcaption><p>Incorpora las piezas al archivo; esta acción no genera el RP final.</p></figcaption></figure>
 
 Si todavía no has creado un archivo TXT ni has abierto uno existente, Cabinet Report solicitará hacerlo antes de continuar.
 
-<figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1) (1) (1).png" alt="Aviso para crear o abrir un TXT antes de incorporar piezas"><figcaption><p>Identifica el TXT de destino para evitar trabajar sobre un archivo equivocado.</p></figcaption></figure>
 
 Cuando el proceso se completa, se muestra el mensaje de confirmación de incorporación de piezas.
 
-<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1) (1).png" alt="Mensaje de confirmación de incorporación de piezas al TXT"><figcaption><p>El mensaje confirma la operación, pero no valida automáticamente el contenido.</p></figcaption></figure>
 
 ## 6. Verificar el resultado
 
@@ -157,7 +157,7 @@ Registra **fecha, versión de Cabinet Report, cliente y ambiente de prueba, ruta
 
 Continúa con la [Revisión de Tableros y Cantos](revision-de-tableros-y-cantos.md) y la [ventana del Reporte de Producción](reporte-de-produccion.md) para comprobar el despiece antes de generar archivos.
 
-<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15) (1) (1).png" alt="Pantalla final del recorrido de Reporte Manual"><figcaption><p>Localiza el TXT resultante y continúa con la revisión de tableros y cantos.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Para más muebles:** repite el procedimiento por cada mueble que necesites incorporar desde el Catálogo de Módulos. Antes de generar la producción, comprueba cantidades, medidas, materiales y cantos.
